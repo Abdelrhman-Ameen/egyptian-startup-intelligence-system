@@ -8,7 +8,7 @@ The project is at the planning stage. For now, this repository contains the READ
 
 ## How it works
 
-The system takes a startup profile and a question. An intent router decides which tools are needed to answer it.
+The system takes a startup profile and a question. The AI Orchestrator / Intent Router decides which tools are needed and the order in which they should run.
 
 Some questions only need market research. Others need a prediction based on the startup's numbers. Questions that need both use the prediction models and the RAG system together, in an order that fits the question.
 
@@ -19,24 +19,29 @@ Some questions only need market research. Others need a prediction based on the 
 | Analyze my startup and explain its risk. | Prediction and explainability |
 | Compare my startup's risk with its sector. | Prediction, then RAG |
 | How could a currency devaluation affect my company? | RAG, then simulation |
+| Assess my startup and summarize funding conditions in its sector. | Prediction and RAG in parallel |
 
-When retrieval and prediction do not depend on each other, they can run in parallel. The result fusion component combines their outputs into one answer.
+The orchestrator can choose RAG only, simulation only, RAG then simulation, simulation then RAG, or both in parallel when neither depends on the other's output. It coordinates these calls directly. The result fusion component brings the outputs together, and the LLM explains them to the founder.
 
 ```mermaid
 flowchart TD
-    A[Startup profile and question] --> B[Intent router]
+    A[Startup Profile + Query] --> B[AI Orchestrator / Intent Router]
     B --> C[RAG]
-    B --> D[Prediction and simulation]
-    B --> E[Combined workflow]
-    E --> C
-    E --> D
-    F[Egyptian economic context] --> C
-    F --> D
-    D --> G[Explainability]
-    C --> H[Result fusion and response]
+    B --> D[Prediction and Simulation]
+    D --> G[Explainability / SHAP]
+    C --> H[Result Fusion + LLM Response]
     G --> H
-    H --> I[Dashboard and chat]
+    H --> I[Dashboard + Chat]
+
+    subgraph SUPPORT[Supporting Data / Context]
+        F["Egyptian Economic Context<br/>Inflation, FX and interest rates<br/>Sector statistics and funding"]
+    end
+    F -.->|Market evidence| C
+    F -.->|Economic features and scenario inputs| D
+    style SUPPORT fill:transparent,stroke:#94a3b8,stroke-dasharray:5 5
 ```
+
+The arrows show the component connections; the orchestrator controls the sequence for each request. Every workflow that produces a prediction includes an explanation, including requests that also use RAG. Egyptian economic context is a supporting data layer available to both engines when needed. Its dotted arrows represent data inputs, not additional routes.
 
 ## Startup data
 
@@ -64,7 +69,7 @@ Egyptian market conditions also matter. Inflation, exchange rates, interest rate
 
 **RAG** retrieves information from startup reports, sector research, funding reports, Central Bank publications, government statistics, and other relevant sources. Answers should include their sources and dates so founders can check the evidence.
 
-**The router, result fusion layer, and LLM interface** connect these components. The models produce the numerical estimates, retrieval supplies external evidence, and the LLM turns the results into an understandable response.
+**The AI orchestrator, result fusion layer, and LLM interface** connect these components. The orchestrator selects and orders the calls, including any information passed between RAG and simulation. Result fusion brings the outputs together. The models produce the numerical estimates, retrieval supplies external evidence, and the LLM turns the results into an understandable response.
 
 **The dashboard** will show risk, survival probabilities, growth potential, the main contributing factors, scenario comparisons, and supporting market reports.
 
