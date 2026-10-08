@@ -1,6 +1,6 @@
 # Egyptian Startup Intelligence System
 
-A DEPI final project for helping startup founders in Egypt understand their business, compare possible decisions, and find market information that relates to their situation.
+A DEPI R5 - ML Track final project for helping startup founders in Egypt understand their business, compare possible decisions, and find market information that relates to their situation.
 
 A founder should be able to ask a question like "What if I cut monthly expenses by 20%?" and see how that changes the startup's estimated risk. They should also be able to ask why the risk is high, or whether their growth rate makes sense for their sector.
 
