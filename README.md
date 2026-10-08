@@ -25,7 +25,7 @@ The orchestrator can choose RAG only, simulation only, RAG then simulation, simu
 
 ```mermaid
 flowchart TD
-    A[Startup Profile + Query] --> B[AI Orchestrator / Intent Router]
+    A["Startup Profile + Query (User Input)"] --> B[AI Orchestrator / Intent Router]
     B --> C[RAG]
     B --> D[Prediction and Simulation]
     D --> G[Explainability / SHAP]
