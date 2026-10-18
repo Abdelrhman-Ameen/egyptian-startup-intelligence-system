@@ -4,7 +4,7 @@ A DEPI R5 - ML Track final project for helping startup founders in Egypt underst
 
 A founder should be able to ask a question like "What if I cut monthly expenses by 20%?" and see how that changes the startup's estimated risk. They should also be able to ask why the risk is high, or whether their growth rate makes sense for their sector.
 
-The project is at the planning stage. For now, this repository contains the README and the development branches.
+The project is at the planning stage. The [project documentation (PDF)](docs/project-documentation.pdf) sets out the five-week scope, team responsibilities, data limitations, requirements, and related work. It also explains which prediction features depend on having suitable data.
 
 ## How it works
 
