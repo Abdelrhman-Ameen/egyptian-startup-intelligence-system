@@ -1,0 +1,9 @@
+{
+  "model": "Core logistic regression",
+  "metric": "mean fold ROC-AUC",
+  "observed": 0.5943181818181819,
+  "permutations": 199,
+  "p_value": 0.09,
+  "null_mean": 0.4870717222476017,
+  "interpretation": "Exploratory test, conditional on this sample and fixed pipeline; not a population or Egyptian validation."
+}

@@ -1,0 +1,30 @@
+{
+  "source_sha256": "09e7a576ace403d5e5237e42f304e654486e34f69122870407aea65b1a104372",
+  "analysis_script_sha256": "2fc7601bb5581dfda4e97d36fb61e460edd5abc46c3de2fdef30a5a177244006",
+  "row_count": 175,
+  "analysis_date": "2026-10-23",
+  "repeats": 10,
+  "folds": 5,
+  "positive_class": "non_survival_2014 = 1 - Survival_2014 (known labels only)",
+  "fixed_features": [
+    "Founders_team2",
+    "Employees",
+    "Technology_strategy",
+    "Partners1",
+    "Partners2",
+    "Training_experience5",
+    "Training_experience6",
+    "Sources_knowledge6",
+    "Innovation2"
+  ],
+  "hyperparameter_search": false,
+  "independent_test_set": false,
+  "cv_interpretation": "Internal exploratory validation; repeated partitions are dependent, not independent samples.",
+  "financial_currency_and_units": "Unverified; values retained in source units.",
+  "age_firm_unit": "Unverified; no conversion applied.",
+  "publication_year": 2024,
+  "survey_year": 2009,
+  "survey_reference_period": "inception / through 2008",
+  "outcome_year": 2014,
+  "registry_extraction_year": 2016
+}

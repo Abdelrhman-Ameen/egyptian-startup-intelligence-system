@@ -1,0 +1,6 @@
+﻿model,true_survived,false_non_survival,missed_non_survival,correct_non_survival
+Equal-weight ensemble,77,33,23,17
+Gradient boosting,72,38,25,15
+Logistic regression,68,42,19,21
+Prevalence baseline,110,0,40,0
+Random forest,74,36,20,20

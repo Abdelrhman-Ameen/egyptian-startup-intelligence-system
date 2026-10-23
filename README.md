@@ -6,6 +6,8 @@ A founder should be able to ask a question like "What if I cut monthly expenses 
 
 The project is at the planning stage. For now, this repository contains the README and the development branches.
 
+The first dataset analysis is in the [Spain Technology Ventures EDA notebook](notebooks/01_spain_technology_ventures_eda.ipynb). It covers 175 companies, missing values, class imbalance, and exploratory model comparisons using 150 known outcomes. The [scripts and setup instructions](scripts/README.md) reproduce the analysis. These results describe a historical Spanish sample; they do not establish prediction accuracy for Egyptian startups.
+
 ## How it works
 
 The system takes a startup profile and a question. An intent router decides which tools are needed to answer it.

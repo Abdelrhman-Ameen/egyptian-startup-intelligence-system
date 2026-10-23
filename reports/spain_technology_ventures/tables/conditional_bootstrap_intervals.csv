@@ -1,0 +1,5 @@
+﻿model,roc_auc_first_partition,roc_auc_low,roc_auc_high,ap_first_partition,ap_low,ap_high,method
+Logistic regression,0.6061363636363636,0.49633522727272733,0.7088806818181819,0.3425308809695147,0.27320519719484443,0.4730526922969353,2000 stratified row bootstraps of fixed OOF predictions; ignores refitting uncertainty and fold dependence.
+Random forest,0.5322727272727273,0.43500000000000005,0.6350113636363636,0.27590687411111037,0.23825724155917627,0.3656783593680487,2000 stratified row bootstraps of fixed OOF predictions; ignores refitting uncertainty and fold dependence.
+Gradient boosting,0.5602272727272728,0.4625,0.6602443181818182,0.30611625285377636,0.25165350482526055,0.40288469332561955,2000 stratified row bootstraps of fixed OOF predictions; ignores refitting uncertainty and fold dependence.
+Equal-weight ensemble,0.5813636363636363,0.48111931818181813,0.679119318181818,0.303804113472003,0.256988030469849,0.4069662307586138,2000 stratified row bootstraps of fixed OOF predictions; ignores refitting uncertainty and fold dependence.

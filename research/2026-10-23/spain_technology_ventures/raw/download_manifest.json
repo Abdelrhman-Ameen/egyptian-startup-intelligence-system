@@ -1,0 +1,14 @@
+[
+  {
+    "source_url": "https://zenodo.org/api/records/10607031/files/Database_tech%20entrepreneur.sav/content",
+    "original_name": "Database_tech entrepreneur.sav",
+    "local_path": "research\\2026-10-23\\spain_technology_ventures\\raw\\technology_entrepreneurs.sav",
+    "bytes": 32540,
+    "source_checksum": "md5:b4b6cfee378eb1694e86cd98c18fc9ea",
+    "checksum_verified": true,
+    "sha256": "09e7a576ace403d5e5237e42f304e654486e34f69122870407aea65b1a104372",
+    "retrieval_date": "2026-10-23",
+    "record_doi": "10.5281/zenodo.10607031",
+    "license": "cc-by-4.0"
+  }
+]
