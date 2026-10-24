@@ -1,0 +1,2 @@
+# Keep the analysis source checksum stable on Windows, macOS and Linux.
+scripts/*.py text eol=lf

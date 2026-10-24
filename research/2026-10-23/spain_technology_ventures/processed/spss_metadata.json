@@ -1,0 +1,509 @@
+{
+  "column_names_to_labels": {
+    "Sources_knowledge1": "External sources of knowledge_I read a lot of newspapers",
+    "Sources_knowledge2": "External sources of knowledge_I read a lot of magazines, trade publications, industry reports, etc.",
+    "Sources_knowledge3": "External sources of knowledge_I read a lot of digital publications, blogs, etc.",
+    "Sources_knowledge4": "External sources of knowledge_I hold regular meetings with partners/employees to seek new business ideas",
+    "Sources_knowledge5": "External sources of knowledge_I keep in direct contact with suppliers",
+    "Sources_knowledge6": "External sources of knowledge_I try to maintain dialogue with clients about existing market needs",
+    "Sources_knowledge7": "External sources of knowledge_I monitor the opinions of experts in the sector and/or consult them directly",
+    "Partners1": "access to investment partners",
+    "Partners2": "access to technological partners",
+    "Training_experience1": "Founding team human capital_Degree in business administration",
+    "Training_experience2": "Founding team human capital_Master in business administration",
+    "Training_experience3": "Founding team human capital_Degree in science or technology",
+    "Training_experience4": "Founding team human capital_Master’s in science or technology",
+    "Training_experience5": "Founding team human capital_Experience in the same sector",
+    "Training_experience6": "Founding team human capital_Experience in management",
+    "Innovation1": "Uses innovation as a weapon to reach a differentiation positioning in the market",
+    "Innovation2": "Emphasises R&D and continuous technological development",
+    "Innovation3": "Relationship between actual and expected number of patents granted since the firm’s founding",
+    "Innovation4": "expanding the lines of product/services",
+    "Strategy_performance1": "expanding on commercial expansion toward new local geographical areas",
+    "Strategy_performance2": "expanding on commercial expansion toward new foreign markets",
+    "Strategy_performance3": "expanding on increasing investment in assets in foreign countries",
+    "Strategy_performance4": "the growth of sales in the local market since the start-up of the business",
+    "Strategy_performance5": "the growth of foreign sales since start-up",
+    "Strategy_performance6": "the increase in overall market share since start-up",
+    "Strategy_performance7": "the increase in the number if foreign markets that the firm operates in since start-up",
+    "Strategy_performance8": "the customer satisfaction that the firm has achieved since start-up",
+    "Strategy_performance9": "the overall success of the venture to date",
+    "Strategy_performance10": "the favorable expectations of the future growth of my firm",
+    "Sector": "Industry sector",
+    "Age_firm": "Firm’s age",
+    "Founders_team1": "Founders team?",
+    "Founders_team2": "Number of founders",
+    "Employees": "Number of full-time employees",
+    "Technology_strategy": "Technology strategy",
+    "Gender_entrepreneur": "Gender",
+    "Age_entrepreneur": "Age",
+    "Survival_2014": "Survival in 2014",
+    "Internationalization_2014": "Internationalisation of the firm in 2014",
+    "Financial_performance1_2008": "Operating income 2008",
+    "Financial_performance2_2008": "Profit before tax 2008",
+    "Financial_performance3_2008": "Economic profitability 2008",
+    "Financial_performance4_2008": "Rentabilidad financiera 2008",
+    "Financial_performance1_2014": "Operating income 2014",
+    "Financial_performance2_2014": "Profit before tax 2014",
+    "Financial_performance3_2014": "Economic profitability 2014",
+    "Financial_performance4_2014": "Financial profitability 2014"
+  },
+  "variable_value_labels": {
+    "Founders_team1": {
+      "0.0": "No",
+      "1.0": "Yes"
+    },
+    "Technology_strategy": {
+      "1.0": "Follower",
+      "2.0": "Pioneer"
+    },
+    "Gender_entrepreneur": {
+      "0.0": "Woman",
+      "1.0": "Men"
+    },
+    "Survival_2014": {
+      "0.0": "No",
+      "1.0": "Yes"
+    },
+    "Internationalization_2014": {
+      "1.0": "the firm is internationalised",
+      "2.0": "we tried some time ago, but currently we do not operate outside Spain",
+      "3.0": "yes, the company is currently internationalised"
+    }
+  },
+  "original_variable_types": {
+    "Sources_knowledge1": "F11.0",
+    "Sources_knowledge2": "F11.0",
+    "Sources_knowledge3": "F11.0",
+    "Sources_knowledge4": "F11.0",
+    "Sources_knowledge5": "F11.0",
+    "Sources_knowledge6": "F11.0",
+    "Sources_knowledge7": "F11.0",
+    "Partners1": "F11.0",
+    "Partners2": "F11.0",
+    "Training_experience1": "F11.0",
+    "Training_experience2": "F11.0",
+    "Training_experience3": "F11.0",
+    "Training_experience4": "F11.0",
+    "Training_experience5": "F11.0",
+    "Training_experience6": "F11.0",
+    "Innovation1": "F11.0",
+    "Innovation2": "F11.0",
+    "Innovation3": "F11.0",
+    "Innovation4": "F11.0",
+    "Strategy_performance1": "F11.0",
+    "Strategy_performance2": "F11.0",
+    "Strategy_performance3": "F11.0",
+    "Strategy_performance4": "F11.0",
+    "Strategy_performance5": "F11.0",
+    "Strategy_performance6": "F11.0",
+    "Strategy_performance7": "F11.0",
+    "Strategy_performance8": "F11.0",
+    "Strategy_performance9": "F11.0",
+    "Strategy_performance10": "F11.0",
+    "Sector": "A171",
+    "Age_firm": "F11.0",
+    "Founders_team1": "F11.0",
+    "Founders_team2": "F11.0",
+    "Employees": "F11.0",
+    "Technology_strategy": "F11.0",
+    "Gender_entrepreneur": "F11.0",
+    "Age_entrepreneur": "F11.0",
+    "Survival_2014": "F10.0",
+    "Internationalization_2014": "F3.0",
+    "Financial_performance1_2008": "F8.2",
+    "Financial_performance2_2008": "F8.2",
+    "Financial_performance3_2008": "F8.2",
+    "Financial_performance4_2008": "F8.2",
+    "Financial_performance1_2014": "F10.2",
+    "Financial_performance2_2014": "F11.2",
+    "Financial_performance3_2014": "F7.2",
+    "Financial_performance4_2014": "F8.2"
+  },
+  "readstat_variable_types": {
+    "Sources_knowledge1": "double",
+    "Sources_knowledge2": "double",
+    "Sources_knowledge3": "double",
+    "Sources_knowledge4": "double",
+    "Sources_knowledge5": "double",
+    "Sources_knowledge6": "double",
+    "Sources_knowledge7": "double",
+    "Partners1": "double",
+    "Partners2": "double",
+    "Training_experience1": "double",
+    "Training_experience2": "double",
+    "Training_experience3": "double",
+    "Training_experience4": "double",
+    "Training_experience5": "double",
+    "Training_experience6": "double",
+    "Innovation1": "double",
+    "Innovation2": "double",
+    "Innovation3": "double",
+    "Innovation4": "double",
+    "Strategy_performance1": "double",
+    "Strategy_performance2": "double",
+    "Strategy_performance3": "double",
+    "Strategy_performance4": "double",
+    "Strategy_performance5": "double",
+    "Strategy_performance6": "double",
+    "Strategy_performance7": "double",
+    "Strategy_performance8": "double",
+    "Strategy_performance9": "double",
+    "Strategy_performance10": "double",
+    "Sector": "string",
+    "Age_firm": "double",
+    "Founders_team1": "double",
+    "Founders_team2": "double",
+    "Employees": "double",
+    "Technology_strategy": "double",
+    "Gender_entrepreneur": "double",
+    "Age_entrepreneur": "double",
+    "Survival_2014": "double",
+    "Internationalization_2014": "double",
+    "Financial_performance1_2008": "double",
+    "Financial_performance2_2008": "double",
+    "Financial_performance3_2008": "double",
+    "Financial_performance4_2008": "double",
+    "Financial_performance1_2014": "double",
+    "Financial_performance2_2014": "double",
+    "Financial_performance3_2014": "double",
+    "Financial_performance4_2014": "double"
+  },
+  "missing_ranges": {
+    "Sources_knowledge1": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Sources_knowledge2": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Sources_knowledge3": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Sources_knowledge4": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Sources_knowledge5": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Sources_knowledge6": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Sources_knowledge7": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Partners1": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Partners2": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Training_experience1": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Training_experience2": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Training_experience3": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Training_experience4": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Training_experience5": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Training_experience6": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Innovation1": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Innovation2": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Innovation3": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Innovation4": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance1": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance2": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance3": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance4": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance5": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance6": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance7": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance8": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance9": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Strategy_performance10": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Sector": [
+      {
+        "lo": "9999",
+        "hi": "9999"
+      }
+    ],
+    "Age_firm": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Founders_team1": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Founders_team2": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Employees": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Technology_strategy": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Gender_entrepreneur": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Age_entrepreneur": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Survival_2014": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Internationalization_2014": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Financial_performance1_2008": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Financial_performance2_2008": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Financial_performance3_2008": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Financial_performance4_2008": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Financial_performance1_2014": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Financial_performance2_2014": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Financial_performance3_2014": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ],
+    "Financial_performance4_2014": [
+      {
+        "lo": 9999.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  "missing_user_values": {},
+  "variable_measure": {
+    "Sources_knowledge1": "scale",
+    "Sources_knowledge2": "scale",
+    "Sources_knowledge3": "scale",
+    "Sources_knowledge4": "scale",
+    "Sources_knowledge5": "scale",
+    "Sources_knowledge6": "scale",
+    "Sources_knowledge7": "scale",
+    "Partners1": "scale",
+    "Partners2": "scale",
+    "Training_experience1": "scale",
+    "Training_experience2": "scale",
+    "Training_experience3": "scale",
+    "Training_experience4": "scale",
+    "Training_experience5": "scale",
+    "Training_experience6": "scale",
+    "Innovation1": "scale",
+    "Innovation2": "scale",
+    "Innovation3": "scale",
+    "Innovation4": "scale",
+    "Strategy_performance1": "scale",
+    "Strategy_performance2": "scale",
+    "Strategy_performance3": "scale",
+    "Strategy_performance4": "scale",
+    "Strategy_performance5": "scale",
+    "Strategy_performance6": "scale",
+    "Strategy_performance7": "scale",
+    "Strategy_performance8": "scale",
+    "Strategy_performance9": "scale",
+    "Strategy_performance10": "scale",
+    "Sector": "nominal",
+    "Age_firm": "scale",
+    "Founders_team1": "nominal",
+    "Founders_team2": "scale",
+    "Employees": "scale",
+    "Technology_strategy": "nominal",
+    "Gender_entrepreneur": "nominal",
+    "Age_entrepreneur": "scale",
+    "Survival_2014": "scale",
+    "Internationalization_2014": "scale",
+    "Financial_performance1_2008": "scale",
+    "Financial_performance2_2008": "scale",
+    "Financial_performance3_2008": "scale",
+    "Financial_performance4_2008": "scale",
+    "Financial_performance1_2014": "scale",
+    "Financial_performance2_2014": "scale",
+    "Financial_performance3_2014": "scale",
+    "Financial_performance4_2014": "scale"
+  },
+  "file_encoding": "UTF-8",
+  "notes": [],
+  "file_label": null
+}

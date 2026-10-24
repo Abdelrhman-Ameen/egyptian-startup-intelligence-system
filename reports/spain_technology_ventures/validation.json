@@ -1,0 +1,16 @@
+{
+  "checks_passed": true,
+  "source_md5_verified": true,
+  "cleaning_matches_spss_reader": true,
+  "raw_rows": 175,
+  "labeled_rows": 150,
+  "unknown_rows": 25,
+  "cross_validated_predictions": 7500,
+  "cv_fold_assignments": 1500,
+  "models_including_baseline_and_ensemble": 5,
+  "notebook_cells": 35,
+  "executed_code_cells": 17,
+  "notebook_errors": 0,
+  "embedded_report_charts": 12,
+  "metric_recalculation_matches": true
+}

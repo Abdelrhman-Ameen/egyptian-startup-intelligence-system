@@ -6,6 +6,8 @@ A founder should be able to ask a question like "What if I cut monthly expenses 
 
 The project is at the planning stage. The [project documentation (PDF)](docs/project-documentation.pdf) sets out the five-week scope, team responsibilities, data limitations, requirements, and related work. It also explains which prediction features depend on having suitable data.
 
+The first dataset analysis is in the [Spain Technology Ventures EDA notebook](notebooks/01_spain_technology_ventures_eda.ipynb). It covers 175 companies, missing values, class imbalance, and exploratory model comparisons using 150 known outcomes. The [scripts and setup instructions](scripts/README.md) reproduce the analysis. These results describe a historical Spanish sample; they do not establish prediction accuracy for Egyptian startups.
+
 ## How it works
 
 The system takes a startup profile and a question. The AI Orchestrator / Intent Router decides which tools are needed and the order in which they should run.

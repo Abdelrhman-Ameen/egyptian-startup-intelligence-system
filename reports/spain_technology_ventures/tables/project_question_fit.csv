@@ -1,0 +1,11 @@
+﻿Project question,Use,Reason
+Which early firm and founder characteristics are associated with survival by 2014?,"Yes, exploratory",150 labeled Spanish ventures. Associations are uncertain and not causal.
+Can early survey responses distinguish survivors from non-survivors in this cohort?,Small ML experiment,Evaluate a historical binary classifier using pre-outcome fields; current baseline signal is weak.
+How much does the choice of model or ensemble help?,"Yes, methodological","Same target, same folds and feature set. The equal-weight ensemble did not improve on logistic regression."
+What is an Egyptian startup's failure probability in the next 12 or 24 months?,No,"Different country, historical cohort, no such horizon labels and no local validation."
+"When will a startup close? What is its one-, two- or five-year survival curve?",No,"No closure dates, event durations or individual last-observation dates."
+What happens to cash runway if expenses fall by 20%?,No direct support,"No cash balance, monthly receipts/payments, burn or runway. Use founder inputs and cash-flow calculations."
+How would inflation or an exchange-rate shock affect this company?,No direct support,No exposure data or varied country-year panel from which to learn the relationship.
+Would adding a co-founder or spending more on R&D cause survival to improve?,No causal answer,Observational survey associations do not identify interventions; no measured R&D spending is provided.
+Can we study financial changes between 2008 and 2014?,Limited descriptive use,"71 paired operating-income observations; selected subset, unknown units, six-year interval. Not monthly or 12-month growth."
+Can the dataset or related papers support RAG?,"Yes, with a narrow scope","Use the source description and research as historical Spanish evidence, with dates and limitations; not Egyptian market facts."

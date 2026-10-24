@@ -1,0 +1,28 @@
+﻿feature,outcome,rows,available,missing
+Financial_performance1_2008,Survived,110,91,19
+Financial_performance1_2008,Not survived,40,20,20
+Financial_performance1_2008,Unknown,25,0,25
+Financial_performance2_2008,Survived,110,91,19
+Financial_performance2_2008,Not survived,40,20,20
+Financial_performance2_2008,Unknown,25,0,25
+Financial_performance3_2008,Survived,110,91,19
+Financial_performance3_2008,Not survived,40,20,20
+Financial_performance3_2008,Unknown,25,0,25
+Financial_performance4_2008,Survived,110,91,19
+Financial_performance4_2008,Not survived,40,20,20
+Financial_performance4_2008,Unknown,25,0,25
+Internationalization_2014,Survived,110,53,57
+Internationalization_2014,Not survived,40,0,40
+Internationalization_2014,Unknown,25,0,25
+Financial_performance1_2014,Survived,110,75,35
+Financial_performance1_2014,Not survived,40,3,37
+Financial_performance1_2014,Unknown,25,0,25
+Financial_performance2_2014,Survived,110,75,35
+Financial_performance2_2014,Not survived,40,5,35
+Financial_performance2_2014,Unknown,25,0,25
+Financial_performance3_2014,Survived,110,75,35
+Financial_performance3_2014,Not survived,40,7,33
+Financial_performance3_2014,Unknown,25,1,24
+Financial_performance4_2014,Survived,110,75,35
+Financial_performance4_2014,Not survived,40,7,33
+Financial_performance4_2014,Unknown,25,0,25
