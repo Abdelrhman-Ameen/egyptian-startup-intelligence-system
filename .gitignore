@@ -1,3 +1,6 @@
 .venv-eda/
 __pycache__/
 .ipynb_checkpoints/
+
+# World Bank file is too big for GitHub
+Data/raw/WDI_CSV.zip
