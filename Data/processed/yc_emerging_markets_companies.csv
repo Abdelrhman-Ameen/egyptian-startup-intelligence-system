@@ -1,0 +1,628 @@
+name,batch,batch_year,status,industry,subindustry,team_size,all_locations,egypt,mena_africa,website,url
+CleverDeck,Winter 2012,2012.0,Active,Education,Education,1.0,"San Francisco, CA, USA; Istanbul, Istanbul, Turkey",False,True,http://cleverdeck.com,https://www.ycombinator.com/companies/cleverdeck
+Citus Data,Summer 2011,2011.0,Acquired,B2B,B2B -> Infrastructure,45.0,"San Francisco, CA, USA; Istanbul, Istanbul, Turkey; Amsterdam, NH, Netherlands",False,True,http://citusdata.com,https://www.ycombinator.com/companies/citus-data
+Markupwand,Summer 2012,2012.0,Inactive,B2B,"B2B -> Engineering, Product and Design",3.0,"Bengaluru, KA, India",False,False,http://markupwand.com,https://www.ycombinator.com/companies/markupwand
+Glio,Summer 2013,2013.0,Inactive,Consumer,Consumer -> Apparel and Cosmetics,2.0,"Rio de Janeiro, RJ, Brazil",False,False,http://glio.com,https://www.ycombinator.com/companies/glio
+Arcus,Summer 2013,2013.0,Acquired,Fintech,Fintech -> Banking and Exchange,100.0,"New York City, NY, USA; Mexico City, CDMX, Mexico; Miami, FL, USA",False,False,http://arcusfi.com,https://www.ycombinator.com/companies/arcus
+Clear,Summer 2014,2014.0,Active,Fintech,Fintech -> Consumer Finance,900.0,"Bengaluru, KA, India",False,False,https://clear.in/,https://www.ycombinator.com/companies/cleartax
+Bright,Winter 2015,2015.0,Active,Industrials,Industrials -> Energy,100.0,"New York City, NY, USA; Mexico City, CDMX, Mexico; Remote",False,False,https://www.thinkbright.mx,https://www.ycombinator.com/companies/bright
+Razorpay,Winter 2015,2015.0,Active,Fintech,Fintech -> Payments,2700.0,"Bengaluru, KA, India",False,False,https://razorpay.com,https://www.ycombinator.com/companies/razorpay
+Cymmetria,Summer 2015,2015.0,Acquired,B2B,B2B -> Security,11.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,http://cymmetria.com,https://www.ycombinator.com/companies/cymmetria
+SunFarmer,Summer 2015,2015.0,Active,Industrials,Industrials -> Climate,15.0,"Kathmandu, Central Development Region, Nepal",False,False,http://sunfarmer.org,https://www.ycombinator.com/companies/sunfarmer
+Chaldal,Summer 2015,2015.0,Active,Consumer,Consumer -> Food and Beverage,2886.0,"Dhaka, Dhaka Division, Bangladesh",False,False,http://chaldal.com,https://www.ycombinator.com/companies/chaldal
+Drip Capital,Summer 2015,2015.0,Active,Fintech,Fintech,280.0,"MH, India",False,False,http://dripcapital.com,https://www.ycombinator.com/companies/drip-capital
+Zeplin,Summer 2015,2015.0,Active,B2B,"B2B -> Engineering, Product and Design",140.0,"San Francisco, CA, USA; London, England, United Kingdom; Istanbul, Istanbul, Turkey",False,True,https://zeplin.io,https://www.ycombinator.com/companies/zeplin
+Oolu,Summer 2015,2015.0,Acquired,Industrials,Industrials -> Energy,230.0,"Dakar, Dakar Region, Senegal",False,True,http://oolusolar.com,https://www.ycombinator.com/companies/oolu
+RedCarpetUp,Summer 2015,2015.0,Active,Fintech,Fintech -> Consumer Finance,100.0,"Gurugram, HR, India; Remote",False,False,http://redcarpetup.com,https://www.ycombinator.com/companies/redcarpetup
+Saida,Summer 2015,2015.0,Inactive,Fintech,Fintech -> Credit and Lending,4.0,"Nairobi, Nairobi County, Kenya; Remote",False,True,http://getsaida.com,https://www.ycombinator.com/companies/saida
+Paystack,Winter 2016,2016.0,Acquired,Fintech,Fintech -> Payments,115.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://www.paystack.com,https://www.ycombinator.com/companies/paystack
+Unima,Winter 2016,2016.0,Inactive,Healthcare,Healthcare -> Diagnostics,26.0,"Zapopan, Jal., Mexico",False,False,http://www.unimadx.com,https://www.ycombinator.com/companies/unima
+Luciq (formerly Instabug),Winter 2016,2016.0,Active,B2B,"B2B -> Engineering, Product and Design",250.0,"Cairo, Cairo Governorate, Egypt",True,True,https://luciq.ai,https://www.ycombinator.com/companies/luciq
+Salt Security,Winter 2016,2016.0,Active,B2B,B2B -> Security,200.0,"New York City, NY, USA; Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://salt.security/,https://www.ycombinator.com/companies/salt-security
+Lynks,Winter 2016,2016.0,Active,Consumer,Consumer -> Apparel and Cosmetics,40.0,"Cairo, Cairo Governorate, Egypt; Alexandria Governorate, Egypt",True,True,https://www.lynks.com/,https://www.ycombinator.com/companies/lynks
+GoLorry,Winter 2016,2016.0,Active,B2B,B2B -> Supply Chain and Logistics,30.0,"Hyderabad, Telangana, India",False,False,http://www.golorry.com,https://www.ycombinator.com/companies/golorry
+Kisan Network,Winter 2016,2016.0,Inactive,Industrials,Industrials -> Agriculture,75.0,"Gurugram, HR, India; HR, India",False,False,https://www.kisannetwork.com,https://www.ycombinator.com/companies/kisan-network
+Sanitation and Health Rights in India (SHRI),Winter 2016,2016.0,Active,Unspecified,Unspecified,1.0,"Boston, MA, USA; BR, India",False,False,http://www.sanrights.org,https://www.ycombinator.com/companies/sanitation-and-health-rights-in-india-shri
+Rappi,Winter 2016,2016.0,Active,Consumer,Consumer -> Food and Beverage,4800.0,"Bogotá, Bogota, Colombia",False,False,http://www.rappi.com,https://www.ycombinator.com/companies/rappi
+Livement,Summer 2016,2016.0,Active,B2B,B2B,45.0,"Guadalajara, Jal., Mexico",False,False,https://boletomovil.com,https://www.ycombinator.com/companies/livement
+NeoWize,Summer 2016,2016.0,Acquired,B2B,B2B -> Retail,3.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,http://www.neowize.com,https://www.ycombinator.com/companies/neowize
+Meesho,Summer 2016,2016.0,Public,B2B,B2B -> Retail,1450.0,"Bengaluru, KA, India",False,False,http://www.meesho.com,https://www.ycombinator.com/companies/meesho
+Drivezy,Summer 2016,2016.0,Inactive,Consumer,"Consumer -> Travel, Leisure and Tourism",201.0,"Bengaluru, KA, India",False,False,http://www.drivezy.com,https://www.ycombinator.com/companies/drivezy
+Flutterwave,Summer 2016,2016.0,Active,Fintech,Fintech -> Payments,500.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://flutterwave.com,https://www.ycombinator.com/companies/flutterwave
+OMG Digital,Summer 2016,2016.0,Active,Consumer,Consumer -> Content,2.0,"Accra, Greater Accra Region, Ghana",False,True,http://omgdigitalinc.com/,https://www.ycombinator.com/companies/omg-digital
+ApolloShield,Summer 2016,2016.0,Active,Industrials,Industrials -> Defense,,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.apolloshield.com,https://www.ycombinator.com/companies/apolloshield
+Quero Education,Summer 2016,2016.0,Active,Education,Education,200.0,"São José dos Campos, SP, Brazil",False,False,http://querobolsa.com.br,https://www.ycombinator.com/companies/quero-education
+Innov8,Summer 2016,2016.0,Acquired,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,100.0,"New Delhi, DL, India",False,False,http://www.innov8.work,https://www.ycombinator.com/companies/innov8
+DemocracyOS,Winter 2015,2015.0,Active,Government,Government,1.0,"Buenos Aires, CABA, Argentina",False,False,http://www.democracyos.org,https://www.ycombinator.com/companies/democracyos
+Tizeti,Winter 2017,2017.0,Active,Consumer,Consumer -> Home and Personal,0.0,"Lagos, LA, Nigeria",False,True,http://www.tizeti.com,https://www.ycombinator.com/companies/tizeti
+Scribe,Winter 2017,2017.0,Acquired,B2B,B2B -> Sales,15.0,"Bengaluru, KA, India",False,False,http://tryscribe.com/,https://www.ycombinator.com/companies/scribe
+MDalgorithms Inc.,Winter 2017,2017.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,40.0,"Tel Aviv-Yafo, Tel Aviv District, Israel; Remote",False,True,https://www.mdalgorithms.com,https://www.ycombinator.com/companies/mdalgorithms-inc
+Pulse,Winter 2017,2017.0,Inactive,Healthcare,Healthcare -> Consumer Health and Wellness,30.0,"Bengaluru, KA, India",False,False,http://www.getpulse.care/,https://www.ycombinator.com/companies/pulse
+Beek,Winter 2017,2017.0,Inactive,Consumer,Consumer -> Content,32.0,"Mexico City, CDMX, Mexico",False,False,https://www.beek.io,https://www.ycombinator.com/companies/beek
+Tress,Winter 2017,2017.0,Inactive,Consumer,Consumer -> Social,2.0,"Accra, Greater Accra Region, Ghana",False,True,https://www.tressapp.co,https://www.ycombinator.com/companies/tress
+Aella,Winter 2017,2017.0,Active,Fintech,Fintech -> Credit and Lending,60.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,http://www.aellaapp.com,https://www.ycombinator.com/companies/aella
+Neema,Winter 2017,2017.0,Inactive,Fintech,Fintech -> Consumer Finance,2.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,http://getneema.com/,https://www.ycombinator.com/companies/neema
+Supr Daily,Winter 2017,2017.0,Acquired,Consumer,Consumer -> Food and Beverage,,"Bengaluru, KA, India",False,False,http://www.suprdaily.com/,https://www.ycombinator.com/companies/supr-daily
+Bulk MRO Industrial Supply,Winter 2017,2017.0,Active,B2B,B2B -> Supply Chain and Logistics,170.0,"Mumbai, MH, India; New York, NY, USA",False,False,http://www.bulkmro.com,https://www.ycombinator.com/companies/bulk-mro-industrial-supply
+WaystoCap,Winter 2017,2017.0,Acquired,B2B,B2B -> Office Management,38.0,"Casablanca, Casablanca-Settat, Morocco",False,True,https://waystocap.com,https://www.ycombinator.com/companies/waystocap
+Hogaru,Winter 2017,2017.0,Active,Consumer,Consumer -> Home and Personal,746.0,"Bogotá, Bogota, Colombia",False,False,https://www.hogaru.com/,https://www.ycombinator.com/companies/hogaru
+Reliance Health,Winter 2017,2017.0,Active,Healthcare,Healthcare -> Healthcare Services,384.0,"Lagos, LA, Nigeria; Austin, TX, USA",False,True,https://www.getreliancehealth.com,https://www.ycombinator.com/companies/reliance-health
+BuyPower,Winter 2017,2017.0,Active,Industrials,Industrials -> Climate,115.0,"Federal Capital Territory, Nigeria",False,True,http://www.buypower.ng,https://www.ycombinator.com/companies/buypower
+Nomba,Winter 2017,2017.0,Active,Fintech,Fintech,350.0,"Lagos, LA, Nigeria",False,True,https://nomba.com,https://www.ycombinator.com/companies/nomba
+Delee,Winter 2017,2017.0,Active,Healthcare,Healthcare -> Diagnostics,18.0,"Monterrey, N.L., Mexico",False,False,http://www.delee.co    ,https://www.ycombinator.com/companies/delee
+Bicycle AI,Winter 2017,2017.0,Inactive,B2B,B2B -> Operations,11.0,"Bengaluru, KA, India",False,False,http://bicycleai.com,https://www.ycombinator.com/companies/bicycle-ai
+"Wifi Dabba, Inc.",Winter 2017,2017.0,Active,Consumer,Consumer,21.0,"Bengaluru, KA, India",False,False,https://dabba.com,https://www.ycombinator.com/companies/wifi-dabba-inc
+Playment,Winter 2017,2017.0,Acquired,B2B,"B2B -> Engineering, Product and Design",50.0,"Bengaluru, KA, India",False,False,https://playment.io/,https://www.ycombinator.com/companies/playment
+OneFin,Winter 2017,2017.0,Active,Fintech,Fintech -> Credit and Lending,50.0,"Bengaluru, KA, India",False,False,https://www.onefin.in,https://www.ycombinator.com/companies/onefin
+Dost Education,Winter 2017,2017.0,Active,Education,Education,30.0,"Delhi, DL, India; Remote",False,False,http://www.dosteducation.com/,https://www.ycombinator.com/companies/dost-education
+Passerine Aircraft,Summer 2017,2017.0,Inactive,Industrials,Industrials -> Aviation and Space,2.0,"Johannesburg, GP, South Africa",False,True,http://www.passerineaircraft.com/,https://www.ycombinator.com/companies/passerine-aircraft
+Releaf Earth,Summer 2017,2017.0,Active,Industrials,Industrials -> Climate,100.0,"Lagos, LA, Nigeria",False,True,http://www.releaf.africa,https://www.ycombinator.com/companies/releaf-earth
+Helium Health,Summer 2017,2017.0,Active,Healthcare,Healthcare -> Healthcare IT,110.0,"LA, Nigeria",False,True,https://heliumhealth.com/,https://www.ycombinator.com/companies/helium-health
+tpaga,Summer 2017,2017.0,Active,Fintech,Fintech -> Payments,25.0,"Bogotá, Bogota, Colombia; Remote",False,False,https://tpaga.co/,https://www.ycombinator.com/companies/tpaga
+Piggy,Summer 2017,2017.0,Inactive,Fintech,Fintech -> Asset Management,2.0,"MH, India",False,False,https://piggy.co.in,https://www.ycombinator.com/companies/piggy
+D-ID,Summer 2017,2017.0,Active,B2B,B2B -> Security,27.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,http://www.d-id.com,https://www.ycombinator.com/companies/d-id
+bxblue,Summer 2017,2017.0,Acquired,Fintech,Fintech -> Credit and Lending,28.0,"DF, Brazil; Remote",False,False,http://www.bxblue.com.br,https://www.ycombinator.com/companies/bxblue
+Sunu,Summer 2017,2017.0,Inactive,Consumer,Consumer -> Virtual and Augmented Reality,11.0,"Zapopan, Jal., Mexico; Remote",False,False,http://www.sunu.com,https://www.ycombinator.com/companies/sunu
+LotusPay,Summer 2017,2017.0,Acquired,Fintech,Fintech -> Payments,5.0,"Bengaluru, KA, India",False,False,http://www.lotuspay.com,https://www.ycombinator.com/companies/lotuspay
+Fastpad,Summer 2017,2017.0,Inactive,B2B,B2B -> Recruiting and Talent,3.0,"Bengaluru, KA, India",False,False,https://fastpad.com/,https://www.ycombinator.com/companies/fastpad
+Guggy,Summer 2017,2017.0,Inactive,Consumer,Consumer -> Social,2.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://guggy.com,https://www.ycombinator.com/companies/guggy
+NextDrop,Summer 2017,2017.0,Inactive,Industrials,Industrials -> Energy,11.0,"Bengaluru, KA, India",False,False,https://thenextdrop.com/,https://www.ycombinator.com/companies/nextdrop
+WheelStreet,Summer 2017,2017.0,Inactive,Consumer,Consumer -> Transportation Services,10.0,"Bengaluru, KA, India",False,False,https://www.wheelstreet.com/,https://www.ycombinator.com/companies/wheelstreet
+Cashfree Payments,Summer 2017,2017.0,Active,Fintech,Fintech -> Payments,200.0,"Bengaluru, KA, India",False,False,https://www.cashfree.com/,https://www.ycombinator.com/companies/cashfree-payments
+Simetrik,Winter 2018,2018.0,Active,B2B,B2B -> Finance and Accounting,350.0,"Bogotá, Bogota, Colombia; Remote",False,False,https://simetrik.com,https://www.ycombinator.com/companies/simetrik
+Tributi,Winter 2018,2018.0,Active,Consumer,Consumer -> Home and Personal,20.0,"Antioquia, Colombia",False,False,http://tributi.com,https://www.ycombinator.com/companies/tributi
+Flinto,Winter 2018,2018.0,Acquired,Fintech,Fintech -> Payments,0.0,"Mexico City, CDMX, Mexico",False,False,http://flinto.app,https://www.ycombinator.com/companies/flinto
+Groww,Winter 2018,2018.0,Public,Fintech,Fintech -> Asset Management,1050.0,"Bengaluru, KA, India",False,False,https://groww.in,https://www.ycombinator.com/companies/groww
+AlgoSurg Inc,Winter 2018,2018.0,Active,Healthcare,Healthcare -> Healthcare Services,3.0,"MH, India; Remote",False,False,http://www.algosurg.ai,https://www.ycombinator.com/companies/algosurg-inc
+Runa,Winter 2018,2018.0,Active,B2B,B2B -> Human Resources,100.0,"Mexico City, CDMX, Mexico",False,False,http://runahr.com/,https://www.ycombinator.com/companies/runa
+Helloverify,Winter 2018,2018.0,Active,B2B,B2B -> Human Resources,600.0,"Noida, UP, India",False,False,https://www.helloverify.ae,https://www.ycombinator.com/companies/helloverify
+Anima App,Summer 2018,2018.0,Active,B2B,"B2B -> Engineering, Product and Design",20.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.animaapp.com,https://www.ycombinator.com/companies/anima-app
+Avo,Summer 2018,2018.0,Inactive,Consumer,Consumer -> Home and Personal,10.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.avonow.com/,https://www.ycombinator.com/companies/avo-2
+UBITS,Summer 2018,2018.0,Active,B2B,B2B -> Human Resources,300.0,"Mexico City, CDMX, Mexico; Santiago, Santiago Metropolitan Region, Chile; Lima, Callao Region, Peru; Panama City, Panama, Panama; Remote",False,False,http://ubits.com,https://www.ycombinator.com/companies/ubits
+Calii,Summer 2018,2018.0,Active,Consumer,Consumer -> Food and Beverage,750.0,"Monterrey, N.L., Mexico; N.L., Mexico",False,False,https://calii.com,https://www.ycombinator.com/companies/calii
+TENDERD,Summer 2018,2018.0,Active,B2B,B2B,60.0,"Dubai, United Arab Emirates",False,True,https://www.tenderd.com/,https://www.ycombinator.com/companies/tenderd
+Fintual,Summer 2018,2018.0,Active,Fintech,Fintech -> Consumer Finance,100.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://fintual.com,https://www.ycombinator.com/companies/fintual
+ZiffyHomes,Summer 2018,2018.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,57.0,"Gurugram, HR, India",False,False,https://www.ziffyhomes.com/,https://www.ycombinator.com/companies/ziffyhomes
+SkydropX,Summer 2018,2018.0,Active,B2B,B2B -> Supply Chain and Logistics,320.0,"Monterrey, N.L., Mexico",False,False,http://skydropx.com,https://www.ycombinator.com/companies/skydropx
+BrainHi,Summer 2018,2018.0,Active,Healthcare,Healthcare -> Healthcare IT,18.0,"San Juan, San Juan, Puerto Rico",False,False,https://www.brainhi.com,https://www.ycombinator.com/companies/brainhi
+Khatabook,Summer 2018,2018.0,Active,Fintech,Fintech -> Payments,350.0,"Bengaluru, KA, India",False,False,https://khatabook.com/,https://www.ycombinator.com/companies/khatabook
+Kobo360,Summer 2018,2018.0,Inactive,B2B,B2B -> Supply Chain and Logistics,204.0,"Lagos, LA, Nigeria; Kampala, Central Region, Uganda",False,True,http://www.kobo360.com,https://www.ycombinator.com/companies/kobo360
+Helicarrier (prev Buycoins),Summer 2018,2018.0,Active,Fintech,Fintech -> Banking and Exchange,30.0,"London, England, United Kingdom; LA, Nigeria",False,True,https://helicarrier.studio,https://www.ycombinator.com/companies/helicarrier-prev-buycoins
+Cowrywise,Summer 2018,2018.0,Active,Fintech,Fintech -> Asset Management,40.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://cowrywise.com,https://www.ycombinator.com/companies/cowrywise
+Grin,Summer 2018,2018.0,Acquired,Consumer,Consumer -> Transportation Services,300.0,"Mexico City, CDMX, Mexico",False,False,http://www.ongrin.com,https://www.ycombinator.com/companies/grin
+Leena AI,Summer 2018,2018.0,Active,B2B,B2B,500.0,"New York City, NY, USA; New Delhi, DL, India",False,False,https://www.leena.ai,https://www.ycombinator.com/companies/leena-ai
+OkCredit,Summer 2018,2018.0,Active,Fintech,Fintech -> Payments,70.0,"Bengaluru, KA, India",False,False,https://www.okcredit.in,https://www.ycombinator.com/companies/okcredit
+Kunduz,Summer 2018,2018.0,Active,Education,Education,85.0,"Istanbul, Istanbul, Turkey; Remote",False,True,https://kunduz.com/,https://www.ycombinator.com/companies/kunduz
+Wave,Winter 2012,2012.0,Active,Fintech,Fintech -> Payments,1600.0,"Dakar, Dakar Region, Senegal; Remote",False,True,https://wave.com,https://www.ycombinator.com/companies/wave
+Thrive Agric,Winter 2019,2019.0,Active,Industrials,Industrials -> Agriculture,227.0,"Abuja, Federal Capital Territory, Nigeria",False,True,https://www.thriveagric.com/,https://www.ycombinator.com/companies/thrive-agric
+Swadesh,Summer 2019,2019.0,Active,Fintech,Fintech -> Consumer Finance,10.0,"New York City, NY, USA; New Delhi, DL, India",False,False,http://www.swadesh.co,https://www.ycombinator.com/companies/swadesh
+Evo.Do,Winter 2019,2019.0,Inactive,B2B,"B2B -> Engineering, Product and Design",2.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,http://www.evo.do/,https://www.ycombinator.com/companies/evo-do
+Okteto,Winter 2019,2019.0,Active,B2B,B2B -> Infrastructure,30.0,"San Francisco, CA, USA; Denver, CO, USA; Madrid, Community of Madrid, Spain; Buenos Aires, CABA, Argentina; Remote",False,False,https://okteto.com,https://www.ycombinator.com/companies/okteto
+Dagger,Winter 2019,2019.0,Active,B2B,"B2B -> Engineering, Product and Design",22.0,"San Francisco, CA, USA; London, England, United Kingdom; Seattle, WA, USA; Portland, OR, USA; Boulder, CO, USA; Lyon, Auvergne-Rhône-Alpes, France; Buenos Aires, CABA, Argentina; Bogotá, Bogota, Colombia; Vancouver, WA, USA; Montevideo, Montevideo Department, Uruguay; Ponta Delgada, Azores, Portugal; Remote",False,False,https://dagger.io,https://www.ycombinator.com/companies/dagger
+Skill-lync,Winter 2019,2019.0,Active,Education,Education,3000.0,"Chennai, TN, India",False,False,http://skill-lync.com,https://www.ycombinator.com/companies/skill-lync
+Mudrex,Winter 2019,2019.0,Active,Fintech,Fintech -> Asset Management,11.0,"Bengaluru, KA, India; Remote",False,False,https://mudrex.com,https://www.ycombinator.com/companies/mudrex
+Seawise Capital,Winter 2019,2019.0,Acquired,Fintech,Fintech -> Credit and Lending,3.0,"New Delhi, DL, India",False,False,https://www.seawisecapital.com,https://www.ycombinator.com/companies/seawise-capital
+Zippi,Summer 2019,2019.0,Active,Fintech,Fintech -> Credit and Lending,60.0,"São Paulo, SP, Brazil",False,False,https://www.zippi.com.br,https://www.ycombinator.com/companies/zippi
+AccioJob,Winter 2019,2019.0,Active,Education,Education,120.0,"Gurugram, HR, India",False,False,https://acciojob.com,https://www.ycombinator.com/companies/acciojob
+Kovi,Winter 2019,2019.0,Acquired,Fintech,Fintech -> Credit and Lending,890.0,"São Paulo, SP, Brazil",False,False,https://www.kovi.com.br,https://www.ycombinator.com/companies/kovi
+Edyst,Winter 2019,2019.0,Active,Education,Education,11.0,"Hyderabad, Telangana, India",False,False,https://edyst.com,https://www.ycombinator.com/companies/edyst
+Keynua,Winter 2019,2019.0,Active,B2B,B2B -> Productivity,15.0,"Lima, Callao Region, Peru; Lima, Lima Province, Peru; Remote",False,False,https://www.keynua.com,https://www.ycombinator.com/companies/keynua
+Exly,Winter 2019,2019.0,Active,Consumer,Consumer,95.0,"New Delhi, DL, India",False,False,https://exlyapp.com/,https://www.ycombinator.com/companies/exly
+CredPal,Winter 2019,2019.0,Active,Fintech,Fintech -> Credit and Lending,35.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://credpal.com,https://www.ycombinator.com/companies/credpal
+Spring in Africa,Winter 2019,2019.0,Active,Fintech,Fintech -> Asset Management,,"San Francisco, CA, USA; LA, Nigeria; Remote",False,True,https://springinafrica.com,https://www.ycombinator.com/companies/spring-in-africa
+Emi Labs,Winter 2019,2019.0,Active,B2B,B2B -> Recruiting and Talent,50.0,"Buenos Aires, CABA, Argentina; Remote",False,False,https://www.emilabs.ai,https://www.ycombinator.com/companies/emi-labs
+54Gene,Winter 2019,2019.0,Inactive,Healthcare,Healthcare -> Consumer Health and Wellness,47.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,http://www.54gene.com,https://www.ycombinator.com/companies/54gene
+Lezzoo,Winter 2019,2019.0,Active,Consumer,Consumer -> Food and Beverage,190.0,"Erbil, Kurdistan Region, Iraq",False,True,https://lezzoo.com,https://www.ycombinator.com/companies/lezzoo
+Cityfurnish,Winter 2019,2019.0,Active,Consumer,Consumer -> Home and Personal,90.0,"New Delhi, DL, India",False,False,https://cityfurnish.com/,https://www.ycombinator.com/companies/cityfurnish
+Pulse Active Stations Network,Winter 2019,2019.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,10.0,"Hyderabad, Telangana, India; India",False,False,http://www.getpulse.in/,https://www.ycombinator.com/companies/pulse-active-stations-network
+Pronto,Winter 2019,2019.0,Active,Consumer,Consumer -> Transportation Services,62.0,"Mexico City, CDMX, Mexico",False,False,http://www.tuprontomx.com/,https://www.ycombinator.com/companies/pronto
+Cuanto,Winter 2019,2019.0,Active,Fintech,Fintech -> Payments,4.0,"Panama City, Panama, Panama; Remote",False,False,https://www.cuanto.app,https://www.ycombinator.com/companies/cuanto
+Frubana Inc,Winter 2019,2019.0,Inactive,B2B,B2B -> Supply Chain and Logistics,384.0,"São Paulo, SP, Brazil",False,False,https://www.frubana.com,https://www.ycombinator.com/companies/frubana-inc
+Dockup,Winter 2019,2019.0,Active,B2B,"B2B -> Engineering, Product and Design",4.0,"Bengaluru, KA, India; Mountain View, CA, USA",False,False,https://getdockup.com/,https://www.ycombinator.com/companies/dockup
+Globe,Winter 2019,2019.0,Active,Fintech,Fintech -> Banking and Exchange,20.0,"London, England, United Kingdom; Seychelles; Remote",False,True,https://globe.exchange,https://www.ycombinator.com/companies/globe
+Inito,Winter 2019,2019.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,100.0,"Bengaluru, KA, India",False,False,https://www.inito.com/,https://www.ycombinator.com/companies/inito
+Tailor-ED,Winter 2019,2019.0,Inactive,Education,Education,10.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.tailor-ed.com/,https://www.ycombinator.com/companies/tailor-ed
+Truora,Winter 2019,2019.0,Active,B2B,B2B -> Operations,80.0,"Cali, Valle del Cauca, Colombia",False,False,https://www.truora.com/,https://www.ycombinator.com/companies/truora
+Taali Inc,Winter 2019,2019.0,Active,Consumer,Consumer -> Food and Beverage,0.0,"Mumbai, MH, India; New York, NY, USA",False,False,https://www.taalifoods.com/,https://www.ycombinator.com/companies/taali-inc
+Schoolable,Winter 2019,2019.0,Active,Education,Education,10.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,http://schoolable.co,https://www.ycombinator.com/companies/schoolable
+Nonu,Summer 2019,2019.0,Inactive,Healthcare,Healthcare -> Consumer Health and Wellness,10.0,"Hyderabad, Telangana, India",False,False,https://nonucare.com/,https://www.ycombinator.com/companies/nonu
+Wingman,Summer 2019,2019.0,Acquired,B2B,B2B -> Sales,10.0,"Bengaluru, KA, India",False,False,https://www.trywingman.com,https://www.ycombinator.com/companies/wingman
+Binks,Summer 2019,2019.0,Active,Consumer,Consumer -> Apparel and Cosmetics,70.0,"Bengaluru, KA, India",False,False,https://getbinks.com/,https://www.ycombinator.com/companies/binks
+Lokal,Summer 2019,2019.0,Active,Consumer,Consumer -> Content,24.0,"Bengaluru, KA, India",False,False,https://www.getlokalapp.com,https://www.ycombinator.com/companies/lokal
+Chaos Genius,Winter 2020,2020.0,Acquired,B2B,B2B -> Analytics,10.0,"Bengaluru, KA, India; San Francisco, CA, USA; Remote",False,False,http://www.chaosgenius.io,https://www.ycombinator.com/companies/chaos-genius
+DocVita,Winter 2020,2020.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,14.0,"Bengaluru, KA, India",False,False,https://docvita.com,https://www.ycombinator.com/companies/docvita
+HelpNow,Winter 2020,2020.0,Inactive,Healthcare,Healthcare -> Healthcare Services,50.0,"MH, India",False,False,http://www.getHelpNow.in,https://www.ycombinator.com/companies/helpnow
+MyPetrolPump,Summer 2019,2019.0,Acquired,B2B,B2B -> Supply Chain and Logistics,42.0,"Bengaluru, KA, India",False,False,https://mypetrolpump.com/,https://www.ycombinator.com/companies/mypetrolpump
+Vahan,Summer 2019,2019.0,Active,B2B,B2B -> Recruiting and Talent,85.0,"Bengaluru, KA, India",False,False,https://vahan.ai,https://www.ycombinator.com/companies/vahan
+Digi-Prex,Summer 2019,2019.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,32.0,"Hyderabad, Telangana, India",False,False,http://www.digi-prex.com/,https://www.ycombinator.com/companies/digi-prex
+Khabri,Summer 2019,2019.0,Inactive,Consumer,Consumer -> Content,11.0,"New Delhi, DL, India",False,False,https://khabri.app/,https://www.ycombinator.com/companies/khabri
+Namaste Business,Summer 2019,2019.0,Inactive,B2B,B2B -> Retail,15.0,"Bengaluru, KA, India",False,False,https://mynamaste.in,https://www.ycombinator.com/companies/namaste-business
+Loop Health,Winter 2020,2020.0,Active,Healthcare,Healthcare -> Healthcare Services,27.0,"MH, India",False,False,http://www.loophealth.com,https://www.ycombinator.com/companies/loop-health
+FamPay,Summer 2019,2019.0,Active,Fintech,Fintech -> Payments,24.0,"Bengaluru, KA, India",False,False,https://fampay.in,https://www.ycombinator.com/companies/fampay
+Facio,Winter 2020,2020.0,Active,Fintech,Fintech -> Credit and Lending,36.0,"São Paulo, SP, Brazil; Remote",False,False,https://www.facio.com.br/,https://www.ycombinator.com/companies/facio
+Flux,Summer 2019,2019.0,Active,Fintech,Fintech -> Payments,9.0,"Mexico City, CDMX, Mexico",False,False,http://paywithflux.com,https://www.ycombinator.com/companies/flux
+Trella,Summer 2019,2019.0,Active,B2B,B2B -> Supply Chain and Logistics,50.0,"Cairo, Cairo Governorate, Egypt",True,True,https://www.trella.app/,https://www.ycombinator.com/companies/trella
+Tranqui Finanzas,Summer 2019,2019.0,Active,Fintech,Fintech -> Credit and Lending,27.0,"Cali, Valle del Cauca, Colombia; Bogotá, Bogota, Colombia; Remote",False,False,https://tranquifinanzas.com/,https://www.ycombinator.com/companies/tranqui-finanzas
+Heru,Summer 2019,2019.0,Active,Fintech,Fintech,53.0,"Mexico City, CDMX, Mexico",False,False,https://www.heru.app/,https://www.ycombinator.com/companies/heru
+Alana,Summer 2019,2019.0,Inactive,B2B,B2B -> Recruiting and Talent,14.0,"Mexico City, CDMX, Mexico",False,False,https://www.alana.jobs,https://www.ycombinator.com/companies/alana
+Mudafy,Summer 2019,2019.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,75.0,"Buenos Aires, CABA, Argentina",False,False,https://mudafy.com,https://www.ycombinator.com/companies/mudafy
+Mipos.dev,Summer 2019,2019.0,Inactive,B2B,B2B -> Retail,0.0,"Mexico City, CDMX, Mexico",False,False,http://www.mipos.dev,https://www.ycombinator.com/companies/mipos-dev
+Valiu,Summer 2019,2019.0,Inactive,Fintech,Fintech -> Payments,24.0,"Bogotá, Bogota, Colombia; Remote",False,False,https://www.valiu.com,https://www.ycombinator.com/companies/valiu
+Vitau,Summer 2019,2019.0,Active,Healthcare,Healthcare -> Healthcare IT,55.0,"Monterrey, N.L., Mexico",False,False,https://vitau.mx,https://www.ycombinator.com/companies/vitau
+treble.ai,Summer 2019,2019.0,Active,B2B,B2B -> Marketing,38.0,"São Paulo, SP, Brazil; New York, NY, USA; Seattle, WA, USA",False,False,https://treble.ai,https://www.ycombinator.com/companies/treble-ai
+Covela,Summer 2019,2019.0,Inactive,Fintech,Fintech -> Insurance,6.0,"Mexico City, CDMX, Mexico",False,False,https://covela.mx/,https://www.ycombinator.com/companies/covela
+LAIKA,Summer 2019,2019.0,Active,Consumer,Consumer -> Home and Personal,500.0,"Bogotá, Bogota, Colombia",False,False,https://laika.com.co/,https://www.ycombinator.com/companies/laika
+EPIC AEROSPACE,Summer 2019,2019.0,Active,Industrials,Industrials -> Aviation and Space,14.0,"Buenos Aires, CABA, Argentina",False,False,http://epic-aerospace.com,https://www.ycombinator.com/companies/epic-aerospace
+Apurata,Summer 2019,2019.0,Active,Fintech,Fintech -> Credit and Lending,12.0,"Lima, Callao Region, Peru; Lima, Lima Province, Peru",False,False,https://apurata.com,https://www.ycombinator.com/companies/apurata
+Breadfast,Summer 2019,2019.0,Active,Consumer,Consumer,10000.0,"Cairo, Cairo Governorate, Egypt",True,True,https://www.breadfast.com,https://www.ycombinator.com/companies/breadfast
+Kaiten,Winter 2020,2020.0,Active,Consumer,Consumer -> Food and Beverage,4.0,"New York City, NY, USA; Tel Aviv-Yafo, Tel Aviv District, Israel; Remote",False,True,http://www.onkaiten.com,https://www.ycombinator.com/companies/kaiten
+Datree,Winter 2020,2020.0,Inactive,B2B,B2B -> Security,16.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://datree.io,https://www.ycombinator.com/companies/datree
+Alude,Winter 2020,2020.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,8.0,"São Paulo, SP, Brazil",False,False,https://www.alude.com.br/,https://www.ycombinator.com/companies/alude
+Tienda Crypto,Winter 2020,2020.0,Active,Fintech,Fintech -> Banking and Exchange,37.0,"Buenos Aires, CABA, Argentina",False,False,https://www.tiendacrypto.com,https://www.ycombinator.com/companies/tienda-crypto
+Kosh,Winter 2020,2020.0,Active,Fintech,Fintech -> Credit and Lending,56.0,"Gurugram, HR, India; HR, India",False,False,https://getkosh.com,https://www.ycombinator.com/companies/kosh
+goDutch,Winter 2020,2020.0,Inactive,Fintech,Fintech -> Payments,10.0,"MH, India",False,False,https://godutchpay.in,https://www.ycombinator.com/companies/godutch
+Able,Winter 2020,2020.0,Acquired,Consumer,Consumer -> Job and Career Services,50.0,"Bengaluru, KA, India",False,False,https://ablejobs.co/,https://www.ycombinator.com/companies/able
+Pay Swifter,Winter 2020,2020.0,Acquired,Fintech,Fintech -> Banking and Exchange,6.0,"Bengaluru, KA, India",False,False,https://payswifter.com,https://www.ycombinator.com/companies/pay-swifter
+StayQrious,Winter 2020,2020.0,Active,Education,Education,29.0,"Bengaluru, KA, India; Remote",False,False,https://StayQrious.com,https://www.ycombinator.com/companies/stayqrious
+Chutney Inc,Winter 2020,2020.0,Inactive,Consumer,Consumer,5.0,"Bengaluru, KA, India; Remote",False,False,,https://www.ycombinator.com/companies/chutney-inc
+UrbanKisaan,Winter 2020,2020.0,Active,Industrials,Industrials -> Agriculture,53.0,"Hyderabad, Telangana, India",False,False,https://www.urbankisaan.com,https://www.ycombinator.com/companies/urbankisaan
+farmtheory,Winter 2020,2020.0,Active,B2B,B2B -> Supply Chain and Logistics,65.0,"Bengaluru, KA, India",False,False,http://farmtheory.in/,https://www.ycombinator.com/companies/farmtheory
+PillarPlus,Winter 2020,2020.0,Inactive,Real Estate and Construction,Real Estate and Construction -> Construction,30.0,"MH, India",False,False,https://pillarplus.com,https://www.ycombinator.com/companies/pillarplus
+SprintAI,Winter 2020,2020.0,Inactive,B2B,B2B -> Retail,10.0,"Bengaluru, KA, India",False,False,https://www.getsprint.ai/,https://www.ycombinator.com/companies/sprintai
+TagMango,Winter 2020,2020.0,Active,Consumer,Consumer -> Social,30.0,"Kolkata, WB, India",False,False,https://www.tagmango.com,https://www.ycombinator.com/companies/tagmango
+Morphle Labs,Winter 2020,2020.0,Active,Healthcare,Healthcare -> Medical Devices,65.0,"Bengaluru, KA, India",False,False,https://morphlelabs.com,https://www.ycombinator.com/companies/morphle-labs
+Zeo Route Planner,Winter 2020,2020.0,Active,B2B,B2B -> Supply Chain and Logistics,15.0,"San Francisco, CA, USA; MH, India",False,False,https://zeorouteplanner.com,https://www.ycombinator.com/companies/zeo-route-planner
+Hiration,Winter 2020,2020.0,Active,Consumer,Consumer -> Job and Career Services,22.0,"New Delhi, DL, India",False,False,https://www.hiration.com/,https://www.ycombinator.com/companies/hiration
+yBANQ,Winter 2020,2020.0,Acquired,Fintech,Fintech -> Payments,9.0,"Bengaluru, KA, India",False,False,https://ybanq.com,https://www.ycombinator.com/companies/ybanq
+Thunderpod,Winter 2020,2020.0,Inactive,B2B,B2B,12.0,"Bengaluru, KA, India; MH, India; Remote",False,False,https://www.thunderpod.com/,https://www.ycombinator.com/companies/thunderpod
+Anatomic,Winter 2020,2020.0,Active,Healthcare,Healthcare -> Healthcare IT,3.0,"Gurugram, HR, India; Noida, UP, India",False,False,https://askanatomic.com,https://www.ycombinator.com/companies/anatomic
+EduRev,Winter 2020,2020.0,Active,Education,Education,24.0,"Chandigarh, CH, India; CH, India",False,False,http://edurev.in,https://www.ycombinator.com/companies/edurev
+Spenny,Winter 2020,2020.0,Active,Fintech,Fintech -> Consumer Finance,2.0,"Bengaluru, KA, India",False,False,http://spennyapp.com,https://www.ycombinator.com/companies/spenny
+Synapsica Healthcare,Winter 2020,2020.0,Inactive,Healthcare,Healthcare -> Diagnostics,30.0,"Bengaluru, KA, India",False,False,https://synapsica.com/,https://www.ycombinator.com/companies/synapsica-healthcare
+Easyplan,Winter 2020,2020.0,Inactive,Fintech,Fintech -> Asset Management,8.0,"MH, India",False,False,https://easyplan.in/,https://www.ycombinator.com/companies/easyplan
+Breathe Well-being,Winter 2020,2020.0,Inactive,Healthcare,Healthcare -> Consumer Health and Wellness,15.0,"New Delhi, DL, India",False,False,http://www.breathewellbeing.in,https://www.ycombinator.com/companies/breathe-well-being
+Nexu,Winter 2020,2020.0,Active,Fintech,Fintech -> Credit and Lending,63.0,"Mexico City, CDMX, Mexico",False,False,https://www.nexu.mx/,https://www.ycombinator.com/companies/nexu
+Viya,Winter 2020,2020.0,Inactive,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,22.0,"Monterrey, N.L., Mexico",False,False,http://www.viyaliving.com,https://www.ycombinator.com/companies/viya
+delt.ai,Winter 2020,2020.0,Acquired,Fintech,Fintech -> Banking and Exchange,26.0,"Mexico City, CDMX, Mexico",False,False,https://delt.ai,https://www.ycombinator.com/companies/delt-ai
+Orchata,Winter 2020,2020.0,Inactive,Consumer,Consumer -> Food and Beverage,50.0,"Monterrey, N.L., Mexico; N.L., Mexico",False,False,http://www.orchata.com/,https://www.ycombinator.com/companies/orchata
+Thndr,Summer 2020,2020.0,Active,Fintech,Fintech,235.0,"Cairo, Cairo Governorate, Egypt",True,True,http://www.thndr.app,https://www.ycombinator.com/companies/thndr
+Swipe Technologies,Winter 2020,2020.0,Active,Fintech,Fintech,20.0,"London, England, United Kingdom; Accra, Greater Accra Region, Ghana",False,True,https://getswipe.com,https://www.ycombinator.com/companies/swipe-technologies
+Hent,Winter 2020,2020.0,Acquired,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,22.0,"Recife, PE, Brazil",False,False,http://www.hent.com.br,https://www.ycombinator.com/companies/hent
+Bamboo,Winter 2020,2020.0,Active,Fintech,Fintech -> Consumer Finance,14.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,http://investbamboo.com,https://www.ycombinator.com/companies/bamboo
+Valienta,Winter 2020,2020.0,Inactive,B2B,B2B -> Retail,20.0,"Medellín, Antioquia, Colombia; Remote",False,False,https://valienta.com,https://www.ycombinator.com/companies/valienta
+FUTURA,Winter 2020,2020.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,115.0,"Mexico City, CDMX, Mexico",False,False,https://futuralabs.io/,https://www.ycombinator.com/companies/futura
+Tajir,Winter 2020,2020.0,Active,B2B,B2B -> Retail,50.0,"Lahore, Punjab, Pakistan",False,False,https://tajir.app,https://www.ycombinator.com/companies/tajir
+Fondeadora,Winter 2020,2020.0,Active,Fintech,Fintech -> Banking and Exchange,160.0,"Mexico City, CDMX, Mexico",False,False,https://fondeadora.com/,https://www.ycombinator.com/companies/fondeadora
+Apartio,Winter 2020,2020.0,Inactive,Fintech,Fintech -> Consumer Finance,2.0,"São Paulo, SP, Brazil",False,False,http://www.apartio.com.br,https://www.ycombinator.com/companies/apartio
+Linkana,Winter 2020,2020.0,Active,B2B,B2B -> Supply Chain and Logistics,21.0,"São Paulo, SP, Brazil; Remote",False,False,https://www.linkana.com,https://www.ycombinator.com/companies/linkana
+Termii,Winter 2020,2020.0,Active,B2B,B2B -> Infrastructure,63.0,"Lagos, LA, Nigeria",False,True,https://termii.com,https://www.ycombinator.com/companies/termii
+STARK BANK,Winter 2020,2020.0,Active,Fintech,Fintech -> Banking and Exchange,70.0,"San Francisco, CA, USA; São Paulo, SP, Brazil",False,False,https://starkbank.com,https://www.ycombinator.com/companies/stark-bank
+Checkars,Winter 2020,2020.0,Acquired,Consumer,Consumer -> Transportation Services,45.0,"Buenos Aires, CABA, Argentina",False,False,https://www.checkars.com,https://www.ycombinator.com/companies/checkars
+Ramani,Winter 2020,2020.0,Active,B2B,B2B -> Retail,70.0,"Dar es Salaam, Dar es Salaam, Tanzania",False,True,http://www.ramani.io,https://www.ycombinator.com/companies/ramani
+CrowdForce,Winter 2020,2020.0,Acquired,Fintech,Fintech -> Banking and Exchange,41.0,"Abuja, Federal Capital Territory, Nigeria",False,True,https://crowdforce.io/,https://www.ycombinator.com/companies/crowdforce
+GuruHotel,Winter 2020,2020.0,Active,Fintech,Fintech -> Payments,12.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://guruhotel.com,https://www.ycombinator.com/companies/guruhotel
+Sakneen,Winter 2020,2020.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,9.0,"Cairo, Cairo Governorate, Egypt; Remote",True,True,http://www.sakneen.com/,https://www.ycombinator.com/companies/sakneen
+Healthlane,Winter 2020,2020.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,15.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,http://healthlane.co,https://www.ycombinator.com/companies/healthlane
+99minutos,Winter 2020,2020.0,Active,B2B,B2B -> Supply Chain and Logistics,5000.0,"Mexico City, CDMX, Mexico; Santiago, Santiago Metropolitan Region, Chile; Bogotá, Bogota, Colombia; Lima, Callao Region, Peru",False,False,https://99minutos.com,https://www.ycombinator.com/companies/99minutos
+SEND,Winter 2020,2020.0,Active,B2B,B2B -> Supply Chain and Logistics,9.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://www.send.ng,https://www.ycombinator.com/companies/send
+Workpay,Winter 2020,2020.0,Active,B2B,B2B -> Human Resources,130.0,"Nairobi, Nairobi County, Kenya",False,True,https://myworkpay.com,https://www.ycombinator.com/companies/workpay
+Belvo,Winter 2020,2020.0,Active,Fintech,Fintech -> Banking and Exchange,100.0,"São Paulo, SP, Brazil",False,False,https://belvo.com,https://www.ycombinator.com/companies/belvo
+Yassir,Winter 2020,2020.0,Active,Consumer,Consumer -> Transportation Services,200.0,Algeria,False,True,https://yassir.com,https://www.ycombinator.com/companies/yassir
+CARUPI,Winter 2020,2020.0,Inactive,Consumer,Consumer,50.0,"São Paulo, SP, Brazil; Remote",False,False,https://www.carupi.com/,https://www.ycombinator.com/companies/carupi
+inFeedo AI,Summer 2020,2020.0,Active,B2B,B2B -> Human Resources,150.0,"Dubai, Dubai, United Arab Emirates; New York, NY, USA",False,True,https://infeedo.ai,https://www.ycombinator.com/companies/infeedo-ai
+Conta Simples,Summer 2020,2020.0,Active,Fintech,Fintech -> Banking and Exchange,130.0,"São Paulo, SP, Brazil",False,False,https://contasimples.com/,https://www.ycombinator.com/companies/conta-simples
+Jeevam Health,Summer 2020,2020.0,Inactive,Healthcare,Healthcare -> Consumer Health and Wellness,25.0,"Bengaluru, KA, India",False,False,https://www.jeevamhealth.com/,https://www.ycombinator.com/companies/jeevam-health
+Volopay,Summer 2020,2020.0,Active,Fintech,Fintech -> Payments,11.0,"Bengaluru, KA, India; Singapore, Singapore; Remote",False,False,https://www.volopay.com/,https://www.ycombinator.com/companies/volopay
+Explorex,Summer 2020,2020.0,Active,Consumer,Consumer,25.0,"Bengaluru, KA, India",False,False,https://explorex.co,https://www.ycombinator.com/companies/explorex
+Farmako Healthcare,Summer 2020,2020.0,Active,Healthcare,Healthcare -> Healthcare IT,40.0,"Gurugram, HR, India",False,False,https://farmako.ai,https://www.ycombinator.com/companies/farmako-healthcare
+Cradle,Summer 2020,2020.0,Active,B2B,B2B -> Retail,2.0,"Bengaluru, KA, India",False,False,https://www.cradlefinance.com,https://www.ycombinator.com/companies/cradle
+MarketForce,Summer 2020,2020.0,Active,B2B,B2B -> Retail,400.0,"Nairobi, Nairobi County, Kenya",False,True,https://marketforce.io,https://www.ycombinator.com/companies/marketforce
+Justo,Summer 2020,2020.0,Active,B2B,B2B -> Supply Chain and Logistics,190.0,"Providencia, Santiago Metropolitan Region, Chile",False,False,https://www.getjusto.com,https://www.ycombinator.com/companies/justo
+Statiq.,Summer 2020,2020.0,Active,Industrials,Industrials -> Energy,200.0,"Gurugram, HR, India; Bengaluru, KA, India",False,False,https://statiq.in/,https://www.ycombinator.com/companies/statiq
+Oico,Summer 2020,2020.0,Inactive,B2B,B2B -> Operations,35.0,"São Paulo, SP, Brazil",False,False,https://en.oico.com.br/,https://www.ycombinator.com/companies/oico
+Plerk,Summer 2020,2020.0,Acquired,B2B,B2B -> Operations,28.0,"Guadalajara, Jal., Mexico; Remote",False,False,https://www.plerk.io,https://www.ycombinator.com/companies/plerk
+WareIQ,Summer 2020,2020.0,Active,B2B,B2B -> Supply Chain and Logistics,50.0,"Bengaluru, KA, India",False,False,https://www.wareiq.com/,https://www.ycombinator.com/companies/wareiq
+Decentro,Summer 2020,2020.0,Active,B2B,"B2B -> Engineering, Product and Design",60.0,"Bengaluru, KA, India; Delhi, DL, India; Singapore, Singapore",False,False,https://decentro.tech,https://www.ycombinator.com/companies/decentro
+Mailwarm,Summer 2020,2020.0,Active,B2B,B2B -> Sales,10.0,"Dubai, Dubai, United Arab Emirates",False,True,https://www.mailwarm.com,https://www.ycombinator.com/companies/mailwarm
+Mozper,Summer 2020,2020.0,Active,Fintech,Fintech -> Banking and Exchange,6.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://www.mozper.com/,https://www.ycombinator.com/companies/mozper
+PANADATA,Summer 2020,2020.0,Active,Government,Government,4.0,"Panama City, Panama, Panama; Remote",False,False,https://www.panadata.net,https://www.ycombinator.com/companies/panadata
+Orange Health Labs,Summer 2020,2020.0,Active,Healthcare,Healthcare -> Diagnostics,1100.0,"Bengaluru, KA, India",False,False,http://www.orangehealth.in,https://www.ycombinator.com/companies/orange-health-labs
+HENRY,Summer 2020,2020.0,Active,B2B,B2B -> Recruiting and Talent,100.0,"Buenos Aires, CABA, Argentina; Remote",False,False,https://www.soyhenry.com/hiring-en,https://www.ycombinator.com/companies/henry
+"MedPiper Technologies, Inc",Summer 2020,2020.0,Active,Fintech,Fintech -> Insurance,55.0,"Bengaluru, KA, India; Remote",False,False,https://www.medpiper.com,https://www.ycombinator.com/companies/medpiper-technologies-inc
+Byte,Summer 2020,2020.0,Inactive,Consumer,Consumer -> Food and Beverage,30.0,"Lahore, Punjab, Pakistan",False,False,https://web.thebyte.app/en/,https://www.ycombinator.com/companies/byte
+Riogrande,Summer 2020,2020.0,Acquired,Consumer,Consumer -> Food and Beverage,,"Mexico City, CDMX, Mexico",False,False,https://www.riogrande.co/,https://www.ycombinator.com/companies/riogrande
+Zuddl,Summer 2020,2020.0,Active,B2B,B2B,120.0,"San Francisco, CA, USA; TS, India; Remote",False,False,http://www.zuddl.com,https://www.ycombinator.com/companies/zuddl
+Parrot Software 🦜,Summer 2020,2020.0,Active,B2B,B2B -> Retail,40.0,"Monterrey, N.L., Mexico",False,False,https://parrotsoftware.io/,https://www.ycombinator.com/companies/parrot-software
+Hubla,Summer 2020,2020.0,Active,B2B,B2B -> Sales,100.0,"São Paulo, SP, Brazil",False,False,https://hub.la,https://www.ycombinator.com/companies/chatpay
+Clau,Summer 2020,2020.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,90.0,"Mexico City, CDMX, Mexico",False,False,https://clau.com,https://www.ycombinator.com/companies/clau
+Todos Comemos,Summer 2020,2020.0,Active,Consumer,Consumer -> Food and Beverage,62.0,"Bogotá, Bogota, Colombia",False,False,https://todoscomemos.com,https://www.ycombinator.com/companies/todos-comemos
+Gonddo,Winter 2021,2021.0,Inactive,B2B,B2B -> Retail,6.0,"São Paulo, SP, Brazil",False,False,https://gonddo.com.br/,https://www.ycombinator.com/companies/gonddo
+Atrato,Winter 2021,2021.0,Active,Fintech,Fintech -> Payments,80.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://www.atratopago.com,https://www.ycombinator.com/companies/atrato
+cloud humans,Winter 2021,2021.0,Active,B2B,B2B -> Operations,30.0,"New York City, NY, USA; São Paulo, SP, Brazil",False,False,https://www.cloudhumans.com,https://www.ycombinator.com/companies/cloud-humans
+RocketSDR,Winter 2021,2021.0,Active,B2B,B2B -> Sales,30.0,"Bengaluru, KA, India",False,False,https://rocketsdr.ai,https://www.ycombinator.com/companies/rocketsdr
+Pensil,Winter 2021,2021.0,Inactive,B2B,"B2B -> Engineering, Product and Design",4.0,"Gurugram, HR, India; HR, India",False,False,https://pensil.in,https://www.ycombinator.com/companies/pensil
+GroMo,Winter 2021,2021.0,Active,Fintech,Fintech,100.0,"Gurugram, HR, India",False,False,https://www.gromo.in,https://www.ycombinator.com/companies/gromo
+JoinSub,Winter 2021,2021.0,Inactive,Fintech,Fintech -> Payments,8.0,"Delhi, DL, India; Palo Alto, CA, USA; Remote",False,False,https://joinsub.com,https://www.ycombinator.com/companies/joinsub
+Flux Auto,Winter 2021,2021.0,Active,Industrials,Industrials -> Manufacturing and Robotics,56.0,"Bengaluru, KA, India",False,False,https://fluxauto.ai,https://www.ycombinator.com/companies/flux-auto
+Krab,Winter 2021,2021.0,Inactive,Fintech,Fintech -> Credit and Lending,9.0,"Hyderabad, Telangana, India",False,False,https://www.krab.in,https://www.ycombinator.com/companies/krab
+BeWell Digital,Winter 2021,2021.0,Inactive,Healthcare,Healthcare -> Healthcare IT,2.0,"Coimbatore, TN, India; Remote",False,False,http://www.bewelldigital.com,https://www.ycombinator.com/companies/bewell-digital
+Weekday,Winter 2021,2021.0,Active,B2B,B2B -> Recruiting and Talent,38.0,"Bengaluru, KA, India; Remote",False,False,https://weekday.works,https://www.ycombinator.com/companies/weekday
+Zepto,Winter 2021,2021.0,Active,Consumer,Consumer -> Food and Beverage,1300.0,"MH, India",False,False,https://www.zeptonow.com/,https://www.ycombinator.com/companies/zepto
+Pragmatic Leaders (Ankai Inc),Winter 2021,2021.0,Active,B2B,B2B,10.0,"Gurugram, HR, India; Remote",False,False,"https://pragmaticleaders.io, https://ostronaut.com",https://www.ycombinator.com/companies/pragmatic-leaders-ankai-inc
+CashBook,Winter 2021,2021.0,Active,B2B,B2B -> Finance and Accounting,4.0,"Bengaluru, KA, India",False,False,https://cashbook.in,https://www.ycombinator.com/companies/cashbook
+Terapify,Winter 2021,2021.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,15.0,"Mexico City, CDMX, Mexico; Guadalajara, Jal., Mexico; Remote",False,False,https://www.terapify.com,https://www.ycombinator.com/companies/terapify
+YourQuote,Winter 2021,2021.0,Inactive,Consumer,Consumer -> Content,9.0,"Bengaluru, KA, India; Remote",False,False,https://www.yourquote.in,https://www.ycombinator.com/companies/yourquote
+FunctionUp (FanPlay),Winter 2021,2021.0,Acquired,Education,Education,20.0,"Bengaluru, KA, India",False,False,https://www.functionup.org/,https://www.ycombinator.com/companies/functionup-fanplay
+Bueno Finance,Winter 2021,2021.0,Acquired,Fintech,Fintech -> Credit and Lending,18.0,"Gurugram, HR, India",False,False,https://buenofinanceinc.com,https://www.ycombinator.com/companies/bueno-finance
+Bimaplan,Winter 2021,2021.0,Active,Fintech,Fintech -> Insurance,30.0,"Bengaluru, KA, India; MH, India",False,False,https://www.bimaplan.co,https://www.ycombinator.com/companies/bimaplan
+FifthTry,Winter 2021,2021.0,Inactive,B2B,B2B -> Productivity,4.0,"Bengaluru, KA, India",False,False,https://www.FifthTry.com,https://www.ycombinator.com/companies/fifthtry
+Fintoc,Winter 2021,2021.0,Active,Fintech,Fintech -> Payments,60.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://fintoc.com,https://www.ycombinator.com/companies/fintoc
+Kodo,Winter 2021,2021.0,Active,Fintech,Fintech -> Payments,45.0,"MH, India",False,False,https://www.kodo.com,https://www.ycombinator.com/companies/kodo
+Udhaar App,Winter 2021,2021.0,Active,Fintech,Fintech -> Payments,32.0,"Karachi, Sindh, Pakistan; Sindh, Pakistan",False,False,https://udhaar.pk/,https://www.ycombinator.com/companies/udhaar-app
+Kredi,Winter 2021,2021.0,Active,Fintech,Fintech -> Credit and Lending,66.0,"Monterrey, N.L., Mexico; N.L., Mexico",False,False,https://www.kredi.mx/,https://www.ycombinator.com/companies/kredi
+R2,Winter 2021,2021.0,Acquired,Fintech,Fintech -> Credit and Lending,100.0,"Mexico City, CDMX, Mexico",False,False,https://r2.co/,https://www.ycombinator.com/companies/r2
+GimBooks,Winter 2021,2021.0,Active,B2B,B2B -> Finance and Accounting,16.0,"Raipur, CT, India",False,False,https://gimbooks.com/,https://www.ycombinator.com/companies/gimbooks
+zingbus,Winter 2021,2021.0,Active,Consumer,Consumer -> Transportation Services,40.0,"Gurugram, HR, India",False,False,https://www.zingbus.com/,https://www.ycombinator.com/companies/zingbus
+Verak,Winter 2021,2021.0,Acquired,Fintech,Fintech -> Insurance,45.0,"Bengaluru, KA, India",False,False,http://verak.in,https://www.ycombinator.com/companies/verak
+Invoid,Winter 2021,2021.0,Inactive,B2B,B2B,15.0,"Gurugram, HR, India",False,False,https://www.invoid.co/,https://www.ycombinator.com/companies/invoid
+MarcoPolo,Winter 2021,2021.0,Inactive,B2B,B2B -> Operations,0.0,"Mexico City, CDMX, Mexico",False,False,,https://www.ycombinator.com/companies/marcopolo
+Trela,Winter 2021,2021.0,Active,Consumer,Consumer,120.0,"São Paulo, SP, Brazil",False,False,https://www.trela.com.br,https://www.ycombinator.com/companies/trela
+Coderhouse,Winter 2021,2021.0,Active,Education,Education,70.0,"Buenos Aires, CABA, Argentina",False,False,https://www.coderhouse.com/,https://www.ycombinator.com/companies/coderhouse
+Sendbox,Winter 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,25.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://sendbox.co,https://www.ycombinator.com/companies/sendbox
+Veera Health,Winter 2021,2021.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,4.0,"MH, India",False,False,https://www.veerahealth.com,https://www.ycombinator.com/companies/veera-health
+Noble,Winter 2021,2021.0,Inactive,B2B,B2B -> Finance and Accounting,12.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://benoble.io/,https://www.ycombinator.com/companies/noble
+Darrow,Winter 2021,2021.0,Active,B2B,B2B -> Legal,95.0,"Tel Aviv-Yafo, Tel Aviv District, Israel; New York, NY, USA",False,True,https://darrow.ai/,https://www.ycombinator.com/companies/darrow
+Flextock,Winter 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,10.0,"Cairo, Cairo Governorate, Egypt",True,True,http://www.flextock.com,https://www.ycombinator.com/companies/flextock
+Codingal,Winter 2021,2021.0,Active,Education,Education,100.0,"Bengaluru, KA, India",False,False,https://www.codingal.com/?utm_source=yc,https://www.ycombinator.com/companies/codingal
+TechBiz,Winter 2021,2021.0,Acquired,B2B,B2B,3.0,"New Delhi, DL, India; MH, India; Remote",False,False,https://www.techbiz.app,https://www.ycombinator.com/companies/techbiz
+Dyte,Winter 2021,2021.0,Acquired,B2B,B2B -> Infrastructure,45.0,"Bengaluru, KA, India; Remote",False,False,https://dyte.io,https://www.ycombinator.com/companies/dyte
+clicOH,Winter 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,155.0,"Buenos Aires, CABA, Argentina; Mexico City, CDMX, Mexico",False,False,http://clicoh.com/,https://www.ycombinator.com/companies/clicoh
+Tilt,Winter 2021,2021.0,Active,Consumer,Consumer,12.0,"Bengaluru, KA, India; Remote",False,False,https://tilt.bike/,https://www.ycombinator.com/companies/tilt-2
+Unschool,Winter 2021,2021.0,Active,Education,Education,35.0,"Hyderabad, Telangana, India",False,False,https://www.unschool.in/,https://www.ycombinator.com/companies/unschool
+ZOKO,Winter 2021,2021.0,Active,B2B,B2B -> Retail,18.0,"Bengaluru, KA, India",False,False,https://www.zoko.io/,https://www.ycombinator.com/companies/zoko
+Aerotime,Winter 2021,2021.0,Inactive,B2B,B2B -> Productivity,6.0,"San Francisco, CA, USA; Bengaluru, KA, India",False,False,https://www.aerotime.com,https://www.ycombinator.com/companies/aerotime
+Reclaim Protocol,Winter 2021,2021.0,Active,B2B,B2B -> Recruiting and Talent,17.0,"Hyderabad, Telangana, India; Remote",False,False,https://reclaimprotocol.org,https://www.ycombinator.com/companies/reclaim-protocol
+FitHub,Winter 2021,2021.0,Active,Consumer,Consumer -> Food and Beverage,60.0,"Barranquilla, Atlantico, Colombia",False,False,https://www.fithub.com.co,https://www.ycombinator.com/companies/fithub-2
+Redcliffe Lifetech,Winter 2021,2021.0,Active,Healthcare,Healthcare -> Diagnostics,3500.0,"Delhi, DL, India; Gurugram, HR, India; Noida, UP, India",False,False,http://redcliffelabs.com,https://www.ycombinator.com/companies/redcliffe-lifetech
+Betterhalf,Winter 2021,2021.0,Active,Consumer,Consumer -> Social,25.0,"Bengaluru, KA, India",False,False,https://betterhalf.ai,https://www.ycombinator.com/companies/betterhalf
+Preki,Winter 2021,2021.0,Acquired,B2B,B2B,15.0,"Bogotá, Bogota, Colombia",False,False,http://www.preki.com,https://www.ycombinator.com/companies/preki
+Mendel,Winter 2021,2021.0,Active,Fintech,Fintech -> Banking and Exchange,5.0,"Mexico City, CDMX, Mexico",False,False,https://mendel.com,https://www.ycombinator.com/companies/mendel
+Z1,Winter 2021,2021.0,Active,Fintech,Fintech -> Consumer Finance,80.0,"São Paulo, SP, Brazil; Remote",False,False,https://z1.app/,https://www.ycombinator.com/companies/z1
+Morada Uno,Winter 2021,2021.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,150.0,"Mexico City, CDMX, Mexico",False,False,http://www.moradauno.com.mx,https://www.ycombinator.com/companies/morada-uno
+Mono,Winter 2021,2021.0,Acquired,Fintech,Fintech -> Banking and Exchange,10.0,"Lagos, LA, Nigeria",False,True,https://mono.co,https://www.ycombinator.com/companies/mono
+Houm,Winter 2021,2021.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,400.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://houm.com,https://www.ycombinator.com/companies/houm
+Zealth,Winter 2021,2021.0,Active,Healthcare,Healthcare -> Healthcare IT,2.0,"Bengaluru, KA, India; Remote",False,False,https://zealth-ai.com/,https://www.ycombinator.com/companies/zealth
+Ziina,Winter 2021,2021.0,Active,Fintech,Fintech -> Consumer Finance,57.0,"Dubai, United Arab Emirates",False,True,https://www.ziina.com,https://www.ycombinator.com/companies/ziina
+Pagaloop,Winter 2021,2021.0,Active,Fintech,Fintech -> Payments,23.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://www.pagaloop.com,https://www.ycombinator.com/companies/pagaloop
+Prendea,Winter 2021,2021.0,Inactive,Education,Education,5.0,"Barranco, Lima Region, Peru; Remote",False,False,https://prendea.com,https://www.ycombinator.com/companies/prendea
+AgendaPro,Winter 2021,2021.0,Active,B2B,B2B -> Marketing,50.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://www.agendapro.com,https://www.ycombinator.com/companies/agendapro
+Kidato,Winter 2021,2021.0,Active,Education,Education,15.0,"Nairobi, Nairobi County, Kenya; Remote",False,True,https://www.kidato.com,https://www.ycombinator.com/companies/kidato
+Swadesi Way,Winter 2021,2021.0,Active,Consumer,Consumer -> Food and Beverage,9.0,"Delhi, DL, India; Remote",False,False,https://swadesiway.com/,https://www.ycombinator.com/companies/swadesi-way
+Treinta,Winter 2021,2021.0,Active,B2B,B2B -> Productivity,60.0,"Bogotá, Bogota, Colombia",False,False,https://www.treinta.co,https://www.ycombinator.com/companies/treinta
+OlaClick,Winter 2021,2021.0,Active,Consumer,Consumer -> Food and Beverage,30.0,"Lima, Callao Region, Peru; Lima, Lima Province, Peru; Remote",False,False,https://www.olaclick.com/,https://www.ycombinator.com/companies/olaclick
+BusinessOnBot,Winter 2021,2021.0,Active,B2B,B2B -> Operations,25.0,"Bengaluru, KA, India",False,False,https://www.businessonbot.com/,https://www.ycombinator.com/companies/businessonbot
+Dayra,Winter 2021,2021.0,Active,Fintech,Fintech -> Credit and Lending,10.0,"Cairo, Cairo Governorate, Egypt",True,True,https://Dayra.co,https://www.ycombinator.com/companies/dayra
+peopleCQ,Winter 2021,2021.0,Active,Fintech,Fintech -> Asset Management,85.0,"Cairo, Cairo Governorate, Egypt",True,True,https://www.peopleCQ.com,https://www.ycombinator.com/companies/peoplecq
+Poliglota,Winter 2021,2021.0,Active,Education,Education,170.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://www.poliglota.org/,https://www.ycombinator.com/companies/poliglota
+Voosh,Winter 2021,2021.0,Active,B2B,B2B,15.0,"Bengaluru, KA, India",False,False,https://voosh.ai/,https://www.ycombinator.com/companies/voosh
+Somos,Winter 2021,2021.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,250.0,"Medellín, Antioquia, Colombia",False,False,http://somosinternet.co/,https://www.ycombinator.com/companies/somos
+Awari,Winter 2021,2021.0,Acquired,Education,Education,35.0,"São Paulo, SP, Brazil; Remote",False,False,https://awari.com/,https://www.ycombinator.com/companies/awari
+Estoca,Winter 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,150.0,"São Paulo, SP, Brazil",False,False,https://www.estoca.com.br/,https://www.ycombinator.com/companies/estoca
+Jiga,Winter 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,25.0,"Tel Aviv-Yafo, Tel Aviv District, Israel; Remote",False,True,https://jiga.io,https://www.ycombinator.com/companies/jiga
+Vendease,Winter 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,250.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://vendease.com/,https://www.ycombinator.com/companies/vendease
+Djamo,Winter 2021,2021.0,Active,Fintech,Fintech -> Banking and Exchange,250.0,"Abidjan, Abidjan Autonomous District, Ivory Coast; Dakar, Dakar Region, Senegal",False,True,https://www.djamo.com,https://www.ycombinator.com/companies/djamo
+hoop.dev,Winter 2021,2021.0,Active,B2B,"B2B -> Engineering, Product and Design",3.0,"São Paulo, SP, Brazil; Remote",False,False,https://hoop.dev,https://www.ycombinator.com/companies/hoop-dev
+boitas.com,Winter 2021,2021.0,Inactive,B2B,B2B -> Retail,35.0,"Monterrey, N.L., Mexico",False,False,http://www.boitas.com,https://www.ycombinator.com/companies/boitas-com
+My NextDerma,Winter 2021,2021.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,12.0,"Zapopan, Jal., Mexico",False,False,https://mynextderma.com,https://www.ycombinator.com/companies/my-nextderma
+Meru.com,Winter 2021,2021.0,Active,B2B,B2B -> Retail,70.0,"Mexico City, CDMX, Mexico",False,False,https://meru.com,https://www.ycombinator.com/companies/meru-com
+Flux,Winter 2021,2021.0,Active,Fintech,Fintech -> Payments,8.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://iflux.app,https://www.ycombinator.com/companies/flux-2
+Kiwify,Winter 2021,2021.0,Active,Education,Education,200.0,"SC, Brazil; Remote",False,False,https://kiwify.com.br,https://www.ycombinator.com/companies/kiwify
+Contalink,Summer 2021,2021.0,Active,B2B,B2B -> Finance and Accounting,75.0,"Monterrey, N.L., Mexico",False,False,https://www.contalink.com/,https://www.ycombinator.com/companies/contalink
+marketfeed,Summer 2021,2021.0,Active,Fintech,Fintech -> Consumer Finance,18.0,"Bengaluru, KA, India",False,False,https://marketfeed.com,https://www.ycombinator.com/companies/marketfeed
+Abstra,Summer 2021,2021.0,Active,B2B,"B2B -> Engineering, Product and Design",18.0,"São Paulo, SP, Brazil; Remote",False,False,https://abstra.io,https://www.ycombinator.com/companies/abstra
+TAG,Summer 2021,2021.0,Inactive,Fintech,Fintech -> Banking and Exchange,100.0,"Islamabad, Islamabad Capital Territory, Pakistan",False,False,https://tagme.pk/,https://www.ycombinator.com/companies/tag
+Gobillion,Summer 2021,2021.0,Inactive,Consumer,Consumer,10.0,"New Delhi, DL, India",False,False,https://gobillion.co,https://www.ycombinator.com/companies/gobillion
+Baraka,Summer 2021,2021.0,Active,Fintech,Fintech -> Asset Management,34.0,"Dubai, United Arab Emirates",False,True,https://www.getbaraka.com/,https://www.ycombinator.com/companies/baraka
+Fingo Africa,Summer 2021,2021.0,Acquired,Fintech,Fintech,8.0,"Nairobi, Nairobi County, Kenya",False,True,https://fingo.africa,https://www.ycombinator.com/companies/fingo-africa
+Karbon Card,Summer 2021,2021.0,Active,Fintech,Fintech -> Credit and Lending,144.0,"Bengaluru, KA, India",False,False,https://www.karboncard.com/,https://www.ycombinator.com/companies/karbon-card
+FrontPage,Summer 2021,2021.0,Active,Fintech,Fintech -> Asset Management,5.0,"Bengaluru, KA, India",False,False,https://front.page,https://www.ycombinator.com/companies/frontpage
+Kalam Labs,Summer 2021,2021.0,Active,Industrials,Industrials -> Aviation and Space,10.0,India,False,False,http://www.kalamlabs.in,https://www.ycombinator.com/companies/kalam-labs
+Koshex,Summer 2021,2021.0,Active,Fintech,Fintech -> Asset Management,21.0,"Bengaluru, KA, India",False,False,https://www.koshex.com,https://www.ycombinator.com/companies/koshex
+Akudo,Summer 2021,2021.0,Inactive,Fintech,Fintech -> Payments,20.0,"Bengaluru, KA, India",False,False,https://www.akudo.in/,https://www.ycombinator.com/companies/akudo
+Coulomb AI,Summer 2021,2021.0,Active,B2B,B2B,10.0,"Bengaluru, KA, India",False,False,https://coulomb.ai/,https://www.ycombinator.com/companies/coulomb-ai
+PropReturns,Summer 2021,2021.0,Inactive,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,40.0,"MH, India",False,False,https://www.propreturns.com/,https://www.ycombinator.com/companies/propreturns
+ODWEN,Summer 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,21.0,"Delhi, DL, India",False,False,https://www.odwen.co.in,https://www.ycombinator.com/companies/odwen
+Atmana,Summer 2021,2021.0,Active,Consumer,Consumer,8.0,"Dubai, Dubai, United Arab Emirates; Remote",False,True,https://blockerx.net/,https://www.ycombinator.com/companies/atmana
+SalaryBook,Summer 2021,2021.0,Active,B2B,B2B,7.0,"Bengaluru, KA, India",False,False,https://salarybook.co.in/,https://www.ycombinator.com/companies/salarybook
+Instacrops,Summer 2021,2021.0,Active,Industrials,Industrials -> Agriculture,34.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://www.instacrops.com,https://www.ycombinator.com/companies/instacrops
+zaz⚡️os,Summer 2021,2021.0,Active,B2B,B2B,1.0,"São Paulo, SP, Brazil",False,False,https://www.zazos.com/,https://www.ycombinator.com/companies/zazos
+Rivia.AI,Summer 2021,2021.0,Active,B2B,B2B -> Marketing,5.0,"Bengaluru, KA, India",False,False,https://rivia.ai,https://www.ycombinator.com/companies/rivia-ai
+Nino Foods,Summer 2021,2021.0,Inactive,Consumer,Consumer -> Food and Beverage,250.0,"MH, India",False,False,https://eatnino.com/,https://www.ycombinator.com/companies/nino-foods
+Advantage Club,Summer 2021,2021.0,Active,B2B,B2B -> Human Resources,220.0,"Gurugram, HR, India; San Francisco, CA, USA; Bengaluru, KA, India; Chicago, IL, USA; Mumbai, MH, India; Manila, NCR, Philippines; Dubai, Dubai, United Arab Emirates; Singapore, Singapore",False,True,https://www.advantageclub.co,https://www.ycombinator.com/companies/advantage-club
+Swipe,Summer 2021,2021.0,Active,B2B,B2B -> Finance and Accounting,60.0,"Hyderabad, Telangana, India",False,False,https://getswipe.in,https://www.ycombinator.com/companies/swipe-2
+AlgoUniversity,Summer 2021,2021.0,Active,Education,Education,40.0,"Hyderabad, Telangana, India",False,False,http://algouniversity.com/,https://www.ycombinator.com/companies/algouniversity
+Neodocs,Summer 2021,2021.0,Active,Healthcare,Healthcare,20.0,"MH, India",False,False,https://www.neodocs.in,https://www.ycombinator.com/companies/neodocs
+AppX,Summer 2021,2021.0,Active,Education,Education,30.0,"New Delhi, DL, India",False,False,https://appx.co.in,https://www.ycombinator.com/companies/appx
+Union54,Summer 2021,2021.0,Active,Fintech,Fintech,17.0,"Lusaka, Lusaka Province, Zambia; Remote",False,True,https://union54.com,https://www.ycombinator.com/companies/union54
+Hypercore,Summer 2021,2021.0,Active,Fintech,Fintech -> Credit and Lending,7.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.hypercore.ai/,https://www.ycombinator.com/companies/hypercore
+RendaloMaq,Summer 2021,2021.0,Active,Real Estate and Construction,Real Estate and Construction -> Construction,25.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://www.rendalomaq.com/,https://www.ycombinator.com/companies/rendalomaq
+Konta.com,Summer 2021,2021.0,Active,B2B,B2B -> Finance and Accounting,35.0,"Monterrey, N.L., Mexico",False,False,http://konta.com/,https://www.ycombinator.com/companies/konta-com
+Ivy Homes,Summer 2021,2021.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,80.0,"Bengaluru, KA, India",False,False,https://ivy.homes,https://www.ycombinator.com/companies/ivy-homes
+trii,Summer 2021,2021.0,Active,Fintech,Fintech -> Banking and Exchange,41.0,"Medellín, Antioquia, Colombia",False,False,https://trii.co,https://www.ycombinator.com/companies/trii
+Fitia,Summer 2021,2021.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,26.0,"Lima, Lima Province, Peru",False,False,https://fitia.app/,https://www.ycombinator.com/companies/fitia
+Micro Meat,Summer 2021,2021.0,Inactive,Industrials,Industrials -> Agriculture,0.0,"Monterrey, N.L., Mexico",False,False,http://www.micromeat.com,https://www.ycombinator.com/companies/micro-meat
+Hilos,Summer 2021,2021.0,Acquired,B2B,B2B -> Marketing,5.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://hilos.io,https://www.ycombinator.com/companies/quid
+SalaryBox,Summer 2021,2021.0,Active,B2B,B2B -> Human Resources,40.0,"Gurugram, HR, India",False,False,https://salarybox.in/,https://www.ycombinator.com/companies/salarybox
+Sproutfi,Summer 2021,2021.0,Acquired,Fintech,Fintech,17.0,"São Paulo, SP, Brazil",False,False,,https://www.ycombinator.com/companies/sproutfi
+Monto,Summer 2021,2021.0,Active,Fintech,Fintech,13.0,"Monterrey, N.L., Mexico; Remote",False,False,https://www.monto.mx/,https://www.ycombinator.com/companies/monto
+Pideaky,Summer 2021,2021.0,Active,Fintech,Fintech -> Payments,3.0,"Monterrey, N.L., Mexico",False,False,https://pideaky.com/en/,https://www.ycombinator.com/companies/pideaky
+Pluggy,Summer 2021,2021.0,Active,B2B,"B2B -> Engineering, Product and Design",31.0,"São Paulo, SP, Brazil; Remote",False,False,https://pluggy.ai,https://www.ycombinator.com/companies/pluggy
+Okani,Summer 2021,2021.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,3.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://www.okani.care,https://www.ycombinator.com/companies/okani
+Perfekto,Summer 2021,2021.0,Inactive,Consumer,Consumer -> Food and Beverage,33.0,"Mexico City, CDMX, Mexico",False,False,https://www.perfekto.mx/,https://www.ycombinator.com/companies/perfekto
+Enerjazz,Summer 2021,2021.0,Active,Industrials,Industrials -> Climate,9.0,"Berlin, Berlin, Germany; Delhi, DL, India",False,False,https://www.enerjazz.tech/,https://www.ycombinator.com/companies/enerjazz
+Glitzi,Summer 2021,2021.0,Active,Consumer,Consumer -> Home and Personal,33.0,"Mexico City, CDMX, Mexico",False,False,https://glitzi.com.mx/,https://www.ycombinator.com/companies/glitzi
+Buró de Ingresos,Summer 2021,2021.0,Active,B2B,B2B -> Infrastructure,17.0,"Mexico City, CDMX, Mexico",False,False,https://www.burodeingresos.com/,https://www.ycombinator.com/companies/buro-de-ingresos
+fluke,Summer 2021,2021.0,Active,B2B,B2B,26.0,"São Paulo, SP, Brazil",False,False,https://flu.ke/,https://www.ycombinator.com/companies/fluke
+Cero,Summer 2021,2021.0,Active,B2B,B2B,10.0,"Santiago, Santiago Metropolitan Region, Chile; Remote",False,False,https://cero.ai,https://www.ycombinator.com/companies/cero
+Cartpanda,Summer 2021,2021.0,Active,B2B,B2B -> Sales,60.0,"São Paulo, SP, Brazil; Remote",False,False,https://cartpanda.com/,https://www.ycombinator.com/companies/cartpanda
+Yemaachi Biotechnology,Summer 2021,2021.0,Active,Healthcare,Healthcare -> Diagnostics,16.0,"Accra, Greater Accra Region, Ghana",False,True,https://yemaachi.com/,https://www.ycombinator.com/companies/yemaachi-biotechnology
+Infiuss Health,Summer 2021,2021.0,Active,B2B,B2B,4.0,"San Francisco, CA, USA; LA, Nigeria",False,True,https://infiuss.com,https://www.ycombinator.com/companies/infiuss-health
+FastFarma,Summer 2021,2021.0,Inactive,Healthcare,Healthcare -> Consumer Health and Wellness,8.0,"Quito, Pichincha, Ecuador",False,False,http://www.fastfarma.com,https://www.ycombinator.com/companies/fastfarma
+ShipBlu,Summer 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,300.0,"Cairo, Cairo Governorate, Egypt",True,True,http://www.shipblu.com,https://www.ycombinator.com/companies/shipblu
+Encuadrado,Summer 2021,2021.0,Active,B2B,B2B -> Productivity,3.0,"Santiago, Santiago Metropolitan Region, Chile; Remote",False,False,https://www.encuadrado.com/,https://www.ycombinator.com/companies/encuadrado
+Kurios,Summer 2021,2021.0,Inactive,Education,Education,10.0,"Lima, Callao Region, Peru; Lima, Lima Province, Peru",False,False,https://www.kurios.la/,https://www.ycombinator.com/companies/kurios
+Aleph Solutions (Alephee),Summer 2021,2021.0,Active,B2B,B2B -> Retail,60.0,"Buenos Aires, CABA, Argentina; Buenos Aires, Buenos Aires, Argentina; Remote",False,False,https://www.alephee.com,https://www.ycombinator.com/companies/aleph-solutions-alephee
+Kodda,Summer 2021,2021.0,Inactive,Healthcare,Healthcare -> Consumer Health and Wellness,7.0,"Monterrey, N.L., Mexico",False,False,https://www.kodda.com/,https://www.ycombinator.com/companies/kodda
+Vinco,Summer 2021,2021.0,Active,B2B,B2B -> Human Resources,35.0,"Monterrey, N.L., Mexico",False,False,https://www.vincoed.com,https://www.ycombinator.com/companies/vinco
+Freterium,Summer 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,21.0,"Casablanca, Casablanca-Settat, Morocco",False,True,https://www.freterium.com,https://www.ycombinator.com/companies/freterium
+lapzo,Summer 2021,2021.0,Active,B2B,B2B -> Human Resources,135.0,"Monterrey, N.L., Mexico; N.L., Mexico; Remote",False,False,https://www.lapzo.com,https://www.ycombinator.com/companies/lapzo
+Portão 3,Summer 2021,2021.0,Active,B2B,B2B -> Finance and Accounting,40.0,"Uberlândia, MG, Brazil",False,False,https://portao3.com.br,https://www.ycombinator.com/companies/portao-3
+Payhippo,Summer 2021,2021.0,Active,Fintech,Fintech -> Credit and Lending,11.0,"Lagos, LA, Nigeria; LA, Nigeria; Remote",False,True,https://payhippo.africa/,https://www.ycombinator.com/companies/payhippo
+Cumbuca,Summer 2021,2021.0,Active,Fintech,Fintech,5.0,"São Paulo, SP, Brazil",False,False,https://www.cumbuca.com,https://www.ycombinator.com/companies/cumbuca
+Levo,Summer 2021,2021.0,Inactive,Fintech,Fintech -> Asset Management,6.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://www.levo.mx,https://www.ycombinator.com/companies/levo
+Spark Studio,Summer 2021,2021.0,Active,Education,Education,27.0,"Bengaluru, KA, India",False,False,https://sparkstudio.co,https://www.ycombinator.com/companies/spark-studio
+Writesonic,Summer 2021,2021.0,Active,B2B,B2B -> Marketing,35.0,"New Delhi, DL, India; Remote",False,False,https://writesonic.com/,https://www.ycombinator.com/companies/writesonic
+Floatpays Inc,Summer 2021,2021.0,Active,Fintech,Fintech,15.0,"Cape Town, WC, South Africa; Remote",False,True,https://www.floatpays.com,https://www.ycombinator.com/companies/floatpays-inc
+Ancana,Summer 2021,2021.0,Active,Consumer,"Consumer -> Travel, Leisure and Tourism",12.0,"Mérida, Yuc., Mexico; Remote",False,False,https://ancanaliving.com/,https://www.ycombinator.com/companies/ancana
+Examedi,Summer 2021,2021.0,Active,Healthcare,Healthcare,3.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://www.examedi.cl,https://www.ycombinator.com/companies/examedi
+Chari,Summer 2021,2021.0,Active,Consumer,Consumer -> Food and Beverage,100.0,"Casablanca, Casablanca-Settat, Morocco",False,True,https://chari.com,https://www.ycombinator.com/companies/chari
+Nomod,Summer 2021,2021.0,Active,Fintech,Fintech -> Payments,68.0,"Dubai, Dubai, United Arab Emirates; Remote",False,True,https://nomod.com,https://www.ycombinator.com/companies/nomod
+Siglo,Summer 2021,2021.0,Active,Consumer,Consumer,20.0,"Mexico City, CDMX, Mexico",False,False,https://siglo.com/,https://www.ycombinator.com/companies/siglo
+PAYZE,Summer 2021,2021.0,Inactive,Fintech,Fintech -> Payments,4.0,"Tbilisi, Tbilisi, Georgia; Tbilisi, Georgia",False,True,https://payze.io/,https://www.ycombinator.com/companies/payze
+Pylon,Summer 2021,2021.0,Active,B2B,B2B -> Infrastructure,72.0,"Cairo, Cairo Governorate, Egypt",True,True,https://www.pylonump.com/,https://www.ycombinator.com/companies/pylon
+Infer,Summer 2021,2021.0,Active,B2B,B2B -> Sales,9.0,"Bengaluru, KA, India",False,False,https://www.infer.so/,https://www.ycombinator.com/companies/infer
+Luable,Summer 2021,2021.0,Active,Fintech,Fintech -> Asset Management,40.0,"Bogotá, Bogota, Colombia",False,False,https://mejorcdt.com/,https://www.ycombinator.com/companies/luable
+Filadd,Summer 2021,2021.0,Active,Education,Education,100.0,"Córdoba, Cordoba, Argentina",False,False,https://filadd.com/,https://www.ycombinator.com/companies/filadd
+Stownest,Summer 2021,2021.0,Active,Consumer,Consumer,80.0,"Bengaluru, KA, India",False,False,https://stownest.com,https://www.ycombinator.com/companies/stownest
+Malga,Summer 2021,2021.0,Active,Fintech,Fintech -> Payments,46.0,"Rio de Janeiro, RJ, Brazil",False,False,https://malga.io/,https://www.ycombinator.com/companies/malga
+Novatr,Summer 2021,2021.0,Active,Education,Education,180.0,"Gurugram, HR, India; Delhi, DL, India",False,False,https://www.novatr.com,https://www.ycombinator.com/companies/novatr
+Baubap,Summer 2021,2021.0,Active,Fintech,Fintech -> Credit and Lending,150.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://www.baubap.com,https://www.ycombinator.com/companies/baubap
+Verde,Summer 2021,2021.0,Inactive,Fintech,Fintech -> Credit and Lending,4.0,"São Paulo, SP, Brazil",False,False,https://www.verde.agr.br,https://www.ycombinator.com/companies/verde
+Abhi,Summer 2021,2021.0,Active,Fintech,Fintech -> Credit and Lending,10.0,"Sindh, Pakistan",False,False,https://abhi.com.pk/,https://www.ycombinator.com/companies/abhi
+Suplias,Summer 2021,2021.0,Active,Fintech,Fintech,9.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://suplias.com,https://www.ycombinator.com/companies/suplias
+Protego,Summer 2021,2021.0,Inactive,B2B,B2B -> Security,5.0,"Bogotá, Bogota, Colombia; Remote",False,False,https://www.protegosolutions.io/,https://www.ycombinator.com/companies/protego
+Datlo,Summer 2021,2021.0,Active,B2B,B2B -> Analytics,60.0,"Maringá, PR, Brazil",False,False,https://www.datlo.com/,https://www.ycombinator.com/companies/datlo
+Ahazou,Summer 2021,2021.0,Active,B2B,B2B -> Marketing,27.0,"São Paulo, SP, Brazil; Remote",False,False,https://ahazou.com,https://www.ycombinator.com/companies/ahazou
+Pide Directo,Summer 2021,2021.0,Active,B2B,B2B -> Supply Chain and Logistics,150.0,"Monterrey, N.L., Mexico",False,False,http://pidedirecto.mx,https://www.ycombinator.com/companies/pide-directo
+Amenli,Summer 2021,2021.0,Active,Fintech,Fintech -> Insurance,65.0,"Cairo, Cairo Governorate, Egypt",True,True,https://www.amenli.com/,https://www.ycombinator.com/companies/amenli
+Chipax,Summer 2021,2021.0,Active,B2B,B2B -> Finance and Accounting,37.0,"Santiago, Santiago Metropolitan Region, Chile; Remote",False,False,https://www.chipax.com,https://www.ycombinator.com/companies/chipax
+Toku,Summer 2021,2021.0,Active,B2B,B2B -> Finance and Accounting,150.0,"Santiago, Santiago Metropolitan Region, Chile; Mexico City, CDMX, Mexico",False,False,https://trytoku.com/,https://www.ycombinator.com/companies/toku
+Mecho Autotech,Summer 2021,2021.0,Active,Industrials,Industrials -> Automotive,35.0,"Atlanta, GA, USA; LA, Nigeria",False,True,https://mechoautotech.com/,https://www.ycombinator.com/companies/mecho-autotech
+JABU,Summer 2021,2021.0,Active,Fintech,Fintech -> Payments,40.0,"Cape Town, WC, South Africa; Windhoek, Khomas Region, Namibia",False,True,http://www.gojabu.com,https://www.ycombinator.com/companies/jabu
+Apollo,Winter 2022,2022.0,Active,Fintech,Fintech,11.0,"Bengaluru, KA, India",False,False,https://www.apollofirst.xyz/,https://www.ycombinator.com/companies/apollo-3
+Elevate (formerly Bloom),Winter 2022,2022.0,Active,Fintech,Fintech -> Payments,7.0,"Dubai, Dubai, United Arab Emirates",False,True,https://www.elevatepay.co,https://www.ycombinator.com/companies/elevate
+Compra Rápida,Winter 2022,2022.0,Active,B2B,B2B -> Retail,21.0,"São Paulo, SP, Brazil; Remote",False,False,https://www.comprarapida.co/,https://www.ycombinator.com/companies/compra-rapida
+Remedial Health,Winter 2022,2022.0,Active,Healthcare,Healthcare -> Healthcare Services,300.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://remedial.health,https://www.ycombinator.com/companies/remedial-health
+Kapital Bank,Winter 2022,2022.0,Active,Fintech,Fintech,3600.0,"Mexico City, CDMX, Mexico",False,False,https://www.kapital.mx,https://www.ycombinator.com/companies/kapital-bank
+Selia,Winter 2022,2022.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,20.0,"Miami, FL, USA; Bogotá, Bogotá, Colombia",False,False,https://www.selia.co,https://www.ycombinator.com/companies/selia
+Rebill,Winter 2022,2022.0,Active,Fintech,Fintech -> Payments,11.0,"Buenos Aires, CABA, Argentina",False,False,https://www.rebill.com,https://www.ycombinator.com/companies/rebill
+Trébol,Winter 2022,2022.0,Active,B2B,B2B -> Finance and Accounting,14.0,"Bogotá, Bogota, Colombia",False,False,https://gotrebol.com/,https://www.ycombinator.com/companies/trebol
+Momento,Winter 2022,2022.0,Active,Fintech,Fintech -> Insurance,18.0,"Mexico City, CDMX, Mexico",False,False,https://www.tumomento.com/,https://www.ycombinator.com/companies/momento
+Actipulse Neuroscience,Winter 2022,2022.0,Active,Healthcare,Healthcare -> Medical Devices,38.0,"Mexico City, CDMX, Mexico",False,False,http://www.actipulseneuroscience.com,https://www.ycombinator.com/companies/actipulse-neuroscience
+Skillza,Winter 2022,2022.0,Inactive,Education,Education,20.0,"Dubai, United Arab Emirates; Cairo, Cairo Governorate, Egypt; Riyadh, Riyadh Province, Saudi Arabia; Remote",True,True,https://www.skillza.co,https://www.ycombinator.com/companies/skillza
+InferEdge,Winter 2022,2022.0,Active,Fintech,Fintech,20.0,"MH, India",False,False,https://www.inferedge.com,https://www.ycombinator.com/companies/inferedge
+Castia,Winter 2022,2022.0,Inactive,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,50.0,"Bogotá, Bogota, Colombia; Mexico City, CDMX, Mexico",False,False,https://www.castia.com,https://www.ycombinator.com/companies/castia
+Kaso,Winter 2022,2022.0,Active,B2B,B2B -> Supply Chain and Logistics,20.0,"Dubai, United Arab Emirates",False,True,https://www.kaso.ai,https://www.ycombinator.com/companies/kaso
+Touch and Pay Technologies Limited,Winter 2022,2022.0,Active,Fintech,Fintech -> Payments,55.0,"Lagos, LA, Nigeria",False,True,https://touchandpay.me/,https://www.ycombinator.com/companies/touch-and-pay-technologies-limited
+Heyfood,Winter 2022,2022.0,Active,Consumer,Consumer -> Food and Beverage,40.0,"Ibadan, YO, Nigeria",False,True,https://heyfood.africa/,https://www.ycombinator.com/companies/heyfood
+Miggos,Winter 2022,2022.0,Active,B2B,B2B -> Supply Chain and Logistics,20.0,"São Paulo, SP, Brazil",False,False,https://miggos.com/,https://www.ycombinator.com/companies/miggos
+Shuttle Central,Winter 2022,2022.0,Active,Consumer,"Consumer -> Travel, Leisure and Tourism",28.0,"Cancún, Q.R., Mexico",False,False,https://book.shuttlecentral.com/,https://www.ycombinator.com/companies/shuttle-central
+Valari,Winter 2022,2022.0,Inactive,Fintech,Fintech,3.0,"Mexico City, CDMX, Mexico; Remote",False,False,http://valari.co,https://www.ycombinator.com/companies/valari
+MySivi,Winter 2022,2022.0,Active,Education,Education,10.0,"Bengaluru, KA, India",False,False,https://www.mysivi.ai/,https://www.ycombinator.com/companies/mysivi
+Fieldproxy,Winter 2022,2022.0,Active,B2B,B2B -> Productivity,15.0,"Chennai, TN, India",False,False,http://fieldproxy.ai/,https://www.ycombinator.com/companies/fieldproxy
+Unlayer,Winter 2022,2022.0,Active,B2B,B2B -> Productivity,35.0,"Dubai, Dubai, United Arab Emirates",False,True,https://unlayer.com,https://www.ycombinator.com/companies/unlayer
+Complif,Winter 2022,2022.0,Active,B2B,B2B -> Operations,100.0,"Buenos Aires, CABA, Argentina",False,False,https://complif.com,https://www.ycombinator.com/companies/complif
+Munily,Winter 2022,2022.0,Active,B2B,B2B -> Security,30.0,"Panama City, Panama, Panama; Remote",False,False,https://munily.com/#/,https://www.ycombinator.com/companies/munily
+Lenk,Winter 2022,2022.0,Active,Fintech,Fintech -> Credit and Lending,18.0,"Buenos Aires, Buenos Aires, Argentina; Remote",False,False,https://getlenk.com/,https://www.ycombinator.com/companies/lenk
+Lexter.ai,Winter 2022,2022.0,Active,B2B,B2B -> Legal,18.0,"São Paulo, SP, Brazil; Remote",False,False,https://www.lexter.ai,https://www.ycombinator.com/companies/lexter-ai
+Rehook.ai,Winter 2022,2022.0,Inactive,B2B,B2B -> Marketing,12.0,"Bengaluru, KA, India",False,False,https://rehook.ai/,https://www.ycombinator.com/companies/rehook-ai
+Elementary,Winter 2022,2022.0,Active,B2B,B2B -> Analytics,12.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,http://elementary-data.com/,https://www.ycombinator.com/companies/elementary
+Creizer,Winter 2022,2022.0,Active,Fintech,Fintech -> Credit and Lending,12.0,"Mexico City, CDMX, Mexico",False,False,https://www.creizer.com/,https://www.ycombinator.com/companies/creizer
+RDash,Winter 2022,2022.0,Active,B2B,B2B -> Infrastructure,80.0,"Gurugram, HR, India",False,False,https://www.rdash.io,https://www.ycombinator.com/companies/rdash
+Zorba,Winter 2022,2022.0,Active,Real Estate and Construction,Real Estate and Construction,,"Saint Petersburg, FL, USA; Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.getzorba.com/,https://www.ycombinator.com/companies/zorba
+Castled.io,Winter 2022,2022.0,Inactive,B2B,B2B -> Marketing,8.0,"Bengaluru, KA, India",False,False,https://castled.io/,https://www.ycombinator.com/companies/castled-io
+Ole,Winter 2022,2022.0,Inactive,Consumer,Consumer,10.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.oleshop.com/,https://www.ycombinator.com/companies/ole
+Cardda,Winter 2022,2022.0,Active,Fintech,Fintech -> Payments,5.0,"Santiago, Santiago Metropolitan Region, Chile; Mexico City, CDMX, Mexico",False,False,https://cardda.com,https://www.ycombinator.com/companies/cardda
+National Finance Olympiad,Winter 2022,2022.0,Active,Education,Education,12.0,"Bengaluru, KA, India",False,False,https://www.nationalfinanceolympiad.com,https://www.ycombinator.com/companies/national-finance-olympiad
+RedBrick AI,Winter 2022,2022.0,Active,B2B,B2B,13.0,"Claymont, DE, USA; MH, India",False,False,https://redbrickai.com,https://www.ycombinator.com/companies/redbrick-ai
+BharatX,Winter 2022,2022.0,Acquired,Fintech,Fintech -> Credit and Lending,14.0,"Bengaluru, KA, India",False,False,https://bharatx.tech/,https://www.ycombinator.com/companies/bharatx
+RecordBook,Winter 2022,2022.0,Active,B2B,B2B,15.0,"Bengaluru, KA, India; Remote",False,False,https://play.google.com/store/apps/details?id=com.foodmonk.rekordapp,https://www.ycombinator.com/companies/recordbook
+SALT,Winter 2022,2022.0,Active,Fintech,Fintech,14.0,"Bengaluru, KA, India",False,False,https://salt.pe,https://www.ycombinator.com/companies/salt
+IMT Care,Winter 2022,2022.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,23.0,"MH, India",False,False,https://www.imt.care,https://www.ycombinator.com/companies/imt-care
+Plumter,Winter 2022,2022.0,Active,Fintech,Fintech -> Payments,12.0,"Lagos, LA, Nigeria; Remote",False,True,https://plumter.com,https://www.ycombinator.com/companies/plumter
+PayCaddy,Winter 2022,2022.0,Active,Fintech,Fintech,20.0,"Panama City, Panama, Panama",False,False,https://paycaddy.com/,https://www.ycombinator.com/companies/paycaddy
+Wibond,Winter 2022,2022.0,Active,Fintech,Fintech -> Credit and Lending,30.0,"Córdoba, Cordoba, Argentina",False,False,https://www.wibond.co/,https://www.ycombinator.com/companies/wibond
+Eazipay Inc.,Winter 2022,2022.0,Active,Fintech,Fintech -> Payments,27.0,"Lagos, LA, Nigeria",False,True,https://myeazipay.com,https://www.ycombinator.com/companies/eazipay-inc
+Markaz Technologies,Winter 2022,2022.0,Active,Consumer,Consumer,55.0,"Islamabad, Islamabad Capital Territory, Pakistan",False,False,https://www.markaz.app,https://www.ycombinator.com/companies/markaz-technologies
+Botin,Winter 2022,2022.0,Inactive,Fintech,Fintech -> Asset Management,3.0,"San José, San José Province, Costa Rica; Remote",False,False,https://www.botin.app,https://www.ycombinator.com/companies/botin
+SpadeWorks,Winter 2022,2022.0,Active,B2B,B2B -> Operations,13.0,"Hyderabad, Telangana, India",False,False,https://www.spadeworks.co,https://www.ycombinator.com/companies/spadeworks
+FinFlx,Winter 2022,2022.0,Active,Fintech,Fintech,8.0,"Dubai, United Arab Emirates",False,True,https://finflx.com,https://www.ycombinator.com/companies/finflx
+Boya,Winter 2022,2022.0,Active,Fintech,Fintech,9.0,"Nairobi, Nairobi County, Kenya",False,True,https://boyahq.com/,https://www.ycombinator.com/companies/boya
+Kaagaz,Winter 2022,2022.0,Active,Consumer,Consumer,11.0,"Gurugram, HR, India; New Delhi, DL, India",False,False,https://kaagaz.app,https://www.ycombinator.com/companies/kaagaz
+PayCrunch,Winter 2022,2022.0,Active,Fintech,Fintech -> Credit and Lending,5.0,"Bengaluru, KA, India",False,False,https://paycrunch.in,https://www.ycombinator.com/companies/paycrunch
+Prembly (formerly Identitypass),Winter 2022,2022.0,Active,B2B,B2B -> Infrastructure,80.0,"Lagos, LA, Nigeria; Remote",False,True,https://prembly.com/,https://www.ycombinator.com/companies/prembly
+"Elphinstone, Inc.",Winter 2022,2022.0,Active,Fintech,Fintech -> Asset Management,15.0,"Sindh, Pakistan",False,False,https://elphinstone.us/,https://www.ycombinator.com/companies/elphinstone-inc
+Grey,Winter 2022,2022.0,Active,Fintech,Fintech,15.0,"San Francisco, CA, USA; LA, Nigeria; Remote",False,True,https://grey.co,https://www.ycombinator.com/companies/grey
+Dojah Inc,Winter 2022,2022.0,Active,B2B,B2B -> Infrastructure,30.0,"Lagos, LA, Nigeria; Remote",False,True,https://www.dojah.io,https://www.ycombinator.com/companies/dojah-inc
+Convoy,Winter 2022,2022.0,Active,B2B,"B2B -> Engineering, Product and Design",8.0,"London, England, United Kingdom; LA, Nigeria; Remote",False,True,https://getconvoy.io,https://www.ycombinator.com/companies/convoy-2
+Tendo,Winter 2022,2022.0,Active,Consumer,Consumer -> Social,15.0,"Accra, Greater Accra Region, Ghana",False,True,https://tendo.app/,https://www.ycombinator.com/companies/tendo
+Vendy,Winter 2022,2022.0,Active,Fintech,Fintech -> Payments,20.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://myvendy.com,https://www.ycombinator.com/companies/vendy
+"Sendme, Inc",Winter 2022,2022.0,Inactive,Consumer,Consumer -> Food and Beverage,40.0,"Ibadan, YO, Nigeria",False,True,http://www.sendme.ng,https://www.ycombinator.com/companies/sendme-inc
+Blitzllama,Winter 2022,2022.0,Acquired,B2B,B2B,7.0,"Bengaluru, KA, India; Remote",False,False,https://www.blitzllama.com/,https://www.ycombinator.com/companies/blitzllama
+Simplifyd Systems,Winter 2022,2022.0,Active,B2B,B2B,8.0,"London, England, United Kingdom; LA, Nigeria",False,True,https://simplifyd.com,https://www.ycombinator.com/companies/simplifyd-systems
+Rank (formerly Moni),Winter 2022,2022.0,Active,Fintech,Fintech -> Credit and Lending,20.0,"Lagos, LA, Nigeria; Remote",False,True,https://www.userank.com/,https://www.ycombinator.com/companies/rank
+AntWalk,Winter 2022,2022.0,Inactive,Education,Education,50.0,"Bengaluru, KA, India; Remote",False,False,https://www.antwalk.com/,https://www.ycombinator.com/companies/antwalk
+Nash,Winter 2022,2022.0,Active,Fintech,Fintech,11.0,"San Francisco, CA, USA; Nairobi, Nairobi County, Kenya",False,True,https://getnashglobal.com/,https://www.ycombinator.com/companies/nash-2
+BotCity,Winter 2022,2022.0,Active,B2B,"B2B -> Engineering, Product and Design",35.0,"Campinas, SP, Brazil; Remote",False,False,https://botcity.dev,https://www.ycombinator.com/companies/botcity
+SaveIN,Winter 2022,2022.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,60.0,"Delhi, DL, India",False,False,https://www.savein.money/,https://www.ycombinator.com/companies/savein
+Material Depot,Winter 2022,2022.0,Active,Real Estate and Construction,Real Estate and Construction,50.0,"Bengaluru, KA, India",False,False,https://materialdepot.in/,https://www.ycombinator.com/companies/material-depot
+Duplo,Winter 2022,2022.0,Active,Fintech,Fintech,13.0,"LA, Nigeria",False,True,https://www.tryduplo.com/,https://www.ycombinator.com/companies/duplo
+Fello,Winter 2022,2022.0,Inactive,Fintech,Fintech,24.0,"Bengaluru, KA, India",False,False,https://fello.in,https://www.ycombinator.com/companies/fello
+Talentropy.ai,Winter 2022,2022.0,Active,B2B,B2B -> Human Resources,35.0,"Bogotá, Bogota, Colombia; Remote",False,False,https://talentropy.ai/,https://www.ycombinator.com/companies/talentropy-ai
+Theneo,Winter 2022,2022.0,Active,B2B,"B2B -> Engineering, Product and Design",25.0,"Tbilisi, Georgia; Seattle, WA, USA",False,True,https://theneo.io,https://www.ycombinator.com/companies/theneo
+Numida,Winter 2022,2022.0,Active,Fintech,Fintech -> Credit and Lending,115.0,"Kampala, Central Region, Uganda",False,True,https://numida.com,https://www.ycombinator.com/companies/numida
+AvairSense,Winter 2022,2022.0,Inactive,Consumer,Consumer -> Consumer Electronics,14.0,"Bengaluru, KA, India",False,False,https://www.avairsense.com/,https://www.ycombinator.com/companies/avairsense
+Better Opinions,Winter 2022,2022.0,Active,Consumer,Consumer -> Gaming,12.0,"Bengaluru, KA, India; Gurugram, HR, India; Remote",False,False,https://betteropinions.in/,https://www.ycombinator.com/companies/better-opinions
+Amal Invest,Winter 2022,2022.0,Active,Fintech,Fintech,3.0,"Manama, Capital Governorate, Bahrain; Remote",False,True,https://amalinvest.com,https://www.ycombinator.com/companies/amal-invest
+Topship,Winter 2022,2022.0,Active,B2B,B2B -> Supply Chain and Logistics,20.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://topship.africa/,https://www.ycombinator.com/companies/topship
+QUIK,Winter 2022,2022.0,Active,Consumer,Consumer,20.0,"Maracaibo, Zulia, Venezuela",False,False,https://quikpago.com,https://www.ycombinator.com/companies/quik
+Clupp,Winter 2022,2022.0,Active,Fintech,Fintech -> Insurance,12.0,"Mexico City, CDMX, Mexico; Remote",False,False,http://clupp.com.mx/,https://www.ycombinator.com/companies/clupp
+Vobi,Winter 2022,2022.0,Active,Real Estate and Construction,Real Estate and Construction -> Construction,45.0,"São Paulo, SP, Brazil; Remote",False,False,https://www.vobi.com.br,https://www.ycombinator.com/companies/vobi
+Rider,Winter 2022,2022.0,Acquired,B2B,B2B -> Supply Chain and Logistics,180.0,"Karachi, Sindh, Pakistan; Sindh, Pakistan",False,False,http://withrider.com,https://www.ycombinator.com/companies/rider
+BelozFi,Winter 2022,2022.0,Active,Fintech,Fintech -> Credit and Lending,29.0,"Mexico City, CDMX, Mexico",False,False,https://www.belozfi.com.mx/,https://www.ycombinator.com/companies/belozfi
+GoJom,Winter 2022,2022.0,Active,Real Estate and Construction,Real Estate and Construction,140.0,"Lima, Callao Region, Peru; Lima, Lima Province, Peru",False,False,https://gojom.com,https://www.ycombinator.com/companies/gojom
+Mahaana Wealth,Winter 2022,2022.0,Active,Fintech,Fintech,30.0,"Karachi, Sindh, Pakistan; Islamabad, Islamabad Capital Territory, Pakistan",False,False,http://mahaana.com,https://www.ycombinator.com/companies/mahaana-wealth
+Darsel,Winter 2022,2022.0,Active,Education,Education,5.0,"Amman, Amman Governorate, Jordan; Remote",False,True,http://darsel.tech,https://www.ycombinator.com/companies/darsel
+GoSats,Winter 2022,2022.0,Active,Fintech,Fintech,8.0,"Dubai, Dubai, United Arab Emirates; Bengaluru, KA, India",False,True,https://gosats.io,https://www.ycombinator.com/companies/gosats
+beU delivery,Winter 2022,2022.0,Active,Consumer,Consumer -> Food and Beverage,300.0,"Addis Ababa, Addis Ababa, Ethiopia",False,True,https://beudelivery.com/,https://www.ycombinator.com/companies/beu-delivery
+Pantore Pay,Winter 2022,2022.0,Inactive,Fintech,Fintech,25.0,"São Paulo, SP, Brazil",False,False,https://www.pantorepay.com.br,https://www.ycombinator.com/companies/pantore-pay
+HippoBuild,Winter 2022,2022.0,Active,Real Estate and Construction,Real Estate and Construction -> Construction,5.0,"Bogotá, Bogota, Colombia; Remote",False,False,https://hippo.build,https://www.ycombinator.com/companies/hippobuild
+Vecindario,Winter 2022,2022.0,Inactive,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,87.0,"Medellín, Antioquia, Colombia",False,False,https://www.vecindario.com/,https://www.ycombinator.com/companies/vecindario
+Alima,Winter 2022,2022.0,Inactive,B2B,B2B -> Supply Chain and Logistics,10.0,"Mexico City, CDMX, Mexico",False,False,https://alima.la,https://www.ycombinator.com/companies/alima
+Mono,Winter 2022,2022.0,Active,Fintech,Fintech -> Payments,30.0,"Bogotá, Bogota, Colombia; Remote",False,False,https://mono.la,https://www.ycombinator.com/companies/mono-2
+Lizza,Winter 2022,2022.0,Active,B2B,B2B -> Retail,7.0,"Heidelberg, BW, Germany; Guadalajara, Jal., Mexico; Remote",False,False,https://lizza.link,https://www.ycombinator.com/companies/lizza
+Clinikally,Summer 2022,2022.0,Active,Healthcare,Healthcare -> Consumer Health and Wellness,125.0,"Gurugram, HR, India",False,False,https://www.clinikally.com/,https://www.ycombinator.com/companies/clinikally
+Weltio,Summer 2022,2022.0,Inactive,Fintech,Fintech -> Asset Management,15.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://www.weltio.com,https://www.ycombinator.com/companies/weltio
+erad,Summer 2022,2022.0,Active,Fintech,Fintech,5.0,"Riyadh, Riyadh Province, Saudi Arabia",False,True,https://erad.co/,https://www.ycombinator.com/companies/erad
+Alterya,Summer 2022,2022.0,Acquired,Fintech,Fintech,30.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.alterya.dev/,https://www.ycombinator.com/companies/alterya
+Coupl,Summer 2022,2022.0,Active,Fintech,Fintech -> Banking and Exchange,8.0,"Bengaluru, KA, India",False,False,https://coupl.money/,https://www.ycombinator.com/companies/coupl
+CODEXA,Summer 2022,2022.0,Active,Fintech,Fintech -> Payments,38.0,"Manaus, AM, Brazil",False,False,https://codexa.com.br,https://www.ycombinator.com/companies/codexa
+Integration Labs,Summer 2022,2022.0,Inactive,B2B,B2B,8.0,"Bengaluru, KA, India",False,False,https://www.integrationlabs.co,https://www.ycombinator.com/companies/integration-labs
+Craze,Summer 2022,2022.0,Active,Consumer,Consumer -> Content,8.0,"Mumbai, MH, India",False,False,https://www.craze.ai/?utm_source=yc,https://www.ycombinator.com/companies/craze
+Paragon AI,Summer 2022,2022.0,Active,B2B,B2B -> Sales,3.0,"New York City, NY, USA; San Juan, San Juan, Puerto Rico; Remote",False,False,https://paragon.ai,https://www.ycombinator.com/companies/paragon-ai
+EthosX,Summer 2022,2022.0,Active,Fintech,Fintech,2.0,"Claymont, DE, USA; Bengaluru, KA, India; Mumbai, MH, India; Remote",False,False,https://www.ethosx.finance/,https://www.ycombinator.com/companies/ethosx
+Ballerine,Summer 2022,2022.0,Active,Fintech,Fintech,16.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,http://www.ballerine.com,https://www.ycombinator.com/companies/ballerine
+Bridgecard,Summer 2022,2022.0,Inactive,Fintech,Fintech -> Payments,5.0,"Lagos, LA, Nigeria",False,True,https://bridgecard.cards,https://www.ycombinator.com/companies/bridgecard
+Raven,Summer 2022,2022.0,Active,B2B,"B2B -> Engineering, Product and Design",4.0,"Bengaluru, KA, India",False,False,https://startraven.com,https://www.ycombinator.com/companies/raven
+Gullak Money,Summer 2022,2022.0,Active,Fintech,Fintech,15.0,"Bengaluru, KA, India",False,False,https://gullak.money,https://www.ycombinator.com/companies/gullak-money
+Rio,Summer 2022,2022.0,Active,Fintech,Fintech -> Payments,10.0,"Mexico City, CDMX, Mexico",False,False,https://www.rio.trade,https://www.ycombinator.com/companies/rio
+Apply Design,Summer 2022,2022.0,Active,Real Estate and Construction,Real Estate and Construction,4.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,http://www.applydesign.io,https://www.ycombinator.com/companies/apply-design
+Slauth.io,Summer 2022,2022.0,Inactive,B2B,B2B -> Infrastructure,4.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://slauth.io/,https://www.ycombinator.com/companies/slauth-io
+Slidely AI,Summer 2022,2022.0,Active,B2B,B2B -> Productivity,5.0,"Bengaluru, KA, India",False,False,https://slidely.ai/,https://www.ycombinator.com/companies/slidely-ai
+100x,Summer 2022,2022.0,Active,B2B,B2B -> Productivity,3.0,"Bengaluru, KA, India",False,False,https://100x.bot?utm_source=inbound&utm_medium=bookface&utm_campaign=yc&utm_id=122,https://www.ycombinator.com/companies/100x
+Pulppo,Summer 2022,2022.0,Acquired,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,29.0,"Mexico City, CDMX, Mexico",False,False,https://www.pulppo.com,https://www.ycombinator.com/companies/pulppo
+Sytex,Summer 2022,2022.0,Active,B2B,B2B -> Productivity,22.0,"Córdoba, Cordoba, Argentina; Remote",False,False,https://www.sytex.io,https://www.ycombinator.com/companies/sytex
+Peoplebox.ai,Summer 2022,2022.0,Active,B2B,B2B -> Human Resources,75.0,"Bengaluru, KA, India",False,False,https://www.peoplebox.ai,https://www.ycombinator.com/companies/peoplebox
+Diversion,Summer 2022,2022.0,Active,B2B,"B2B -> Engineering, Product and Design",14.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://diversion.dev,https://www.ycombinator.com/companies/diversion
+Maya Labs,Summer 2022,2022.0,Active,B2B,B2B -> Productivity,5.0,"Bengaluru, KA, India",False,False,https://mayalabs.io,https://www.ycombinator.com/companies/maya-labs
+Chowdeck,Summer 2022,2022.0,Active,Consumer,Consumer -> Food and Beverage,103.0,"LA, Nigeria",False,True,https://chowdeck.com,https://www.ycombinator.com/companies/chowdeck
+Plutto,Summer 2022,2022.0,Active,B2B,B2B -> Infrastructure,20.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://getplutto.com/,https://www.ycombinator.com/companies/plutto
+Payfura,Summer 2022,2022.0,Inactive,Fintech,Fintech -> Payments,2.0,"Delaware City, DE, USA; Delhi, DL, India; Remote",False,False,https://www.payfura.com,https://www.ycombinator.com/companies/payfura
+Anchor,Summer 2022,2022.0,Active,Fintech,Fintech,8.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://getanchor.co/,https://www.ycombinator.com/companies/anchor
+Wand Solar,Summer 2022,2022.0,Active,Industrials,Industrials -> Climate,2.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.wandsolar.com,https://www.ycombinator.com/companies/wand-solar
+CompUp,Summer 2022,2022.0,Active,B2B,B2B -> Human Resources,35.0,"Bengaluru, KA, India",False,False,https://www.compup.io,https://www.ycombinator.com/companies/compup
+Sanifu,Summer 2022,2022.0,Active,B2B,B2B -> Operations,5.0,"Nairobi, Nairobi County, Kenya; Remote",False,True,https://sanifu.ai,https://www.ycombinator.com/companies/sanifu
+PrimeVault,Summer 2022,2022.0,Active,Fintech,Fintech -> Asset Management,11.0,"Bengaluru, KA, India; Remote",False,False,https://www.primevault.com,https://www.ycombinator.com/companies/primevault
+Boton,Summer 2022,2022.0,Active,B2B,B2B -> Finance and Accounting,3.0,"Panama City, Panama, Panama",False,False,https://www.botonapp.com/,https://www.ycombinator.com/companies/boton
+FoodCourt,Summer 2022,2022.0,Active,Consumer,Consumer -> Food and Beverage,80.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,https://www.getfoodcourt.com,https://www.ycombinator.com/companies/foodcourt
+Drip,Summer 2022,2022.0,Inactive,Fintech,Fintech -> Payments,15.0,"São Paulo, SP, Brazil; Remote",False,False,https://dripapp.com.br/,https://www.ycombinator.com/companies/drip
+Levers,Summer 2022,2022.0,Active,B2B,B2B -> Finance and Accounting,8.0,"Jeddah, Makkah Province, Saudi Arabia",False,True,https://uselevers.com/,https://www.ycombinator.com/companies/levers
+Drahim 💰,Summer 2022,2022.0,Active,Fintech,Fintech,8.0,"Riyadh, Riyadh Province, Saudi Arabia",False,True,https://drahim.sa,https://www.ycombinator.com/companies/drahim
+Krave Mart,Summer 2022,2022.0,Active,Consumer,Consumer -> Food and Beverage,80.0,"Karachi, Sindh, Pakistan; Sindh, Pakistan",False,False,https://www.kravemart.com,https://www.ycombinator.com/companies/krave-mart
+Jamble,Summer 2022,2022.0,Active,Consumer,Consumer,15.0,"São Paulo, SP, Brazil",False,False,https://www.jamble.com/,https://www.ycombinator.com/companies/jamble
+MovingLake,Summer 2022,2022.0,Active,B2B,"B2B -> Engineering, Product and Design",3.0,"Mexico City, CDMX, Mexico; Remote",False,False,https://movinglake.com,https://www.ycombinator.com/companies/movinglake
+Sculpt,Summer 2022,2022.0,Active,B2B,"B2B -> Engineering, Product and Design",2.0,"Pune, MH, India",False,False,,https://www.ycombinator.com/companies/sculpt
+AlgoTest,Summer 2022,2022.0,Active,Fintech,Fintech,40.0,"Delhi, DL, India",False,False,https://algotest.in,https://www.ycombinator.com/companies/algotest
+Kashin,Summer 2022,2022.0,Active,Fintech,Fintech -> Credit and Lending,45.0,"Lima, Callao Region, Peru; Lima, Lima Province, Peru; Remote",False,False,https://kashin.app/,https://www.ycombinator.com/companies/kashin
+FlatX,Summer 2022,2022.0,Active,Real Estate and Construction,Real Estate and Construction -> Housing and Real Estate,2.0,"Bengaluru, KA, India",False,False,https://www.flatx.co/,https://www.ycombinator.com/companies/flatx
+Kamion,Summer 2022,2022.0,Active,B2B,B2B -> Supply Chain and Logistics,35.0,"Istanbul, Istanbul, Turkey",False,True,https://www.kamion.co,https://www.ycombinator.com/companies/kamion
+Landeed,Summer 2022,2022.0,Active,Fintech,Fintech,35.0,"Hyderabad, Telangana, India",False,False,https://www.landeed.com/,https://www.ycombinator.com/companies/landeed
+Cone,Summer 2022,2022.0,Active,B2B,B2B -> Finance and Accounting,8.0,"Hyderabad, Telangana, India; Remote",False,False,https://www.getcone.io,https://www.ycombinator.com/companies/cone
+Pivo Technology Inc,Summer 2022,2022.0,Inactive,Fintech,Fintech,11.0,"Lagos, LA, Nigeria; LA, Nigeria",False,True,http://www.pivo.africa,https://www.ycombinator.com/companies/pivo-technology-inc
+Ping,Summer 2022,2022.0,Active,Fintech,Fintech,20.0,"Buenos Aires, CABA, Argentina; Miami, FL, USA; Remote",False,False,https://www.letsping.com/,https://www.ycombinator.com/companies/ping
+Traceloop,Winter 2023,2023.0,Acquired,B2B,B2B,9.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.traceloop.com,https://www.ycombinator.com/companies/traceloop
+DrDroid,Winter 2023,2023.0,Active,B2B,"B2B -> Engineering, Product and Design",8.0,"Bengaluru, KA, India",False,False,https://drdroid.io/,https://www.ycombinator.com/companies/drdroid
+Palomma,Winter 2023,2023.0,Active,Real Estate and Construction,Real Estate and Construction,8.0,"Medellín, Antioquia, Colombia",False,False,http://www.palomma.com/,https://www.ycombinator.com/companies/palomma
+PoloTab,Winter 2023,2023.0,Active,B2B,B2B,18.0,"Mexico City, CDMX, Mexico",False,False,https://polotab.com,https://www.ycombinator.com/companies/polotab
+Floworks,Winter 2023,2023.0,Active,B2B,B2B -> Sales,20.0,"Bengaluru, KA, India",False,False,https://floworks.ai/,https://www.ycombinator.com/companies/floworks
+RUUF,Winter 2023,2023.0,Active,Consumer,Consumer,60.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://www.ruuf.cl,https://www.ycombinator.com/companies/ruuf
+Magicflow 𐂂,Winter 2023,2023.0,Inactive,B2B,B2B -> Infrastructure,2.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://magicflow.ai,https://www.ycombinator.com/companies/magicflow
+ClickPe,Winter 2023,2023.0,Active,Fintech,Fintech -> Credit and Lending,2.0,"Surat, GJ, India",False,False,https://clickpe.ai/,https://www.ycombinator.com/companies/clickpe
+Sherloq,Winter 2023,2023.0,Active,B2B,B2B -> Analytics,6.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,http://sherloqdata.io/,https://www.ycombinator.com/companies/sherloq
+Honeydew,Winter 2023,2023.0,Active,B2B,B2B -> Analytics,6.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://honeydew.ai,https://www.ycombinator.com/companies/honeydew
+Koywe,Winter 2023,2023.0,Active,Fintech,Fintech,7.0,"Miami, FL, USA; Santiago, Santiago Metropolitan Region, Chile; Mexico City, CDMX, Mexico; Remote",False,False,https://koywe.com,https://www.ycombinator.com/companies/koywe
+Infinia,Winter 2023,2023.0,Active,Fintech,Fintech -> Payments,28.0,"Montevideo, Montevideo Department, Uruguay",False,False,https://www.infiniaweb.com/,https://www.ycombinator.com/companies/infinia
+Echo,Winter 2023,2023.0,Inactive,B2B,B2B,3.0,"Haifa, Haifa District, Israel",False,True,https://www.echothat.ai/,https://www.ycombinator.com/companies/echo
+Alaan,Winter 2023,2023.0,Active,Fintech,Fintech -> Payments,250.0,"Dubai, Dubai, United Arab Emirates",False,True,https://www.alaan.com/,https://www.ycombinator.com/companies/alaan
+Vendah,Winter 2023,2023.0,Active,Consumer,Consumer,8.0,"São Paulo, SP, Brazil",False,False,https://vendah.com.br/,https://www.ycombinator.com/companies/vendah
+SuperKalam,Winter 2023,2023.0,Active,Education,Education,20.0,"Bengaluru, KA, India",False,False,https://superkalam.com,https://www.ycombinator.com/companies/superkalam
+Clueso,Winter 2023,2023.0,Active,B2B,"B2B -> Engineering, Product and Design",25.0,"Bengaluru, KA, India",False,False,https://clueso.io,https://www.ycombinator.com/companies/clueso
+Retape,Winter 2023,2023.0,Active,B2B,B2B -> Sales,3.0,"Bengaluru, KA, India; Remote",False,False,https://www.retape.ai/,https://www.ycombinator.com/companies/retape
+Sirdab,Winter 2023,2023.0,Active,B2B,B2B -> Supply Chain and Logistics,,"Riyadh, Riyadh Province, Saudi Arabia",False,True,https://sirdab.co/en,https://www.ycombinator.com/companies/sirdab
+Shekel Mobility,Winter 2023,2023.0,Active,Fintech,Fintech,18.0,"Lagos, LA, Nigeria; San Francisco, CA, USA",False,True,https://www.shekelmobility.com/,https://www.ycombinator.com/companies/shekel-mobility
+Mantys,Winter 2023,2023.0,Active,B2B,B2B -> Operations,10.0,"Dubai, Dubai, United Arab Emirates",False,True,https://www.mantys.io/,https://www.ycombinator.com/companies/mantys
+Milio,Winter 2023,2023.0,Active,Fintech,Fintech,16.0,"Bogotá, Bogota, Colombia",False,False,http://www.miliopay.com,https://www.ycombinator.com/companies/milio
+Helios,Winter 2023,2023.0,Active,B2B,B2B,3.0,"Mexico City, CDMX, Mexico",False,False,https://www.usehelios.ai/,https://www.ycombinator.com/companies/helios
+Keep,Winter 2023,2023.0,Acquired,B2B,"B2B -> Engineering, Product and Design",5.0,"Tel Aviv-Yafo, Tel Aviv District, Israel; Remote",False,True,https://www.keephq.dev,https://www.ycombinator.com/companies/keep
+Waza,Winter 2023,2023.0,Active,Fintech,Fintech -> Payments,28.0,"Lagos, LA, Nigeria",False,True,https://waza.co/,https://www.ycombinator.com/companies/waza
+Littio,Winter 2023,2023.0,Active,Fintech,Fintech -> Consumer Finance,37.0,"Bogotá, Bogota, Colombia",False,False,https://www.littio.co/,https://www.ycombinator.com/companies/littio
+SuperAPI,Winter 2023,2023.0,Active,B2B,B2B -> Infrastructure,2.0,"Bengaluru, KA, India",False,False,https://trysuperapi.com,https://www.ycombinator.com/companies/superapi
+CodeParrot AI,Winter 2023,2023.0,Inactive,B2B,"B2B -> Engineering, Product and Design",2.0,"Bengaluru, KA, India",False,False,https://codeparrot.ai/,https://www.ycombinator.com/companies/codeparrot-ai
+Wallbit,Winter 2023,2023.0,Active,Fintech,Fintech -> Banking and Exchange,17.0,"Buenos Aires, CABA, Argentina",False,False,https://wallbit.io,https://www.ycombinator.com/companies/wallbit
+Skyhook,Winter 2023,2023.0,Active,B2B,"B2B -> Engineering, Product and Design",7.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://skyhook.io,https://www.ycombinator.com/companies/skyhook
+Cercli,Summer 2023,2023.0,Active,B2B,B2B,28.0,"Dubai, Dubai, United Arab Emirates",False,True,https://www.cercli.com,https://www.ycombinator.com/companies/cercli
+Metal,Winter 2023,2023.0,Active,B2B,B2B,21.0,"Lahore, Punjab, Pakistan",False,False,http://www.metal.so,https://www.ycombinator.com/companies/metal-2
+CORE,Summer 2023,2023.0,Active,B2B,B2B -> Productivity,3.0,"Bengaluru, KA, India",False,False,https://getcore.me,https://www.ycombinator.com/companies/heysol
+Briefer,Summer 2023,2023.0,Inactive,B2B,"B2B -> Engineering, Product and Design",2.0,"São Paulo, SP, Brazil; Remote",False,False,https://briefer.cloud,https://www.ycombinator.com/companies/briefer
+Chow Central Inc,Summer 2023,2023.0,Active,Consumer,Consumer -> Food and Beverage,,"Lagos, LA, Nigeria",False,True,https://chowcentral.com,https://www.ycombinator.com/companies/chow-central-inc
+Yenmo,Winter 2024,2024.0,Active,Fintech,Fintech -> Credit and Lending,5.0,"Bengaluru, KA, India",False,False,https://yenmo.in/,https://www.ycombinator.com/companies/yenmo
+VaultPay,Summer 2023,2023.0,Active,Fintech,Fintech,2.0,"Kinshasa, Kinshasa, Democratic Republic of the Congo",False,True,https://vaultpay.io,https://www.ycombinator.com/companies/vaultpay
+Minded,Summer 2023,2023.0,Active,B2B,B2B,2.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.minded.com/,https://www.ycombinator.com/companies/minded
+Eden Care,Summer 2023,2023.0,Active,Fintech,Fintech -> Insurance,28.0,"Nairobi, Nairobi County, Kenya",False,True,https://www.edencaremedical.com/,https://www.ycombinator.com/companies/eden-care
+CheqUPI,Summer 2023,2023.0,Acquired,Fintech,Fintech,15.0,"Bengaluru, KA, India; San Francisco, CA, USA",False,False,https://www.cheq.money,https://www.ycombinator.com/companies/chequpi
+Coba,Summer 2023,2023.0,Active,Fintech,Fintech,9.0,"Monterrey, N.L., Mexico; Austin, TX, USA",False,False,https://www.coba.ai,https://www.ycombinator.com/companies/coba
+Toolify,Winter 2024,2024.0,Inactive,B2B,"B2B -> Engineering, Product and Design",2.0,"Bengaluru, KA, India",False,False,https://toolify.sh,https://www.ycombinator.com/companies/toolify
+Infinity,Winter 2024,2024.0,Active,Fintech,Fintech -> Payments,15.0,"Bengaluru, KA, India",False,False,https://www.infinityapp.in/,https://www.ycombinator.com/companies/infinity
+Salvy,Winter 2024,2024.0,Active,B2B,B2B -> Operations,27.0,"Curitiba, PR, Brazil",False,False,https://www.salvy.com.br,https://www.ycombinator.com/companies/salvy
+Open,Winter 2024,2024.0,Active,B2B,"B2B -> Engineering, Product and Design",21.0,"Amman, Amman Governorate, Jordan",False,True,https://open.cx,https://www.ycombinator.com/companies/open
+Triply,Winter 2024,2024.0,Active,B2B,B2B -> Operations,18.0,"Nairobi, Nairobi County, Kenya",False,True,https://business.triply.co/,https://www.ycombinator.com/companies/triply
+xPay,Winter 2024,2024.0,Active,Fintech,Fintech -> Payments,3.0,"Bengaluru, KA, India",False,False,https://www.xpaycheckout.com/,https://www.ycombinator.com/companies/xpay
+Paasa,Summer 2024,2024.0,Active,Fintech,Fintech -> Asset Management,9.0,"Gurugram, HR, India",False,False,https://paasa.com,https://www.ycombinator.com/companies/paasa
+HeroUI,Summer 2024,2024.0,Active,B2B,"B2B -> Engineering, Product and Design",5.0,"Buenos Aires, Buenos Aires, Argentina; Remote",False,False,https://heroui.com,https://www.ycombinator.com/companies/heroui
+Polymet,Summer 2024,2024.0,Active,B2B,"B2B -> Engineering, Product and Design",3.0,"Istanbul, Istanbul, Turkey",False,True,https://polymet.ai,https://www.ycombinator.com/companies/polymet
+SureBright,Summer 2024,2024.0,Active,B2B,B2B -> Retail,35.0,"New Delhi, DL, India",False,False,https://surebright.com/,https://www.ycombinator.com/companies/surebright
+Rowboat Labs,Summer 2024,2024.0,Active,Consumer,Consumer,3.0,"Bengaluru, KA, India; Remote",False,False,https://www.rowboatlabs.com,https://www.ycombinator.com/companies/rowboat-labs
+Conntour,Winter 2025,2025.0,Active,Industrials,Industrials -> Defense,20.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://www.conntour.com/,https://www.ycombinator.com/companies/conntour
+Ovlo,Winter 2025,2025.0,Active,B2B,B2B -> Recruiting and Talent,2.0,"Dubai, Dubai, United Arab Emirates",False,True,https://ovlo.ai,https://www.ycombinator.com/companies/ovlo
+Cifrato,Winter 2025,2025.0,Active,B2B,B2B -> Operations,17.0,"Bogotá, Bogota, Colombia; Remote",False,False,https://cifrato.ai,https://www.ycombinator.com/companies/cifrato
+Optifye.ai,Winter 2025,2025.0,Active,B2B,B2B,8.0,"New Delhi, DL, India",False,False,https://www.optifye.ai,https://www.ycombinator.com/companies/optifye-ai
+Altur,Summer 2025,2025.0,Active,B2B,B2B,9.0,"Mexico City, CDMX, Mexico",False,False,https://altur.io,https://www.ycombinator.com/companies/altur
+Ruvo,Summer 2025,2025.0,Active,Fintech,Fintech,11.0,"São Paulo, SP, Brazil",False,False,https://ruvo.com/,https://www.ycombinator.com/companies/ruvo
+Freya,Summer 2025,2025.0,Active,Fintech,Fintech,14.0,"Istanbul, Istanbul, Turkey",False,True,https://freyavoice.ai/,https://www.ycombinator.com/companies/freya
+Bolna AI,Fall 2025,2025.0,Active,B2B,B2B,21.0,"Bengaluru, KA, India",False,False,https://bolna.ai,https://www.ycombinator.com/companies/bolna-ai
+Redapto,Fall 2025,2025.0,Active,B2B,B2B,7.0,"Bengaluru, KA, India",False,False,https://www.redapto.com/,https://www.ycombinator.com/companies/redapto
+Perseus,Fall 2025,2025.0,Active,B2B,"B2B -> Engineering, Product and Design",4.0,"Bengaluru, KA, India",False,False,https://perseus.computer,https://www.ycombinator.com/companies/perseus
+Boom AI,Fall 2025,2025.0,Active,B2B,B2B,3.0,"Mexico City, CDMX, Mexico",False,False,https://useboom.ai,https://www.ycombinator.com/companies/boom-ai
+Cardboard,Winter 2026,2026.0,Active,B2B,B2B,8.0,"Bengaluru, KA, India",False,False,https://cardboard.ai,https://www.ycombinator.com/companies/cardboard
+Ressl AI,Winter 2026,2026.0,Active,B2B,B2B,3.0,"Bengaluru, KA, India",False,False,https://ressl.ai,https://www.ycombinator.com/companies/ressl-ai
+BentoLabs AI,Spring 2026,2026.0,Active,B2B,B2B,5.0,"Bengaluru, KA, India",False,False,https://bentolabs.ai/,https://www.ycombinator.com/companies/bentolabs-ai
+Lab0,Spring 2026,2026.0,Active,B2B,B2B,7.0,"Bengaluru, KA, India",False,False,https://lab0.ai,https://www.ycombinator.com/companies/lab0
+RASPIRE,Spring 2026,2026.0,Active,B2B,B2B -> Security,5.0,"Cairo, Cairo Governorate, Egypt",True,True,https://raspire.com/,https://www.ycombinator.com/companies/raspire
+Thomas,Spring 2026,2026.0,Active,B2B,B2B,2.0,"Medellín, Antioquia, Colombia",False,False,https://madebythomas.ai,https://www.ycombinator.com/companies/thomas
+Waybill,Summer 2026,2026.0,Active,B2B,B2B -> Supply Chain and Logistics,3.0,"Bengaluru, KA, India",False,False,https://www.waybill.to/,https://www.ycombinator.com/companies/waybill
+Verdict Machine,Summer 2026,2026.0,Active,B2B,B2B -> Security,4.0,"Tel Aviv-Yafo, Tel Aviv District, Israel",False,True,https://verdictmachine.com,https://www.ycombinator.com/companies/verdict-machine
+Caution,Summer 2026,2026.0,Active,B2B,B2B -> Infrastructure,5.0,"George Town, George Town, Cayman Islands",False,False,https://caution.co,https://www.ycombinator.com/companies/caution
+herdr,Fall 2026,2026.0,Active,B2B,"B2B -> Engineering, Product and Design",1.0,"Ankara, Ankara, Turkey",False,True,https://herdr.dev/,https://www.ycombinator.com/companies/herdr
+ChemPilot.ai,Fall 2026,2026.0,Active,Industrials,Industrials -> Defense,3.0,"Haifa, Haifa District, Israel",False,True,https://chempilot.ai/,https://www.ycombinator.com/companies/chempilotai
+Kailash Labs,Fall 2026,2026.0,Active,B2B,B2B -> Analytics,2.0,"Bengaluru, KA, India",False,False,https://www.kailashlabs.com/,https://www.ycombinator.com/companies/kailash-labs
+Sintropix,Fall 2026,2026.0,Active,B2B,B2B -> Finance and Accounting,2.0,"Santiago, Santiago Metropolitan Region, Chile",False,False,https://sintropix.com/,https://www.ycombinator.com/companies/sintropix
