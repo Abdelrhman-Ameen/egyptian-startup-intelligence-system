@@ -1,0 +1,46 @@
+name: Deploy VentureGuard to Azure
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+  checks: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require successful verification for this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PASSED=$(gh api "repos/${GITHUB_REPOSITORY}/commits/${GITHUB_SHA}/check-runs" --jq '[.check_runs[] | select(.name == "verify" and .conclusion == "success")] | length')
+          test "$PASSED" -ge 1 || { echo "Run Verify VentureGuard successfully for this commit before deploying."; exit 1; }
+      - name: Azure login using federation
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Build and push tested source
+        env:
+          REGISTRY: ${{ vars.AZURE_REGISTRY }}
+        run: |
+          az acr login --name "$REGISTRY"
+          IMAGE="$REGISTRY.azurecr.io/ventureguard:${GITHUB_SHA}"
+          docker build -t "$IMAGE" .
+          docker push "$IMAGE"
+          echo "IMAGE=$IMAGE" >> "$GITHUB_ENV"
+      - name: Update Azure revision
+        env:
+          RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+          APP_NAME: ${{ vars.AZURE_APP_NAME }}
+        run: |
+          az containerapp update --name "$APP_NAME" --resource-group "$RESOURCE_GROUP" --image "$IMAGE" --output none
+          HOST=$(az containerapp show --name "$APP_NAME" --resource-group "$RESOURCE_GROUP" --query properties.configuration.ingress.fqdn -o tsv)
+          curl --retry 12 --retry-delay 5 --retry-all-errors --fail "https://$HOST/health"

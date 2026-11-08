@@ -1,0 +1,15 @@
+{
+  "protocol_version": "1.0",
+  "seed": 20261108,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "selection_metric": "average_precision",
+  "calibration": "sigmoid on grouped out-of-fold training scores; retained only if inner cross-fitted Brier improves",
+  "candidate_budget": "4 configurations per family and schema, including weighted/unweighted alternatives",
+  "mlp_max_epochs": 100,
+  "mlp_patience": 12,
+  "mlp_seed_sensitivity": [17, 41, 73],
+  "feature_sets": ["core13", "full64"],
+  "ablations": ["missingness_only", "full64_without_explicit_indicators"],
+  "interpretation": "Internal source-domain evaluation, after prior exploratory analysis. No independent company, temporal, country or Egyptian startup validation."
+}
