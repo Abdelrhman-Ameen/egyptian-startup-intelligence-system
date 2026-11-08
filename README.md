@@ -1,116 +1,97 @@
-# Egyptian Startup Intelligence System
+# VentureGuard
 
-A DEPI R5 - ML Track final project for helping startup founders in Egypt understand their business, compare possible decisions, and find market information that relates to their situation.
+**Financial ML research and cash-flow scenario planning**, built as a component of the Egyptian Startup Intelligence System DEPI project. **RAG integration is deferred to a future release.**
 
-A founder should be able to ask a question like "What if I cut monthly expenses by 20%?" and see how that changes the startup's estimated risk. They should also be able to ask why the risk is high, or whether their growth rate makes sense for their sector.
+VentureGuard compares classical and PyTorch models on a historical bankruptcy benchmark, investigates how missing data affects performance, and provides an independently tested cash-flow planner through FastAPI and a responsive React workspace.
 
-The project is at the planning stage. The [project documentation (PDF)](docs/project-documentation.pdf) sets out the five-week scope, team responsibilities, data limitations, requirements, and related work. It also explains which prediction features depend on having suitable data.
+Deployment status and the verified live URL are in [Deployment](docs/DEPLOYMENT.md). Measured results are in [Results](docs/RESULTS.md).
 
-The first dataset analysis is in the [Spain Technology Ventures EDA notebook](notebooks/01_spain_technology_ventures_eda.ipynb). It covers 175 companies, missing values, class imbalance, and exploratory model comparisons using 150 known outcomes. The [scripts and setup instructions](scripts/README.md) reproduce the analysis. These results describe a historical Spanish sample; they do not establish prediction accuracy for Egyptian startups.
+![Cash-flow workspace](docs/images/cash-planner.png)
 
-## How it works
+## Try the product
 
-The system takes a startup profile and a question. The AI Orchestrator / Intent Router decides which tools are needed and the order in which they should run.
+- **Cash planner:** start with an illustrative EGP example, change payment reductions, collection delays or FX exposure, and inspect monthly balances and financing gaps.
+- **Financial ML lab:** compare 13/64-ratio schemas on historical cases. Each demo prediction uses an outer-fold model that excluded that case from training and selection.
+- **Methodology:** inspect measured comparisons, evaluation design and limits.
+- **API docs:** available at `/docs` on the running service.
 
-Some questions only need market research. Others need a prediction based on the startup's numbers. Questions that need both use the prediction models and the RAG system together, in an order that fits the question.
+The research models have **not** been validated for Egyptian startups. Cash planning is conditional accounting; it does not infer bankruptcy probabilities or causal intervention effects. Scores are not confidence estimates.
 
-| Question | Route |
-| --- | --- |
-| How is the Egyptian FinTech market doing? | RAG |
-| What happens if I reduce expenses by 25%? | Simulation |
-| Analyze my startup and explain its risk. | Prediction and explainability |
-| Compare my startup's risk with its sector. | Prediction, then RAG |
-| How could a currency devaluation affect my company? | RAG, then simulation |
-| Assess my startup and summarize funding conditions in its sector. | Prediction and RAG in parallel |
+## End-to-end ML work
 
-The orchestrator can choose RAG only, simulation only, RAG then simulation, simulation then RAG, or both in parallel when neither depends on the other's output. It coordinates these calls directly. The result fusion component brings the outputs together, and the LLM explains them to the founder.
+| Stage | Implementation |
+|---|---|
+| Data | Original UCI archive, pinned SHA-256, explicit target and quality audit |
+| Preprocessing | Fold-local imputation, signed-log/scaling where appropriate, financial schemas |
+| Models | Logistic regression, histogram gradient boosting, PyTorch residual MLP and prevalence reference |
+| Evaluation | Nested grouped CV, weighted/unweighted fits, calibration, missingness ablations and stress tests |
+| Interpretation | Held-out global permutation relevance, subgroup diagnostics and limitations |
+| Serving | Versioned artifacts, validated FastAPI endpoints and CPU inference |
+| Product | React/TypeScript workspace, cash chart, historical lab and methodology |
+| Delivery | Docker, automated tests, GitHub Actions and Azure deployment configuration |
 
-```mermaid
-flowchart TD
-    A["Startup Profile + Query (User Input)"] --> B[AI Orchestrator / Intent Router]
-    B --> C[RAG]
-    B --> D[Prediction and Simulation]
-    D --> G[Explainability / SHAP]
-    C --> H[Result Fusion + LLM Response]
-    G --> H
-    H --> I[Dashboard + Chat]
+The PyTorch network has a 64-unit projection and two residual blocks with LayerNorm, GELU and dropout. Weights are exported to NumPy for lightweight serving, with numerical parity checked against PyTorch. The released model is selected by the experiment.
 
-    subgraph SUPPORT[Supporting Data / Context]
-        F["Egyptian Economic Context<br/>Inflation, FX and interest rates<br/>Sector statistics and funding"]
-    end
-    F -.->|Market evidence| C
-    F -.->|Economic features and scenario inputs| D
-    style SUPPORT fill:transparent,stroke:#94a3b8,stroke-dasharray:5 5
-```
+## Run locally
 
-The arrows show the component connections; the orchestrator controls the sequence for each request. Every workflow that produces a prediction includes an explanation, including requests that also use RAG. Egyptian economic context is a supporting data layer available to both engines when needed. Its dotted arrows represent data inputs, not additional routes.
-
-## Startup data
-
-The startup profile will include:
-
-- Revenue, monthly expenses, burn rate, runway, and funding raised.
-- Customer count, growth, churn, and retention.
-- Founder experience, team size, and startup age.
-- Business sector, business model, and geographic market.
-- Import dependency and exposure to foreign currency.
-
-Egyptian market conditions also matter. Inflation, exchange rates, interest rates, funding availability, and sector regulations will help put the startup's numbers in context.
-
-## Main components
-
-**Prediction models** estimate failure risk, financial risk, and market risk. Each prediction needs a defined time period, such as the probability of failure within 24 months. Logistic Regression is a possible baseline, with XGBoost, LightGBM, and CatBoost as other candidates.
-
-**Survival analysis** estimates how likely a startup is to remain operational after one, two, three, or five years. It also accounts for companies that are still active when the dataset is collected. Random Survival Forest and Survival Gradient Boosting are possible approaches.
-
-**Growth modeling** looks at revenue growth, customer growth, funding prospects, and expansion potential. We treat growth separately from survival because a startup can stay in business without growing much.
-
-**Simulation** lets the founder change inputs and compare the new prediction with the original one. A scenario might reduce expenses, increase revenue, or change currency exposure. Related values, such as burn rate and runway, need to stay consistent.
-
-**Explainability** shows which factors contributed most to a prediction. SHAP is a candidate for explaining the models. These explanations describe the model's behavior; they do not prove that a factor caused the outcome.
-
-**RAG** retrieves information from startup reports, sector research, funding reports, Central Bank publications, government statistics, and other relevant sources. Answers should include their sources and dates so founders can check the evidence.
-
-**The AI orchestrator, result fusion layer, and LLM interface** connect these components. The orchestrator selects and orders the calls, including any information passed between RAG and simulation. Result fusion brings the outputs together. The models produce the numerical estimates, retrieval supplies external evidence, and the LLM turns the results into an understandable response.
-
-**The dashboard** will show risk, survival probabilities, growth potential, the main contributing factors, scenario comparisons, and supporting market reports.
-
-The final model choices will depend on the data and evaluation results.
-
-## Branches
-
-| Branch | Work area |
-| --- | --- |
-| `main` | Stable version of the project |
-| `develop` | Integration of completed work |
-| `feature/data-pipeline` | Startup data, validation, and feature preparation |
-| `feature/intent-router` | Intent detection and workflow orchestration |
-| `feature/prediction-engine` | Risk prediction models |
-| `feature/survival-analysis` | Survival models |
-| `feature/growth-model` | Growth prediction |
-| `feature/simulation-engine` | What-if scenarios |
-| `feature/explainable-ai` | Prediction explanations |
-| `feature/rag-system` | Document processing, retrieval, and market answers |
-| `feature/egypt-context` | Egyptian economic and sector data |
-| `feature/result-fusion` | Combining model results and retrieved evidence |
-| `feature/llm-interface` | Chat interface and response generation |
-| `feature/dashboard` | Dashboard and scenario views |
-
-Work on the branch for your component, then open a pull request into `develop`. Once the integrated work is ready, merge it into `main`.
+Use Python 3.12 and Node.js 22. From the repository root:
 
 ```bash
-git switch feature/rag-system
+python -m venv .venv
+# Activate .venv using your shell's activation command.
+pip install -r requirements-runtime.txt
+pip install --no-deps -e .
+cd frontend
+npm ci
+npm run build
+cd ..
+uvicorn ventureguard.api:app --host 127.0.0.1 --port 8000
 ```
 
-All branches start from the same README. There is no application code yet.
+Open `http://127.0.0.1:8000`. Trusted release artifacts are included; startup does not train models or download source data. For separate UI development, run `npm run dev` in `frontend`; Vite forwards API requests to port 8000.
 
-## Next steps
+```bash
+docker build -t ventureguard:local .
+docker run --rm -p 8000:8000 ventureguard:local
+```
 
-1. Agree on the input fields, prediction targets, and available datasets.
-2. Build and evaluate baseline risk and survival models.
-3. Add growth prediction, explanations, and scenario comparisons.
-4. Prepare the RAG knowledge base and Egyptian economic data.
-5. Connect the components through the router and result fusion layer.
-6. Build the dashboard and chat interface, then test complete user requests.
+The Docker image serves UI and API from one origin. Separate static hosting is supported using frontend `VITE_API_URL` and backend `CORS_ORIGINS`.
 
-Model results will be estimates, and what-if scenarios will depend on their assumptions. We will need to validate the models and keep market sources up to date before relying on the results.
+## Reproduce the experiment
+
+```bash
+pip install -r requirements-train.txt
+pip install --no-deps -e .
+python -m ventureguard.data
+python -m ventureguard.training
+python -m ventureguard.reporting
+pytest -q
+```
+
+Training uses CPU and resumes completed experiments from `.training-cache/`. A fresh run acquires the original UCI archive. Previously explored data is not described as an untouched external test. Artifacts are in `artifacts/`; generated metrics, selections and held-out predictions are in `reports/ventureguard/`. Load model artifacts only from trusted sources.
+
+For browser checks, start the built API/UI, then run `npm run test:e2e` in `frontend`. Local tests use installed Edge; set `CI=1` and run `npx playwright install chromium` to use Playwright Chromium. CI verifies accounting, data, exported inference, API behavior, browser flows and Docker build; full nested training is a separate reproducible experiment.
+
+## API
+
+| Endpoint | Purpose |
+|---|---|
+| `GET /health` | Readiness |
+| `GET /v1/model-info` | Provenance and measured results |
+| `GET /v1/examples` | Historical demo cases |
+| `POST /v1/benchmark/predict` | Research score from a case ID or ratio mapping |
+| `POST /v1/simulate` | Monthly cash accounting and scenario comparison |
+
+The research endpoint accepts `schema_name` (`core13` or `full64`) and exactly one of `example_id` or `features`. The public demo does not persist submitted financial profiles. See `/docs` for request schemas and interactive examples.
+
+## Read the evidence
+
+- [Measured results](docs/RESULTS.md)
+- [Data card and attribution](docs/DATA_CARD.md)
+- [Model card](docs/MODEL_CARD.md)
+- [Mathematical decisions](docs/MATH_NOTES.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Azure deployment](docs/DEPLOYMENT.md)
+- [Original parent-project plan](docs/ORIGINAL_PROJECT_PLAN.md)
+
+Earlier Spain, Taiwan and dataset-feasibility work remains in the research folders. It is not independent validation of this release. Original UCI data: Sebastian Tomczak (2016), [DOI 10.24432/C5F600](https://doi.org/10.24432/C5F600), CC BY 4.0. Derived demo cases and experiment outputs retain this attribution.

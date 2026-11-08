@@ -1,0 +1,47 @@
+name: Verify VentureGuard
+
+on:
+  push:
+    branches: [main, codex/ventureguard-ml]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-*.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements-train.txt
+          pip install --no-deps -e .
+      - name: Verify data, accounting, exports and API
+        run: pytest -q
+      - name: Build frontend
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run build
+          npx playwright install --with-deps chromium
+      - name: Run browser integration checks
+        run: |
+          uvicorn ventureguard.api:app --host 127.0.0.1 --port 8000 --no-access-log > /tmp/ventureguard-api.log 2>&1 &
+          for attempt in $(seq 1 30); do curl --fail --silent http://127.0.0.1:8000/health && break || sleep 1; done
+          cd frontend
+          npm run test:e2e
+      - name: Verify container builds
+        run: docker build -t ventureguard:ci .

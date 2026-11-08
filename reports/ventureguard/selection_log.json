@@ -1,0 +1,3282 @@
+[
+  {
+    "schema": "core13",
+    "fold": 0,
+    "family": "logistic",
+    "config": {
+      "C": 1.0,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.3113083001822745,
+    "inner_fold_ap": [
+      0.28722539211789144,
+      0.3753673931224739,
+      0.27133211530645823
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.05644719049106013,
+    "inner_crossfit_calibrated_brier": 0.05695430459944636,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3096605133944996,
+        "inner_fold_ap": [
+          0.2882125456577653,
+          0.3661397281299891,
+          0.27462926639574464
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3094966664928063,
+        "inner_fold_ap": [
+          0.29136096097192304,
+          0.3711220749101457,
+          0.26600696359635023
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3113083001822745,
+        "inner_fold_ap": [
+          0.28722539211789144,
+          0.3753673931224739,
+          0.27133211530645823
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.31002605702290925,
+        "inner_fold_ap": [
+          0.2958040103637185,
+          0.3697558259814288,
+          0.26451833472358044
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 0,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.3410469013800889,
+    "inner_fold_ap": [
+      0.3171818650408995,
+      0.40698167660458734,
+      0.29897716249477996
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.10494935658833753,
+    "inner_crossfit_calibrated_brier": 0.05472603422977966,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3356397319040361,
+        "inner_fold_ap": [
+          0.31878673366875865,
+          0.3670731266399786,
+          0.32105933540337117
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3410469013800889,
+        "inner_fold_ap": [
+          0.3171818650408995,
+          0.40698167660458734,
+          0.29897716249477996
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3158716223909664,
+        "inner_fold_ap": [
+          0.298576752759698,
+          0.3538964334331658,
+          0.29514168098003535
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3166976100429424,
+        "inner_fold_ap": [
+          0.30434057013006327,
+          0.3549883438693257,
+          0.2907639161294382
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 0,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.3,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.3202327669992324,
+    "inner_fold_ap": [
+      0.2832257035339242,
+      0.3902248153657829,
+      0.2872477820979902
+    ],
+    "epochs": [
+      14,
+      16,
+      31
+    ],
+    "inner_raw_brier": 0.15134340114660272,
+    "inner_crossfit_calibrated_brier": 0.05605080065124508,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.29030446256670067,
+        "inner_fold_ap": [
+          0.2366341505787779,
+          0.340251780389127,
+          0.2940274567321972
+        ],
+        "epochs": [
+          49,
+          11,
+          34
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.31580437954487545,
+        "inner_fold_ap": [
+          0.274201201526773,
+          0.3922172601333836,
+          0.2809946769744697
+        ],
+        "epochs": [
+          10,
+          4,
+          28
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3165747319633568,
+        "inner_fold_ap": [
+          0.28355259447400805,
+          0.3680484296075329,
+          0.2981231718085295
+        ],
+        "epochs": [
+          10,
+          11,
+          44
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3202327669992324,
+        "inner_fold_ap": [
+          0.2832257035339242,
+          0.3902248153657829,
+          0.2872477820979902
+        ],
+        "epochs": [
+          14,
+          16,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 1,
+    "family": "logistic",
+    "config": {
+      "C": 1.0,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.3228127696705518,
+    "inner_fold_ap": [
+      0.31908902887472257,
+      0.3262454156316562,
+      0.32310386450527656
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.05599607792067111,
+    "inner_crossfit_calibrated_brier": 0.05633737641945543,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3201953126108355,
+        "inner_fold_ap": [
+          0.3216420772809054,
+          0.3223670773218001,
+          0.31657678322980115
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3176325787748735,
+        "inner_fold_ap": [
+          0.32768011604824715,
+          0.31299512631710874,
+          0.31222249395926466
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3228127696705518,
+        "inner_fold_ap": [
+          0.31908902887472257,
+          0.3262454156316562,
+          0.32310386450527656
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3186077719450929,
+        "inner_fold_ap": [
+          0.32611489509788927,
+          0.31453937481554045,
+          0.3151690459218489
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 1,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.34185632025412316,
+    "inner_fold_ap": [
+      0.331374297400876,
+      0.32970397143589303,
+      0.36449069192560046
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.10692169630917872,
+    "inner_crossfit_calibrated_brier": 0.05453412703900891,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.33091302335599776,
+        "inner_fold_ap": [
+          0.31288805111373463,
+          0.3404218759726357,
+          0.3394291429816231
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.34185632025412316,
+        "inner_fold_ap": [
+          0.331374297400876,
+          0.32970397143589303,
+          0.36449069192560046
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.32610346039703536,
+        "inner_fold_ap": [
+          0.2841523198140559,
+          0.3317465494268668,
+          0.36241151195018334
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.341547045192272,
+        "inner_fold_ap": [
+          0.31721766803209106,
+          0.3393843713303059,
+          0.3680390962144191
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 1,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.3,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.3289739683045593,
+    "inner_fold_ap": [
+      0.31480533508917313,
+      0.3218909732076571,
+      0.3502255966168478
+    ],
+    "epochs": [
+      5,
+      15,
+      5
+    ],
+    "inner_raw_brier": 0.15130473730823613,
+    "inner_crossfit_calibrated_brier": 0.05502881271855305,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3111030663215029,
+        "inner_fold_ap": [
+          0.31308845847172284,
+          0.28822813817624604,
+          0.3319926023165398
+        ],
+        "epochs": [
+          2,
+          21,
+          7
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.32552660783502274,
+        "inner_fold_ap": [
+          0.3130167943882452,
+          0.31747778631156975,
+          0.34608524280525327
+        ],
+        "epochs": [
+          5,
+          6,
+          9
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.322019932182895,
+        "inner_fold_ap": [
+          0.3118312761630435,
+          0.31368350402866196,
+          0.34054501635697954
+        ],
+        "epochs": [
+          2,
+          6,
+          12
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3289739683045593,
+        "inner_fold_ap": [
+          0.31480533508917313,
+          0.3218909732076571,
+          0.3502255966168478
+        ],
+        "epochs": [
+          5,
+          15,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 2,
+    "family": "logistic",
+    "config": {
+      "C": 1.0,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.32357819920458364,
+    "inner_fold_ap": [
+      0.29899227211397567,
+      0.2784743109516946,
+      0.39326801454808064
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.05652022932342819,
+    "inner_crossfit_calibrated_brier": 0.05716626982869691,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3190937710236782,
+        "inner_fold_ap": [
+          0.30566484588883713,
+          0.2791710272658149,
+          0.37244543991638257
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3026225453308256,
+        "inner_fold_ap": [
+          0.27056298972089,
+          0.272893530690407,
+          0.3644111155811798
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.32357819920458364,
+        "inner_fold_ap": [
+          0.29899227211397567,
+          0.2784743109516946,
+          0.39326801454808064
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.304488522649118,
+        "inner_fold_ap": [
+          0.2694147792797219,
+          0.2715378944490152,
+          0.3725128942186169
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 2,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.3374779219529231,
+    "inner_fold_ap": [
+      0.309753799073835,
+      0.33027497843473996,
+      0.37240498835019425
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.10605095179664456,
+    "inner_crossfit_calibrated_brier": 0.05519251101795,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.32287108791754077,
+        "inner_fold_ap": [
+          0.30295029258188566,
+          0.3094616189506566,
+          0.35620135222008
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3374779219529231,
+        "inner_fold_ap": [
+          0.309753799073835,
+          0.33027497843473996,
+          0.37240498835019425
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.30545274507468134,
+        "inner_fold_ap": [
+          0.2927101300384759,
+          0.29821968491143425,
+          0.3254284202741339
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3184489958001167,
+        "inner_fold_ap": [
+          0.3095627144667293,
+          0.3016800526822247,
+          0.3441042202513962
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 2,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.1,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.33299475883773927,
+    "inner_fold_ap": [
+      0.3282770900504015,
+      0.2751149768062255,
+      0.3955922096565908
+    ],
+    "epochs": [
+      22,
+      5,
+      8
+    ],
+    "inner_raw_brier": 0.1635426388631174,
+    "inner_crossfit_calibrated_brier": 0.05518343557374,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.328488454459089,
+        "inner_fold_ap": [
+          0.3265253639978024,
+          0.2702354667079948,
+          0.38870453267146976
+        ],
+        "epochs": [
+          10,
+          3,
+          12
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.33299475883773927,
+        "inner_fold_ap": [
+          0.3282770900504015,
+          0.2751149768062255,
+          0.3955922096565908
+        ],
+        "epochs": [
+          22,
+          5,
+          8
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.33019929527110153,
+        "inner_fold_ap": [
+          0.3224410813076482,
+          0.2863319969821903,
+          0.38182480752346615
+        ],
+        "epochs": [
+          10,
+          10,
+          12
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.33096171898632104,
+        "inner_fold_ap": [
+          0.316685518844333,
+          0.2824191081998345,
+          0.3937805299147955
+        ],
+        "epochs": [
+          12,
+          6,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 3,
+    "family": "logistic",
+    "config": {
+      "C": 0.1,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.3254761271182864,
+    "inner_fold_ap": [
+      0.3471824739921987,
+      0.30787545532792854,
+      0.32137045203473175
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.05631521591280595,
+    "inner_crossfit_calibrated_brier": 0.056479847738540666,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3254761271182864,
+        "inner_fold_ap": [
+          0.3471824739921987,
+          0.30787545532792854,
+          0.32137045203473175
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3172766349174842,
+        "inner_fold_ap": [
+          0.3304951651896295,
+          0.31178972363030727,
+          0.30954501593251565
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.32513774478728247,
+        "inner_fold_ap": [
+          0.342812819482292,
+          0.30699005606922025,
+          0.3256103588103353
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3180956340906182,
+        "inner_fold_ap": [
+          0.33100676065170104,
+          0.30977374273584257,
+          0.3135063988843111
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 3,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.3357756308428492,
+    "inner_fold_ap": [
+      0.3545859186189373,
+      0.31933056765100537,
+      0.3334104062586049
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.10667073547984174,
+    "inner_crossfit_calibrated_brier": 0.05456033454257962,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.33382908977023457,
+        "inner_fold_ap": [
+          0.36660112543367424,
+          0.32663552581357513,
+          0.30825061806345433
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3357756308428492,
+        "inner_fold_ap": [
+          0.3545859186189373,
+          0.31933056765100537,
+          0.3334104062586049
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.31987447327808716,
+        "inner_fold_ap": [
+          0.3540698688686598,
+          0.3221535210905723,
+          0.2834000298750294
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.33254495042312504,
+        "inner_fold_ap": [
+          0.35577395286775243,
+          0.3188805231034791,
+          0.32298037529814366
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 3,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.3,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.3328541200331114,
+    "inner_fold_ap": [
+      0.3556347376919181,
+      0.3034941784440367,
+      0.33943344396337927
+    ],
+    "epochs": [
+      3,
+      15,
+      35
+    ],
+    "inner_raw_brier": 0.15686239616934428,
+    "inner_crossfit_calibrated_brier": 0.05524706196202682,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3099299691860413,
+        "inner_fold_ap": [
+          0.3589681540768265,
+          0.2906639804423224,
+          0.2801577730389751
+        ],
+        "epochs": [
+          17,
+          5,
+          1
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3250105476595297,
+        "inner_fold_ap": [
+          0.36596853975198745,
+          0.30192487033856724,
+          0.3071382328880343
+        ],
+        "epochs": [
+          6,
+          13,
+          20
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3113127101933339,
+        "inner_fold_ap": [
+          0.3651627335123465,
+          0.2963102684832956,
+          0.2724651285843596
+        ],
+        "epochs": [
+          17,
+          8,
+          1
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3328541200331114,
+        "inner_fold_ap": [
+          0.3556347376919181,
+          0.3034941784440367,
+          0.33943344396337927
+        ],
+        "epochs": [
+          3,
+          15,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 4,
+    "family": "logistic",
+    "config": {
+      "C": 1.0,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.3034520026334508,
+    "inner_fold_ap": [
+      0.3241902389044922,
+      0.2503144297785716,
+      0.3358513392172886
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.05702554979897972,
+    "inner_crossfit_calibrated_brier": 0.05736540015006915,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.30019128263207806,
+        "inner_fold_ap": [
+          0.31496395020426105,
+          0.2540002710033272,
+          0.33160962668864585
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.29206855837630846,
+        "inner_fold_ap": [
+          0.3100825880081713,
+          0.25229073981850975,
+          0.3138323473022443
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3034520026334508,
+        "inner_fold_ap": [
+          0.3241902389044922,
+          0.2503144297785716,
+          0.3358513392172886
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.29542244517910204,
+        "inner_fold_ap": [
+          0.3139393999594806,
+          0.2527926405343847,
+          0.3195352950434408
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 4,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.3328681093772376,
+    "inner_fold_ap": [
+      0.3001495608816296,
+      0.3113951949397471,
+      0.38705957231033605
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.1073303988539741,
+    "inner_crossfit_calibrated_brier": 0.05513550283418948,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.33244290250344916,
+        "inner_fold_ap": [
+          0.3041486759752987,
+          0.3171997243203685,
+          0.37598030721468023
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3328681093772376,
+        "inner_fold_ap": [
+          0.3001495608816296,
+          0.3113951949397471,
+          0.38705957231033605
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3189883818570424,
+        "inner_fold_ap": [
+          0.30981551140100455,
+          0.28505394956182584,
+          0.3620956846082968
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.31239145038736854,
+        "inner_fold_ap": [
+          0.2922232685145179,
+          0.2895924657534019,
+          0.35535861689418585
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "core13",
+    "fold": 4,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.1,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.3210936223921506,
+    "inner_fold_ap": [
+      0.3254475692835741,
+      0.3022048187916356,
+      0.3356284791012422
+    ],
+    "epochs": [
+      3,
+      19,
+      27
+    ],
+    "inner_raw_brier": 0.05541830896229889,
+    "inner_crossfit_calibrated_brier": 0.05527191845512849,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.3210936223921506,
+        "inner_fold_ap": [
+          0.3254475692835741,
+          0.3022048187916356,
+          0.3356284791012422
+        ],
+        "epochs": [
+          3,
+          19,
+          27
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.3078227146030356,
+        "inner_fold_ap": [
+          0.3237773229718886,
+          0.29487102539241616,
+          0.3048197954448019
+        ],
+        "epochs": [
+          2,
+          13,
+          12
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.31934351742575084,
+        "inner_fold_ap": [
+          0.3269834364792147,
+          0.3050013327173998,
+          0.326045783080638
+        ],
+        "epochs": [
+          4,
+          24,
+          42
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.31808651418358275,
+        "inner_fold_ap": [
+          0.337264442097148,
+          0.2960197080566508,
+          0.32097539239694955
+        ],
+        "epochs": [
+          7,
+          17,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 0,
+    "family": "logistic",
+    "config": {
+      "C": 1.0,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7132359915943046,
+    "inner_fold_ap": [
+      0.6930977763923007,
+      0.7260833469318869,
+      0.7205268514587262
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.03260862493168538,
+    "inner_crossfit_calibrated_brier": 0.0328284549541129,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6917016582540945,
+        "inner_fold_ap": [
+          0.6599667164008023,
+          0.7232384212458964,
+          0.6918998371155848
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6551116998952539,
+        "inner_fold_ap": [
+          0.6106434835081324,
+          0.6792660330114129,
+          0.6754255831662163
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7132359915943046,
+        "inner_fold_ap": [
+          0.6930977763923007,
+          0.7260833469318869,
+          0.7205268514587262
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6719100679611273,
+        "inner_fold_ap": [
+          0.6396140134432153,
+          0.6794783473944922,
+          0.6966378430456743
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 0,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7883606450370738,
+    "inner_fold_ap": [
+      0.8054175183035736,
+      0.8069617142135792,
+      0.7527027025940685
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.027758271629303385,
+    "inner_crossfit_calibrated_brier": 0.02783699762024167,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7883606450370738,
+        "inner_fold_ap": [
+          0.8054175183035736,
+          0.8069617142135792,
+          0.7527027025940685
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7823928498129901,
+        "inner_fold_ap": [
+          0.7980512309717442,
+          0.8025045522095948,
+          0.7466227662576315
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.784411913376139,
+        "inner_fold_ap": [
+          0.799901335457445,
+          0.7970384132912512,
+          0.7562959913797206
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7880986883896294,
+        "inner_fold_ap": [
+          0.8077737591551662,
+          0.8023938951168004,
+          0.7541284108969215
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 0,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.3,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7229285903949293,
+    "inner_fold_ap": [
+      0.72459082964782,
+      0.7422097101049304,
+      0.7019852314320375
+    ],
+    "epochs": [
+      20,
+      30,
+      17
+    ],
+    "inner_raw_brier": 0.035520937878172135,
+    "inner_crossfit_calibrated_brier": 0.03299778820458909,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7170783793347346,
+        "inner_fold_ap": [
+          0.7322334599713032,
+          0.7359431008459806,
+          0.68305857718692
+        ],
+        "epochs": [
+          12,
+          20,
+          20
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.711762073005508,
+        "inner_fold_ap": [
+          0.7282810091972519,
+          0.7146062067367872,
+          0.6923990030824848
+        ],
+        "epochs": [
+          11,
+          6,
+          18
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7229285903949293,
+        "inner_fold_ap": [
+          0.72459082964782,
+          0.7422097101049304,
+          0.7019852314320375
+        ],
+        "epochs": [
+          20,
+          30,
+          17
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7115673385498497,
+        "inner_fold_ap": [
+          0.7053128461408444,
+          0.7353963808080597,
+          0.6939927887006452
+        ],
+        "epochs": [
+          8,
+          64,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 1,
+    "family": "logistic",
+    "config": {
+      "C": 1.0,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.6699770590936044,
+    "inner_fold_ap": [
+      0.713638868398119,
+      0.6448046270473605,
+      0.6514876818353333
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.035898058658790845,
+    "inner_crossfit_calibrated_brier": 0.03629974755824574,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6477692381994724,
+        "inner_fold_ap": [
+          0.6739939794665222,
+          0.6453457574049202,
+          0.623967977726975
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6156443723212258,
+        "inner_fold_ap": [
+          0.6495483311964169,
+          0.5944950477530168,
+          0.6028897380142436
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6699770590936044,
+        "inner_fold_ap": [
+          0.713638868398119,
+          0.6448046270473605,
+          0.6514876818353333
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6261378862597103,
+        "inner_fold_ap": [
+          0.6830522382783897,
+          0.5921560539543128,
+          0.6032053665464284
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 1,
+    "family": "hgb",
+    "config": {
+      "leaves": 15,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.7810049218084417,
+    "inner_fold_ap": [
+      0.7796842215035662,
+      0.7337515004732296,
+      0.8295790434485292
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.031050018480614384,
+    "inner_crossfit_calibrated_brier": 0.02866850461940107,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7788684659734096,
+        "inner_fold_ap": [
+          0.7803500662917937,
+          0.7407391352864706,
+          0.8155161963419648
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7670498122398947,
+        "inner_fold_ap": [
+          0.7826377189216944,
+          0.7087548147149899,
+          0.8097569030829999
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.780475062259697,
+        "inner_fold_ap": [
+          0.7715711760487668,
+          0.7459011650632852,
+          0.8239528456670391
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7810049218084417,
+        "inner_fold_ap": [
+          0.7796842215035662,
+          0.7337515004732296,
+          0.8295790434485292
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 1,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.3,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7324301444910063,
+    "inner_fold_ap": [
+      0.722421951571818,
+      0.7068864971390582,
+      0.7679819847621425
+    ],
+    "epochs": [
+      18,
+      14,
+      15
+    ],
+    "inner_raw_brier": 0.03190881162257227,
+    "inner_crossfit_calibrated_brier": 0.03158427485740894,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7231201486397582,
+        "inner_fold_ap": [
+          0.7375253781411417,
+          0.6807403631193352,
+          0.7510947046587977
+        ],
+        "epochs": [
+          10,
+          21,
+          12
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6991596260681062,
+        "inner_fold_ap": [
+          0.6879530781901241,
+          0.6612136985744649,
+          0.7483121014397298
+        ],
+        "epochs": [
+          20,
+          14,
+          50
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7324301444910063,
+        "inner_fold_ap": [
+          0.722421951571818,
+          0.7068864971390582,
+          0.7679819847621425
+        ],
+        "epochs": [
+          18,
+          14,
+          15
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6892163140972919,
+        "inner_fold_ap": [
+          0.6885643290277436,
+          0.6649286036391194,
+          0.7141560096250129
+        ],
+        "epochs": [
+          41,
+          13,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 2,
+    "family": "logistic",
+    "config": {
+      "C": 0.1,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.655374660672035,
+    "inner_fold_ap": [
+      0.6327408866974671,
+      0.6740880423925752,
+      0.6592950529260626
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.03740107896851562,
+    "inner_crossfit_calibrated_brier": 0.037453807664856134,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.655374660672035,
+        "inner_fold_ap": [
+          0.6327408866974671,
+          0.6740880423925752,
+          0.6592950529260626
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6208984943427766,
+        "inner_fold_ap": [
+          0.5930866397039907,
+          0.6382177454081946,
+          0.6313910979161441
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6531242512686087,
+        "inner_fold_ap": [
+          0.6346913090676726,
+          0.683217231278372,
+          0.6414642134597818
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6258164608292457,
+        "inner_fold_ap": [
+          0.6193024958866449,
+          0.667388535665654,
+          0.5907583509354383
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 2,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.7744326794326756,
+    "inner_fold_ap": [
+      0.7614749489238962,
+      0.7904207789145077,
+      0.771402310459623
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.041076517793739935,
+    "inner_crossfit_calibrated_brier": 0.029535096313747643,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7684731327232371,
+        "inner_fold_ap": [
+          0.7459253917280199,
+          0.8001377203694748,
+          0.7593562860722171
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7744326794326756,
+        "inner_fold_ap": [
+          0.7614749489238962,
+          0.7904207789145077,
+          0.771402310459623
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7669959420778233,
+        "inner_fold_ap": [
+          0.7361228117621877,
+          0.8102030007312935,
+          0.7546620137399883
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.774071510740869,
+        "inner_fold_ap": [
+          0.7423914417560656,
+          0.7962083034492672,
+          0.7836147870172744
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 2,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.3,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7104784397983513,
+    "inner_fold_ap": [
+      0.7128952526781076,
+      0.7262394699900955,
+      0.6923005967268507
+    ],
+    "epochs": [
+      9,
+      9,
+      31
+    ],
+    "inner_raw_brier": 0.03517813472706672,
+    "inner_crossfit_calibrated_brier": 0.03609513795582072,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6996262436598588,
+        "inner_fold_ap": [
+          0.6810521979617226,
+          0.7304592798107417,
+          0.6873672532071123
+        ],
+        "epochs": [
+          6,
+          9,
+          11
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6694431941737401,
+        "inner_fold_ap": [
+          0.6197695971401763,
+          0.7106000652645056,
+          0.6779599201165384
+        ],
+        "epochs": [
+          5,
+          9,
+          10
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7104784397983513,
+        "inner_fold_ap": [
+          0.7128952526781076,
+          0.7262394699900955,
+          0.6923005967268507
+        ],
+        "epochs": [
+          9,
+          9,
+          31
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6753505813760805,
+        "inner_fold_ap": [
+          0.6124098569544121,
+          0.7245009589362296,
+          0.6891409282375998
+        ],
+        "epochs": [
+          5,
+          12,
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 3,
+    "family": "logistic",
+    "config": {
+      "C": 1.0,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.6587367376259459,
+    "inner_fold_ap": [
+      0.6954893551247747,
+      0.6124148705453302,
+      0.6683059872077326
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.035893386770347716,
+    "inner_crossfit_calibrated_brier": 0.03658179726382537,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6543264365089457,
+        "inner_fold_ap": [
+          0.6813004896916569,
+          0.5932831827430558,
+          0.6883956370921248
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6332789003698677,
+        "inner_fold_ap": [
+          0.6414111002004753,
+          0.5855063310491381,
+          0.6729192698599895
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6587367376259459,
+        "inner_fold_ap": [
+          0.6954893551247747,
+          0.6124148705453302,
+          0.6683059872077326
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6257888361763511,
+        "inner_fold_ap": [
+          0.6400745113420772,
+          0.5813580680995025,
+          0.6559339290874735
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 3,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7718364959490915,
+    "inner_fold_ap": [
+      0.7778973880531245,
+      0.742176131125921,
+      0.795435968668229
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.029611630275991056,
+    "inner_crossfit_calibrated_brier": 0.029490775912385053,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7718364959490915,
+        "inner_fold_ap": [
+          0.7778973880531245,
+          0.742176131125921,
+          0.795435968668229
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7634417786053808,
+        "inner_fold_ap": [
+          0.751381382906765,
+          0.7542827192189804,
+          0.7846612336903966
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7678745886299722,
+        "inner_fold_ap": [
+          0.7865435774517988,
+          0.749335656807879,
+          0.7677445316302386
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7691496167409051,
+        "inner_fold_ap": [
+          0.76868302407541,
+          0.7499897265766112,
+          0.7887760995706942
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 3,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.3,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.701194247167602,
+    "inner_fold_ap": [
+      0.7439330379605567,
+      0.6524931552629852,
+      0.7071565482792642
+    ],
+    "epochs": [
+      18,
+      12,
+      28
+    ],
+    "inner_raw_brier": 0.03949091055417905,
+    "inner_crossfit_calibrated_brier": 0.03513559412838047,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6858427661355951,
+        "inner_fold_ap": [
+          0.7154594770750109,
+          0.6478209199671419,
+          0.6942479013646328
+        ],
+        "epochs": [
+          16,
+          10,
+          28
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6897311802518509,
+        "inner_fold_ap": [
+          0.6801185062631467,
+          0.6729138694918815,
+          0.7161611650005246
+        ],
+        "epochs": [
+          5,
+          9,
+          22
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.701194247167602,
+        "inner_fold_ap": [
+          0.7439330379605567,
+          0.6524931552629852,
+          0.7071565482792642
+        ],
+        "epochs": [
+          18,
+          12,
+          28
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6942758666453824,
+        "inner_fold_ap": [
+          0.7307255922268917,
+          0.643362662286867,
+          0.7087393454223886
+        ],
+        "epochs": [
+          18,
+          11,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 4,
+    "family": "logistic",
+    "config": {
+      "C": 1.0,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.6546645825821433,
+    "inner_fold_ap": [
+      0.6316699644523851,
+      0.6342818915711697,
+      0.6980418917228752
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.03661548791082115,
+    "inner_crossfit_calibrated_brier": 0.03675767067932764,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6522023104464942,
+        "inner_fold_ap": [
+          0.6460248481602235,
+          0.5973850387007624,
+          0.7131970444784966
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6212297256948149,
+        "inner_fold_ap": [
+          0.62460672089654,
+          0.5557208636884772,
+          0.6833615924994277
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.6546645825821433,
+        "inner_fold_ap": [
+          0.6316699644523851,
+          0.6342818915711697,
+          0.6980418917228752
+        ],
+        "epochs": []
+      },
+      {
+        "family": "logistic",
+        "config": {
+          "C": 1.0,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.6322338223604399,
+        "inner_fold_ap": [
+          0.5919217783767697,
+          0.6021056913130187,
+          0.7026739973915311
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 4,
+    "family": "hgb",
+    "config": {
+      "leaves": 15,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.7875095084646927,
+    "inner_fold_ap": [
+      0.783341758917152,
+      0.7811131712113866,
+      0.7980735952655397
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.030828718942489047,
+    "inner_crossfit_calibrated_brier": 0.028400179904459245,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7779271142651863,
+        "inner_fold_ap": [
+          0.7857515363090257,
+          0.7701443399783142,
+          0.777885466508219
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7754940175970305,
+        "inner_fold_ap": [
+          0.7773182254969412,
+          0.7623647847306642,
+          0.786799042563486
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7810790169878987,
+        "inner_fold_ap": [
+          0.7790042267759472,
+          0.7722465750393651,
+          0.7919862491483839
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7875095084646927,
+        "inner_fold_ap": [
+          0.783341758917152,
+          0.7811131712113866,
+          0.7980735952655397
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64",
+    "fold": 4,
+    "family": "mlp",
+    "config": {
+      "dropout": 0.3,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7403970440971929,
+    "inner_fold_ap": [
+      0.7560849961772075,
+      0.7189602381217701,
+      0.7461458979926012
+    ],
+    "epochs": [
+      12,
+      18,
+      57
+    ],
+    "inner_raw_brier": 0.03428996826146473,
+    "inner_crossfit_calibrated_brier": 0.03481640721599189,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7371770525431697,
+        "inner_fold_ap": [
+          0.7400793857598851,
+          0.712354423636547,
+          0.7590973482330768
+        ],
+        "epochs": [
+          17,
+          18,
+          27
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.1,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7156697381558806,
+        "inner_fold_ap": [
+          0.7520354163645289,
+          0.7019687814586062,
+          0.6930050166445071
+        ],
+        "epochs": [
+          17,
+          51,
+          30
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7403970440971929,
+        "inner_fold_ap": [
+          0.7560849961772075,
+          0.7189602381217701,
+          0.7461458979926012
+        ],
+        "epochs": [
+          12,
+          18,
+          57
+        ]
+      },
+      {
+        "family": "mlp",
+        "config": {
+          "dropout": 0.3,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.72328420379852,
+        "inner_fold_ap": [
+          0.7339579340349559,
+          0.6887851676483222,
+          0.747109509712282
+        ],
+        "epochs": [
+          17,
+          15,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "schema": "missingness_only",
+    "fold": 0,
+    "family": "hgb",
+    "config": {
+      "leaves": 15,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.488330530020645,
+    "inner_fold_ap": [
+      0.4819123253024617,
+      0.5198023601889346,
+      0.46327690457053866
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.13641343705470446,
+    "inner_crossfit_calibrated_brier": 0.04308862682379293,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.4830227674243155,
+        "inner_fold_ap": [
+          0.4770917040633078,
+          0.5240213909602677,
+          0.4479552072493711
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.48626620172730867,
+        "inner_fold_ap": [
+          0.4768508341395909,
+          0.5198142253375653,
+          0.4621335457047697
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.4880980938639565,
+        "inner_fold_ap": [
+          0.4839885985752065,
+          0.524522297619274,
+          0.4557833853973888
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.488330530020645,
+        "inner_fold_ap": [
+          0.4819123253024617,
+          0.5198023601889346,
+          0.46327690457053866
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "missingness_only",
+    "fold": 1,
+    "family": "hgb",
+    "config": {
+      "leaves": 15,
+      "balanced": true
+    },
+    "inner_mean_ap": 0.45576030082410046,
+    "inner_fold_ap": [
+      0.4538985368810338,
+      0.4478320392119974,
+      0.4655503263792701
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.14470698189095213,
+    "inner_crossfit_calibrated_brier": 0.04528931157402166,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.4501461275876791,
+        "inner_fold_ap": [
+          0.45219533292964936,
+          0.44032861295955417,
+          0.4579144368738336
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.45477116172868426,
+        "inner_fold_ap": [
+          0.45119486705912165,
+          0.45014656368526756,
+          0.46297205444166367
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.45138946425730025,
+        "inner_fold_ap": [
+          0.45179530355466363,
+          0.44265990480504547,
+          0.45971318441219183
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.45576030082410046,
+        "inner_fold_ap": [
+          0.4538985368810338,
+          0.4478320392119974,
+          0.4655503263792701
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "missingness_only",
+    "fold": 2,
+    "family": "hgb",
+    "config": {
+      "leaves": 15,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.45800069419644346,
+    "inner_fold_ap": [
+      0.4340114953075569,
+      0.4910132134158606,
+      0.44897737386591297
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.04478269657846234,
+    "inner_crossfit_calibrated_brier": 0.04492089104458413,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.4564368155123822,
+        "inner_fold_ap": [
+          0.4340689322167909,
+          0.4865977184341041,
+          0.44864379588625175
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.45771195158681816,
+        "inner_fold_ap": [
+          0.4337922269651876,
+          0.48472075080775057,
+          0.4546228769875163
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.45800069419644346,
+        "inner_fold_ap": [
+          0.4340114953075569,
+          0.4910132134158606,
+          0.44897737386591297
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.4569911638160351,
+        "inner_fold_ap": [
+          0.43120702566628166,
+          0.48703897086587405,
+          0.4527274949159496
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "missingness_only",
+    "fold": 3,
+    "family": "hgb",
+    "config": {
+      "leaves": 15,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.4515861195750168,
+    "inner_fold_ap": [
+      0.4770892174370435,
+      0.3728610520122509,
+      0.5048080892757559
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.045236816636741194,
+    "inner_crossfit_calibrated_brier": 0.045661775888187206,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.45150117376173154,
+        "inner_fold_ap": [
+          0.4767860685257793,
+          0.3728614755917347,
+          0.5048559771676806
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.4506778533596651,
+        "inner_fold_ap": [
+          0.48018501569456634,
+          0.37197753805014855,
+          0.49987100633428033
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.4515861195750168,
+        "inner_fold_ap": [
+          0.4770892174370435,
+          0.3728610520122509,
+          0.5048080892757559
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.4488803778893939,
+        "inner_fold_ap": [
+          0.4777156882912903,
+          0.36905617491036913,
+          0.4998692704665222
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "missingness_only",
+    "fold": 4,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.4467924429310637,
+    "inner_fold_ap": [
+      0.4656915543998477,
+      0.39767555752588324,
+      0.4770102168674601
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.04515748537943614,
+    "inner_crossfit_calibrated_brier": 0.04520166628146555,
+    "calibration_used": false,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.4467924429310637,
+        "inner_fold_ap": [
+          0.4656915543998477,
+          0.39767555752588324,
+          0.4770102168674601
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.4460419122639214,
+        "inner_fold_ap": [
+          0.46644193042149884,
+          0.39989884129182524,
+          0.4717849650784403
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.44633767851565187,
+        "inner_fold_ap": [
+          0.4669433268791744,
+          0.3971245372725842,
+          0.47494517139519715
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.44411814829711727,
+        "inner_fold_ap": [
+          0.46653695326109307,
+          0.3975331030735708,
+          0.46828438855668786
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64_without_explicit_indicators",
+    "fold": 0,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7586625826318198,
+    "inner_fold_ap": [
+      0.7784582719907963,
+      0.7873788874930273,
+      0.7101505884116359
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.03065348740030771,
+    "inner_crossfit_calibrated_brier": 0.030324681842283114,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7586625826318198,
+        "inner_fold_ap": [
+          0.7784582719907963,
+          0.7873788874930273,
+          0.7101505884116359
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7282745378488192,
+        "inner_fold_ap": [
+          0.7402605937504135,
+          0.7606424206696697,
+          0.6839205991263746
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7585487883640024,
+        "inner_fold_ap": [
+          0.7807068077004538,
+          0.7772493491863239,
+          0.7176902082052298
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7536199038410206,
+        "inner_fold_ap": [
+          0.7797571875414102,
+          0.7860855098136846,
+          0.6950170141679669
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64_without_explicit_indicators",
+    "fold": 1,
+    "family": "hgb",
+    "config": {
+      "leaves": 15,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7521872993385994,
+    "inner_fold_ap": [
+      0.7419972833322656,
+      0.6984970378655784,
+      0.8160675768179539
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.031790243013494916,
+    "inner_crossfit_calibrated_brier": 0.03120459601563871,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7467277021976684,
+        "inner_fold_ap": [
+          0.7480998249374157,
+          0.7055403212810198,
+          0.7865429603745696
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7289718908026339,
+        "inner_fold_ap": [
+          0.7303278828079561,
+          0.6804560326097776,
+          0.7761317569901679
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7521872993385994,
+        "inner_fold_ap": [
+          0.7419972833322656,
+          0.6984970378655784,
+          0.8160675768179539
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7477246650947419,
+        "inner_fold_ap": [
+          0.7298309997718436,
+          0.700620012828401,
+          0.8127229826839811
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64_without_explicit_indicators",
+    "fold": 2,
+    "family": "hgb",
+    "config": {
+      "leaves": 7,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7379363038301766,
+    "inner_fold_ap": [
+      0.7337384306044988,
+      0.7453203039026907,
+      0.7347501769833403
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.0330062070983655,
+    "inner_crossfit_calibrated_brier": 0.032651783885268904,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7379363038301766,
+        "inner_fold_ap": [
+          0.7337384306044988,
+          0.7453203039026907,
+          0.7347501769833403
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7077759084669527,
+        "inner_fold_ap": [
+          0.6886482370567301,
+          0.7064171056226505,
+          0.7282623827214775
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7358314504694182,
+        "inner_fold_ap": [
+          0.7101186415960008,
+          0.769279553470531,
+          0.7280961563417226
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7288959992137961,
+        "inner_fold_ap": [
+          0.6844265854949824,
+          0.7547371898455928,
+          0.7475242223008131
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64_without_explicit_indicators",
+    "fold": 3,
+    "family": "hgb",
+    "config": {
+      "leaves": 15,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7345907904926926,
+    "inner_fold_ap": [
+      0.7327502886346929,
+      0.7302159485156282,
+      0.7408061343277568
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.0334862168418875,
+    "inner_crossfit_calibrated_brier": 0.032560511229329216,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7273958715915773,
+        "inner_fold_ap": [
+          0.7063750749830652,
+          0.723529078097965,
+          0.7522834616937016
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7106870852234287,
+        "inner_fold_ap": [
+          0.6678685632799097,
+          0.7258353356966847,
+          0.7383573566936918
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7345907904926926,
+        "inner_fold_ap": [
+          0.7327502886346929,
+          0.7302159485156282,
+          0.7408061343277568
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7304289934501697,
+        "inner_fold_ap": [
+          0.7197365149786458,
+          0.7345868913964084,
+          0.7369635739754548
+        ],
+        "epochs": []
+      }
+    ]
+  },
+  {
+    "schema": "full64_without_explicit_indicators",
+    "fold": 4,
+    "family": "hgb",
+    "config": {
+      "leaves": 15,
+      "balanced": false
+    },
+    "inner_mean_ap": 0.7523414542168747,
+    "inner_fold_ap": [
+      0.7433518363285462,
+      0.7446519052854109,
+      0.769020621036667
+    ],
+    "epochs": [],
+    "inner_raw_brier": 0.032327091995768206,
+    "inner_crossfit_calibrated_brier": 0.031481028799773124,
+    "calibration_used": true,
+    "trials": [
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7480835620376042,
+        "inner_fold_ap": [
+          0.7311906128153595,
+          0.7496811200397219,
+          0.7633789532577311
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 7,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7268187506932078,
+        "inner_fold_ap": [
+          0.7055629859200007,
+          0.7463249297675733,
+          0.7285683363920497
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": false
+        },
+        "inner_mean_ap": 0.7523414542168747,
+        "inner_fold_ap": [
+          0.7433518363285462,
+          0.7446519052854109,
+          0.769020621036667
+        ],
+        "epochs": []
+      },
+      {
+        "family": "hgb",
+        "config": {
+          "leaves": 15,
+          "balanced": true
+        },
+        "inner_mean_ap": 0.7428233643083292,
+        "inner_fold_ap": [
+          0.733890457186806,
+          0.7468294931034497,
+          0.7477501426347315
+        ],
+        "epochs": []
+      }
+    ]
+  }
+]
