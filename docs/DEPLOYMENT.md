@@ -38,8 +38,12 @@ The image includes versioned artifacts and frontend. Retraining is an explicit r
 | Variable | AZURE_REGISTRY |
 | Variable | AZURE_RESOURCE_GROUP |
 | Variable | AZURE_APP_NAME |
+| Variable | AZURE_ENVIRONMENT |
+| Variable | AZURE_PULL_IDENTITY |
 
 Federation must trust the exact repository/environment subject. Scope Contributor to the resource group and registry push rights to the registry. An unconfigured workflow is a recipe, not proof of operational automated delivery.
+
+The deployment job only runs from `main`. It can create the first application after its image is pushed; subsequent runs update the revision. Provision the environment and pull identity before dispatching the workflow. Student subscriptions can restrict regions; `francecentral` is an allowed region in the verified subscription used for this project.
 
 ## Verification and rollback
 
