@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "url": "https://ventureguard.agreeablesea-8b0aa1c1.francecentral.azurecontainerapps.io",
+  "historical_predictions_verified": 12,
+  "tolerance": 1e-09,
+  "cash_identity_example_passed": true,
+  "warm_request_count": 20,
+  "warm_latency_median_ms": 71.77759999922273,
+  "warm_latency_p95_ms": 72.50080499889009,
+  "latency_scope": "Sequential warm client HTTP requests, not a load or cold-start benchmark.",
+  "public_endpoint": true
+}

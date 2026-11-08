@@ -1,0 +1,22 @@
+{
+  "verified_date": "2026-11-08",
+  "status": "externally_verified",
+  "url": "https://ventureguard.agreeablesea-8b0aa1c1.francecentral.azurecontainerapps.io",
+  "platform": "Azure Container Apps",
+  "region": "francecentral",
+  "source_commit": "ce11b07269e20eb5ce2b3b5308fb5b00c1f6bd18",
+  "deployment_run": "https://github.com/Abdelrhman-Ameen/egyptian-startup-intelligence-system/actions/runs/42444538914",
+  "image": "vgameen20261108.azurecr.io/ventureguard:ce11b07269e20eb5ce2b3b5308fb5b00c1f6bd18",
+  "cpu": 0.5,
+  "memory": "1Gi",
+  "min_replicas": 0,
+  "max_replicas": 1,
+  "https_only": true,
+  "registry_admin_enabled": false,
+  "deployment_authentication": "GitHub OIDC, main-only production environment, resource-group-scoped identity",
+  "image_pull_authentication": "user-assigned managed identity with registry-scoped AcrPull",
+  "monthly_cost_budget_usd": 10,
+  "actual_cost_alert_percentages": [80, 100],
+  "budget_is_automatic_spending_cap": false,
+  "rag_status": "deferred"
+}

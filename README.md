@@ -4,7 +4,9 @@
 
 VentureGuard compares classical and PyTorch models on a historical bankruptcy benchmark, investigates how missing data affects performance, and provides an independently tested cash-flow planner through FastAPI and a responsive React workspace.
 
-Deployment status and the verified live URL are in [Deployment](docs/DEPLOYMENT.md). Measured results are in [Results](docs/RESULTS.md).
+**[Open the live Azure demo](https://ventureguard.agreeablesea-8b0aa1c1.francecentral.azurecontainerapps.io)** · **[API documentation](https://ventureguard.agreeablesea-8b0aa1c1.francecentral.azurecontainerapps.io/docs)** · **[Short walkthrough](https://github.com/Abdelrhman-Ameen/egyptian-startup-intelligence-system/releases/download/v1.0.0/ventureguard-demo.webm)**
+
+Deployed on Azure Container Apps in France Central with CPU inference and scale-to-zero. [Deployment evidence](docs/DEPLOYMENT.md) and [measured model results](docs/RESULTS.md) are published separately. The first visit after an idle period can take longer while the container starts.
 
 ![Cash-flow workspace](docs/images/cash-planner.png)
 
@@ -94,4 +96,4 @@ The research endpoint accepts `schema_name` (`core13` or `full64`) and exactly o
 - [Azure deployment](docs/DEPLOYMENT.md)
 - [Original parent-project plan](docs/ORIGINAL_PROJECT_PLAN.md)
 
-Earlier Spain, Taiwan and dataset-feasibility work remains in the research folders. It is not independent validation of this release. Original UCI data: Sebastian Tomczak (2016), [DOI 10.24432/C5F600](https://doi.org/10.24432/C5F600), CC BY 4.0. Derived demo cases and experiment outputs retain this attribution.
+Earlier source-evaluation work is retained in repository history and available research folders. It is not independent validation of this release. Original UCI data: Sebastian Tomczak (2016), [DOI 10.24432/C5F600](https://doi.org/10.24432/C5F600), CC BY 4.0. Derived demo cases and experiment outputs retain this attribution.
