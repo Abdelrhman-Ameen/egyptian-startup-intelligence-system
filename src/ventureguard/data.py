@@ -14,7 +14,7 @@ import pandas as pd
 from scipy.io import arff
 
 ROOT = Path(os.environ.get("VENTUREGUARD_HOME", Path(__file__).resolve().parents[2]))
-SOURCE_URL = "https://archive.ics.uci.edu/static/public/365/polish+companies+bankruptcy.zip"
+SOURCE_URL = "https://archive.ics.uci.edu/static/public/365/polish+companies+bankruptcy+data.zip"
 SOURCE_SHA256 = "17377929aa0b204bbf957e56462cf827c19fe4e2ce89f27dfbc77f9ea2bb16c9"
 CORE = [f"Attr{i}" for i in [1, 2, 3, 4, 7, 9, 10, 23, 40, 46, 51, 58, 63]]
 LABELS = {
@@ -65,6 +65,8 @@ def acquire() -> Path:
         # Reuse the original downloaded archive when present, not a transformed CSV.
         previous = ROOT / "research/2026-10-08/raw/uci_poland_bankruptcy.zip"
         payload = previous.read_bytes() if previous.exists() else urlopen(SOURCE_URL, timeout=90).read()
+        if hashlib.sha256(payload).hexdigest() != SOURCE_SHA256:
+            raise ValueError("Downloaded archive checksum changed; no cache file was written.")
         target.write_bytes(payload)
     if digest(target) != SOURCE_SHA256:
         raise ValueError("Source archive checksum changed. Review the source and protocol before training.")

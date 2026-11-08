@@ -1,5 +1,5 @@
 {
-  "source": "https://archive.ics.uci.edu/static/public/365/polish+companies+bankruptcy.zip",
+  "source": "https://archive.ics.uci.edu/static/public/365/polish+companies+bankruptcy+data.zip",
   "source_sha256": "17377929aa0b204bbf957e56462cf827c19fe4e2ce89f27dfbc77f9ea2bb16c9",
   "member": "5year.arff",
   "target": "Bankruptcy status after one year as defined by UCI for 5year.arff",
