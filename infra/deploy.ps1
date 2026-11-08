@@ -12,6 +12,9 @@ function Invoke-Az {
     if ($LASTEXITCODE -ne 0) { throw "Azure command failed." }
 }
 Invoke-Az account set --subscription $SubscriptionId
+foreach ($provider in @('Microsoft.ContainerRegistry', 'Microsoft.App', 'Microsoft.ManagedIdentity')) {
+    Invoke-Az provider register --namespace $provider --wait --output none
+}
 Invoke-Az group create --name $ResourceGroup --location $Location --output none
 Invoke-Az acr create --name $Registry --resource-group $ResourceGroup --sku Basic --admin-enabled false --output none
 Invoke-Az acr login --name $Registry
