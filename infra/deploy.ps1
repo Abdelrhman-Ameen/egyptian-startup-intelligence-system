@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory=$true)][string]$SubscriptionId,
-    [string]$Location = 'switzerlandnorth',
+    [string]$Location = 'francecentral',
     [string]$ResourceGroup = 'rg-ventureguard-demo',
     [Parameter(Mandatory=$true)][string]$Registry,
     [string]$AppName = 'ventureguard',
