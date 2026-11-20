@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>رفع القوائم المالية</title>
+  <link rel="stylesheet" href="/financial-import-assets/styles.css">
+  <script src="/financial-import-assets/import.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <span class="wordmark">ESIS</span>
+      <h1>رفع القوائم المالية</h1>
+      <p>اختار القيم من الملف وراجع معناها وفترتها قبل حساب النسب المالية.</p>
+    </header>
+    <section class="panel" aria-labelledby="upload-title">
+      <div class="heading"><h2 id="upload-title">اختيار الملف</h2><a href="/api/financial-statements/template.csv">تنزيل قالب CSV</a></div>
+      <p class="hint">ارفع ملف Excel بصيغة XLSX أو CSV بحجم لحد 2 MB. تقدر تضيف البنود من أكتر من ورقة أو ملف.</p>
+      <form id="upload-form" class="upload">
+        <label>القائمة المالية<input id="file" type="file" accept=".xlsx,.csv" required></label>
+        <label id="separator-control" hidden>فاصل CSV
+          <select id="separator">
+            <option value="">تلقائي</option><option value="comma">فاصلة</option>
+            <option value="semicolon">فاصلة منقوطة</option><option value="tab">Tab</option>
+          </select>
+        </label>
+        <button id="preview-button">معاينة الملف</button>
+      </form>
+      <p id="upload-status" class="status" role="status"></p>
+    </section>
+    <section id="mapping" class="panel" hidden aria-labelledby="map-title">
+      <h2 id="map-title">ربط البنود</h2>
+      <div class="fields">
+        <label>الورقة<select id="sheet"></select></label>
+        <label>ترتيب البنود<select id="orientation"><option value="rows">البنود في الصفوف</option><option value="columns">البنود في الأعمدة</option></select></label>
+        <label><span id="labels-label">عمود أسماء البنود</span><select id="label-axis"></select></label>
+        <label><span id="values-label">عمود مبالغ الفترة المختارة</span><select id="value-axis"></select></label>
+        <label><span id="first-label">أول صف للبنود</span><input id="first" type="number" min="1" value="2"></label>
+        <label>وحدة القيم في الاختيار ده<select id="scale"><option value="">اختار الوحدة</option><option value="1">وحدة العملة</option><option value="1000">بالآلاف</option><option value="1000000">بالملايين</option></select></label>
+      </div>
+      <details id="sheet-preview"><summary>عرض عينة من الورقة</summary><div class="scroll" id="grid"></div></details>
+      <p class="hint">اختار البند المقابل لكل رقم هتضيفه. راجع القيم المحفوظة للمعادلات مع الملف الأصلي.</p>
+      <div class="scroll"><table aria-label="مراجعة ربط البنود">
+        <thead><tr><th scope="col">البند في الملف</th><th scope="col">القيمة</th><th scope="col">البند المقابل</th></tr></thead>
+        <tbody id="candidates"></tbody>
+      </table></div>
+      <p id="map-status" class="status" role="status"></p>
+      <button type="button" id="stage">إضافة البنود للمراجعة</button>
+    </section>
+    <section class="panel" aria-labelledby="review-title">
+      <h2 id="review-title">مراجعة القوائم</h2>
+      <p id="empty" class="hint">البنود اللي هتختارها من الملف هتظهر هنا.</p>
+      <div id="review-list" class="scroll" hidden><table aria-label="البنود المختارة">
+        <thead><tr><th scope="col">البند</th><th scope="col">المبلغ بالوحدة الأصلية</th><th scope="col">المصدر</th><th scope="col">إزالة</th></tr></thead>
+        <tbody id="review"></tbody>
+      </table></div>
+      <form id="confirm-form" hidden>
+        <div class="fields">
+          <label>كود العملة<input id="currency" dir="ltr" maxlength="3" pattern="[A-Za-z]{3}" placeholder="EGP" required></label>
+          <label>بداية الفترة<input id="period-start" type="date" dir="ltr" required></label>
+          <label>نهاية الفترة<input id="period-end" type="date" dir="ltr" required></label>
+        </div>
+        <label class="check"><input id="agreed" type="checkbox" required> راجعت البنود والوحدات، وكل القيم بالعملة والفترة المحددتين.</label>
+        <button id="confirm-button">اعتماد البنود وحساب النسب</button>
+      </form>
+      <p id="confirm-status" class="status" role="status"></p>
+    </section>
+    <section id="results" class="panel" hidden aria-labelledby="result-title">
+      <h2 id="result-title">النسب المالية</h2>
+      <p id="period-summary" class="hint"></p>
+      <ul id="warnings" class="warnings" hidden></ul>
+      <div class="scroll"><table aria-label="النسب المالية المحسوبة">
+        <thead><tr><th scope="col">المؤشر</th><th scope="col">القيمة</th><th scope="col">الحالة</th></tr></thead>
+        <tbody id="ratios"></tbody>
+      </table></div>
+    </section>
+  </main>
+</body>
+</html>
